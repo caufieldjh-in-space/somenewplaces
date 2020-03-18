@@ -18,6 +18,7 @@ That's life I suppose.
 '''
 
 import random, re, string, sys, time, tweepy, wikipedia, webbrowser
+from pathlib import Path
 
 #Contants and Setup
 tweeting = True
@@ -739,7 +740,7 @@ def make_place():
 #Main
 def main():
 	
-	mode = raw_input('Operating mode:\n 1 for testing\n 3 for posting.\n')
+	mode = input('Operating mode:\n 1 for testing\n 3 for posting.\n')
 	mode = int(mode)
 	generating = True
 	
@@ -762,7 +763,7 @@ def main():
 			try:
 			    redirect_url = auth.get_authorization_url()
 			    webbrowser.open(redirect_url, new =0)
-			    verifier = raw_input('Verifier:')
+			    verifier = input('Verifier:')
 			except tweepy.TweepError:
 			    print('Error! Failed to get request token.')
 			    
