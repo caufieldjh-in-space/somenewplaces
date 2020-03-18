@@ -1,0 +1,3467 @@
+	place	material	descriptor	emotion	color	smell	geography	sound
+society	1	0	0	0	0	0	0	0
+culture	1	0	0	0	0	0	0	0
+jungle	1	0	0	0	0	0	0	0
+gathering	1	0	0	0	0	0	0	0
+clubhouse	1	0	0	0	0	0	0	0
+secret society	1	0	0	0	0	0	0	0
+republic	1	0	0	0	0	0	0	0
+colony	1	0	0	0	0	0	0	0
+underworld	1	0	0	0	0	0	0	0
+gymnasium	1	0	0	0	0	0	0	0
+amphitheatre	1	0	0	0	0	0	0	0
+stadium	1	0	0	0	0	0	0	0
+skating rink	1	0	0	0	0	0	0	0
+race course	1	0	0	0	0	0	0	0
+cockpit	1	0	0	0	0	0	0	0
+colosseum	1	0	0	0	0	0	0	0
+iceberg	1	0	0	0	0	0	0	0
+ice floe	1	0	0	0	0	0	0	0
+riverbank	1	0	0	0	0	0	0	0
+megalopolis	1	0	0	0	0	0	0	0
+conurbation	1	0	0	0	0	0	0	0
+obelisk	1	0	0	0	0	0	0	0
+skyscraper	1	0	0	0	0	0	0	0
+stronghold	1	0	0	0	0	0	0	0
+minaret	1	0	0	0	0	0	0	0
+fortification	1	0	0	0	0	0	0	0
+fortress	1	0	0	0	0	0	0	0
+panic room	1	0	0	0	0	0	0	0
+phone booth	1	0	0	0	0	0	0	0
+villa	1	0	0	0	0	0	0	0
+acropolis	1	0	0	0	0	0	0	0
+antechamber	1	0	0	0	0	0	0	0
+cubicle	1	0	0	0	0	0	0	0
+office park	1	0	0	0	0	0	0	0
+industrial park	1	0	0	0	0	0	0	0
+bathroom	1	0	0	0	0	0	0	0
+lavatory	1	0	0	0	0	0	0	0
+den	1	0	0	0	0	0	0	0
+man cave	1	0	0	0	0	0	0	0
+closet	1	0	0	0	0	0	0	0
+scrap yard	1	0	0	0	0	0	0	0
+steel mill	1	0	0	0	0	0	0	0
+peak	1	0	0	0	0	0	0	0
+loft	1	0	0	0	0	0	0	0
+hellscape	1	0	0	0	0	0	0	0
+arena	1	0	0	0	0	0	0	0
+mountain	1	0	0	0	0	0	0	0
+desert	1	0	0	0	0	0	0	0
+glacier	1	0	0	0	0	0	0	0
+pit	1	0	0	0	0	0	0	0
+tower	1	0	0	0	0	0	0	0
+planet	1	0	0	0	0	0	0	0
+city	1	0	0	0	0	0	0	0
+town	1	0	0	0	0	0	0	0
+farm	1	0	0	0	0	0	0	0
+country	1	0	0	0	0	0	0	0
+metropolis	1	0	0	0	0	0	0	0
+empire	1	0	0	0	0	0	0	0
+airport	1	0	0	0	0	0	0	0
+amusement park	1	0	0	0	0	0	0	0
+temple	1	0	0	0	0	0	0	0
+church	1	0	0	0	0	0	0	0
+chapel	1	0	0	0	0	0	0	0
+bakery	1	0	0	0	0	0	0	0
+bank	1	0	0	0	0	0	0	0
+vault	1	0	0	0	0	0	0	0
+mine	1	0	0	0	0	0	0	0
+bar	1	0	0	0	0	0	0	0
+pub	1	0	0	0	0	0	0	0
+brewpub	1	0	0	0	0	0	0	0
+garden	1	0	0	0	0	0	0	0
+conservatory	1	0	0	0	0	0	0	0
+facility	1	0	0	0	0	0	0	0
+warehouse	1	0	0	0	0	0	0	0
+tenement	1	0	0	0	0	0	0	0
+asylum	1	0	0	0	0	0	0	0
+court	1	0	0	0	0	0	0	0
+beauty salon	1	0	0	0	0	0	0	0
+bookstore	1	0	0	0	0	0	0	0
+bowling alley	1	0	0	0	0	0	0	0
+bus station	1	0	0	0	0	0	0	0
+train station	1	0	0	0	0	0	0	0
+parking garage	1	0	0	0	0	0	0	0
+galaxy	1	0	0	0	0	0	0	0
+universe	1	0	0	0	0	0	0	0
+dimension	1	0	0	0	0	0	0	0
+cafe	1	0	0	0	0	0	0	0
+campground	1	0	0	0	0	0	0	0
+casino	1	0	0	0	0	0	0	0
+cemetary	1	0	0	0	0	0	0	0
+tomb	1	0	0	0	0	0	0	0
+pyramid	1	0	0	0	0	0	0	0
+clothing store	1	0	0	0	0	0	0	0
+convenience store	1	0	0	0	0	0	0	0
+pharmacy	1	0	0	0	0	0	0	0
+theater	1	0	0	0	0	0	0	0
+museum	1	0	0	0	0	0	0	0
+library	1	0	0	0	0	0	0	0
+office	1	0	0	0	0	0	0	0
+school	1	0	0	0	0	0	0	0
+college	1	0	0	0	0	0	0	0
+university	1	0	0	0	0	0	0	0
+grocery store	1	0	0	0	0	0	0	0
+gym	1	0	0	0	0	0	0	0
+hardware store	1	0	0	0	0	0	0	0
+zoo	1	0	0	0	0	0	0	0
+embassy	1	0	0	0	0	0	0	0
+spaceship	1	0	0	0	0	0	0	0
+nightclub	1	0	0	0	0	0	0	0
+hotel	1	0	0	0	0	0	0	0
+motel	1	0	0	0	0	0	0	0
+post office	1	0	0	0	0	0	0	0
+neighborhood	1	0	0	0	0	0	0	0
+nation	1	0	0	0	0	0	0	0
+virtual world	1	0	0	0	0	0	0	0
+underground society	1	0	0	0	0	0	0	0
+basement	1	0	0	0	0	0	0	0
+island	1	0	0	0	0	0	0	0
+utopia	1	0	0	0	0	0	0	0
+dystopia	1	0	0	0	0	0	0	0
+prison	1	0	0	0	0	0	0	0
+moon	1	0	0	0	0	0	0	0
+village	1	0	0	0	0	0	0	0
+mall	1	0	0	0	0	0	0	0
+golf course	1	0	0	0	0	0	0	0
+beach	1	0	0	0	0	0	0	0
+ship	1	0	0	0	0	0	0	0
+space station	1	0	0	0	0	0	0	0
+outpost	1	0	0	0	0	0	0	0
+manor	1	0	0	0	0	0	0	0
+estate	1	0	0	0	0	0	0	0
+mansion	1	0	0	0	0	0	0	0
+landscape	1	0	0	0	0	0	0	0
+cave	1	0	0	0	0	0	0	0
+duchy	1	0	0	0	0	0	0	0
+Dyson sphere	1	0	0	0	0	0	0	0
+woodland	1	0	0	0	0	0	0	0
+grove	1	0	0	0	0	0	0	0
+park	1	0	0	0	0	0	0	0
+terrarium	1	0	0	0	0	0	0	0
+cavern	1	0	0	0	0	0	0	0
+hamlet	1	0	0	0	0	0	0	0
+continent	1	0	0	0	0	0	0	0
+grotto	1	0	0	0	0	0	0	0
+keep	1	0	0	0	0	0	0	0
+chamber	1	0	0	0	0	0	0	0
+airship	1	0	0	0	0	0	0	0
+apartment	1	0	0	0	0	0	0	0
+pool hall	1	0	0	0	0	0	0	0
+sewer	1	0	0	0	0	0	0	0
+slum	1	0	0	0	0	0	0	0
+shantytown	1	0	0	0	0	0	0	0
+aquarium	1	0	0	0	0	0	0	0
+coral reef	1	0	0	0	0	0	0	0
+trench	1	0	0	0	0	0	0	0
+alley	1	0	0	0	0	0	0	0
+trading post	1	0	0	0	0	0	0	0
+circus	1	0	0	0	0	0	0	0
+valley	1	0	0	0	0	0	0	0
+river	1	0	0	0	0	0	0	0
+ocean	1	0	0	0	0	0	0	0
+lake	1	0	0	0	0	0	0	0
+pond	1	0	0	0	0	0	0	0
+community	1	0	0	0	0	0	0	0
+highway	1	0	0	0	0	0	0	0
+bridge	1	0	0	0	0	0	0	0
+hill	1	0	0	0	0	0	0	0
+waterfall	1	0	0	0	0	0	0	0
+chateau	1	0	0	0	0	0	0	0
+citadel	1	0	0	0	0	0	0	0
+fort	1	0	0	0	0	0	0	0
+cathedral	1	0	0	0	0	0	0	0
+dock	1	0	0	0	0	0	0	0
+palace	1	0	0	0	0	0	0	0
+art gallery	1	0	0	0	0	0	0	0
+satellite	1	0	0	0	0	0	0	0
+asteroid	1	0	0	0	0	0	0	0
+universe	1	0	0	0	0	0	0	0
+archipelago	1	0	0	0	0	0	0	0
+room	1	0	0	0	0	0	0	0
+ghost town	1	0	0	0	0	0	0	0
+hamlet	1	0	0	0	0	0	0	0
+auditorium	1	0	0	0	0	0	0	0
+port	1	0	0	0	0	0	0	0
+crossroads	1	0	0	0	0	0	0	0
+home	1	0	0	0	0	0	0	0
+condo	1	0	0	0	0	0	0	0
+district	1	0	0	0	0	0	0	0
+suburb	1	0	0	0	0	0	0	0
+crossroads	1	0	0	0	0	0	0	0
+collective	1	0	0	0	0	0	0	0
+borough	1	0	0	0	0	0	0	0
+township	1	0	0	0	0	0	0	0
+hole	1	0	0	0	0	0	0	0
+nook	1	0	0	0	0	0	0	0
+abode	1	0	0	0	0	0	0	0
+dwelling	1	0	0	0	0	0	0	0
+point	1	0	0	0	0	0	0	0
+property	1	0	0	0	0	0	0	0
+venue	1	0	0	0	0	0	0	0
+hamlet	1	0	0	0	0	0	0	0
+countryside	1	0	0	0	0	0	0	0
+parish	1	0	0	0	0	0	0	0
+sanctuary	1	0	0	0	0	0	0	0
+shrine	1	0	0	0	0	0	0	0
+star system	1	0	0	0	0	0	0	0
+nebula	1	0	0	0	0	0	0	0
+corporation	1	0	0	0	0	0	0	0
+business	1	0	0	0	0	0	0	0
+megacorp	1	0	0	0	0	0	0	0
+subway system	1	0	0	0	0	0	0	0
+bunker	1	0	0	0	0	0	0	0
+laboratory	1	0	0	0	0	0	0	0
+workshop	1	0	0	0	0	0	0	0
+college	1	0	0	0	0	0	0	0
+boarding school	1	0	0	0	0	0	0	0
+manor	1	0	0	0	0	0	0	0
+chateau	1	0	0	0	0	0	0	0
+graveyard	1	0	0	0	0	0	0	0
+junkyard	1	0	0	0	0	0	0	0
+plantation	1	0	0	0	0	0	0	0
+condo	1	0	0	0	0	0	0	0
+timeshare	1	0	0	0	0	0	0	0
+stable	1	0	0	0	0	0	0	0
+barnyard	1	0	0	0	0	0	0	0
+dormitory	1	0	0	0	0	0	0	0
+plaza	1	0	0	0	0	0	0	0
+portal	1	0	0	0	0	0	0	0
+golf course	1	0	0	0	0	0	0	0
+police station	1	0	0	0	0	0	0	0
+civic center	1	0	0	0	0	0	0	0
+ruins	1	0	0	0	0	0	0	0
+shipwreck	1	0	0	0	0	0	0	0
+battleground	1	0	0	0	0	0	0	0
+waypost	1	0	0	0	0	0	0	0
+memorial	1	0	0	0	0	0	0	0
+junk heap	1	0	0	0	0	0	0	0
+locale	1	0	0	0	0	0	0	0
+sector	1	0	0	0	0	0	0	0
+tundra	1	0	0	0	0	0	0	0
+moor	1	0	0	0	0	0	0	0
+grange hall	1	0	0	0	0	0	0	0
+grove	1	0	0	0	0	0	0	0
+orchard	1	0	0	0	0	0	0	0
+camp	1	0	0	0	0	0	0	0
+barracks	1	0	0	0	0	0	0	0
+aircraft	1	0	0	0	0	0	0	0
+train	1	0	0	0	0	0	0	0
+yacht	1	0	0	0	0	0	0	0
+cruise ship	1	0	0	0	0	0	0	0
+houseboat	1	0	0	0	0	0	0	0
+truck	1	0	0	0	0	0	0	0
+battleship	1	0	0	0	0	0	0	0
+party	1	0	0	0	0	0	0	0
+celebration	1	0	0	0	0	0	0	0
+amusement park	1	0	0	0	0	0	0	0
+carnival	1	0	0	0	0	0	0	0
+gala	1	0	0	0	0	0	0	0
+dinner party	1	0	0	0	0	0	0	0
+luncheon	1	0	0	0	0	0	0	0
+prom	1	0	0	0	0	0	0	0
+tea party	1	0	0	0	0	0	0	0
+Happening	1	0	0	0	0	0	0	0
+banquet	1	0	0	0	0	0	0	0
+ski lodge	1	0	0	0	0	0	0	0
+ski slope	1	0	0	0	0	0	0	0
+waterfront	1	0	0	0	0	0	0	0
+seaside	1	0	0	0	0	0	0	0
+pier	1	0	0	0	0	0	0	0
+harbor	1	0	0	0	0	0	0	0
+workmen's village	1	0	0	0	0	0	0	0
+boomtown	1	0	0	0	0	0	0	0
+walled city	1	0	0	0	0	0	0	0
+farming village	1	0	0	0	0	0	0	0
+star fleet	1	0	0	0	0	0	0	0
+trailer park	1	0	0	0	0	0	0	0
+arcology	1	0	0	0	0	0	0	0
+kibbutz	1	0	0	0	0	0	0	0
+domed city	1	0	0	0	0	0	0	0
+fishing village	1	0	0	0	0	0	0	0
+spaceport	1	0	0	0	0	0	0	0
+planetoid	1	0	0	0	0	0	0	0
+deep space station	1	0	0	0	0	0	0	0
+trans-dimensional area	1	0	0	0	0	0	0	0
+alternate history	1	0	0	0	0	0	0	0
+shoe store	1	0	0	0	0	0	0	0
+candy store	1	0	0	0	0	0	0	0
+sawmill	1	0	0	0	0	0	0	0
+chemical plant	1	0	0	0	0	0	0	0
+homestead	1	0	0	0	0	0	0	0
+cliffside	1	0	0	0	0	0	0	0
+overlook	1	0	0	0	0	0	0	0
+truck stop	1	0	0	0	0	0	0	0
+art school	1	0	0	0	0	0	0	0
+culinary school	1	0	0	0	0	0	0	0
+institute	1	0	0	0	0	0	0	0
+science museum	1	0	0	0	0	0	0	0
+history museum	1	0	0	0	0	0	0	0
+community college	1	0	0	0	0	0	0	0
+tree	1	0	0	0	0	0	0	0
+treehouse	1	0	0	0	0	0	0	0
+liquor store	1	0	0	0	0	0	0	0
+boutique	1	0	0	0	0	0	0	0
+nursery	1	0	0	0	0	0	0	0
+newsstand	1	0	0	0	0	0	0	0
+supermarket	1	0	0	0	0	0	0	0
+corner store	1	0	0	0	0	0	0	0
+chemistry lab	1	0	0	0	0	0	0	0
+greenhouse	1	0	0	0	0	0	0	0
+haberdashery	1	0	0	0	0	0	0	0
+party store	1	0	0	0	0	0	0	0
+tobacconist	1	0	0	0	0	0	0	0
+birdhouse	1	0	0	0	0	0	0	0
+purgatory	1	0	0	0	0	0	0	0
+roadside attraction	1	0	0	0	0	0	0	0
+government office	1	0	0	0	0	0	0	0
+record store	1	0	0	0	0	0	0	0
+flea market	1	0	0	0	0	0	0	0
+headquarters	1	0	0	0	0	0	0	0
+den of iniquity	1	0	0	0	0	0	0	0
+steel	0	1	0	0	0	0	0	0
+glass	0	1	0	0	0	0	0	0
+concrete	0	1	0	0	0	0	0	0
+brick	0	1	0	0	0	0	0	0
+wood	0	1	0	0	0	0	0	0
+brass	0	1	0	0	0	0	0	0
+bone	0	1	0	0	0	0	0	0
+marble	0	1	0	0	0	0	0	0
+chalk	0	1	0	0	0	0	0	0
+energy	0	1	0	0	0	0	0	0
+magic	0	1	0	0	0	0	0	0
+flesh	0	1	0	0	0	0	0	0
+copper	0	1	0	0	0	0	0	0
+aluminum	0	1	0	0	0	0	0	0
+silver	0	1	0	0	0	0	0	0
+gold	0	1	0	0	0	0	0	0
+cloth	0	1	0	0	0	0	0	0
+silk	0	1	0	0	0	0	0	0
+paper	0	1	0	0	0	0	0	0
+bamboo	0	1	0	0	0	0	0	0
+quartz	0	1	0	0	0	0	0	0
+crystal	0	1	0	0	0	0	0	0
+diamond	0	1	0	0	0	0	0	0
+carbon	0	1	0	0	0	0	0	0
+carbon fiber	0	1	0	0	0	0	0	0
+thorium	0	1	0	0	0	0	0	0
+tin foil	0	1	0	0	0	0	0	0
+mud	0	1	0	0	0	0	0	0
+compressed earth	0	1	0	0	0	0	0	0
+insulation	0	1	0	0	0	0	0	0
+plaster	0	1	0	0	0	0	0	0
+stucco	0	1	0	0	0	0	0	0
+carpet	0	1	0	0	0	0	0	0
+adobe	0	1	0	0	0	0	0	0
+terra cotta	0	1	0	0	0	0	0	0
+stone	0	1	0	0	0	0	0	0
+rebar	0	1	0	0	0	0	0	0
+wire	0	1	0	0	0	0	0	0
+rope	0	1	0	0	0	0	0	0
+plywood	0	1	0	0	0	0	0	0
+chromium	0	1	0	0	0	0	0	0
+PVC	0	1	0	0	0	0	0	0
+parrafin wax	0	1	0	0	0	0	0	0
+straw	0	1	0	0	0	0	0	0
+silica	0	1	0	0	0	0	0	0
+fur	0	1	0	0	0	0	0	0
+feathers	0	1	0	0	0	0	0	0
+scales	0	1	0	0	0	0	0	0
+cast iron	0	1	0	0	0	0	0	0
+lace	0	1	0	0	0	0	0	0
+burlap	0	1	0	0	0	0	0	0
+hemp	0	1	0	0	0	0	0	0
+magnesium	0	1	0	0	0	0	0	0
+titanium	0	1	0	0	0	0	0	0
+wrought iron	0	1	0	0	0	0	0	0
+nickel	0	1	0	0	0	0	0	0
+nickel silver	0	1	0	0	0	0	0	0
+teak	0	1	0	0	0	0	0	0
+birch	0	1	0	0	0	0	0	0
+balsa	0	1	0	0	0	0	0	0
+basalt	0	1	0	0	0	0	0	0
+granite	0	1	0	0	0	0	0	0
+pumice	0	1	0	0	0	0	0	0
+limestone	0	1	0	0	0	0	0	0
+sandstone	0	1	0	0	0	0	0	0
+slate	0	1	0	0	0	0	0	0
+leather	0	1	0	0	0	0	0	0
+horn	0	1	0	0	0	0	0	0
+rattan	0	1	0	0	0	0	0	0
+wicker	0	1	0	0	0	0	0	0
+cork	0	1	0	0	0	0	0	0
+tungsten	0	1	0	0	0	0	0	0
+ebony	0	1	0	0	0	0	0	0
+fruit	0	1	0	0	0	0	0	0
+Styrofoam	0	1	0	0	0	0	0	0
+lead	0	1	0	0	0	0	0	0
+charcoal	0	1	0	0	0	0	0	0
+vines	0	1	0	0	0	0	0	0
+ceramic	0	1	0	0	0	0	0	0
+plastic	0	1	0	0	0	0	0	0
+rubber	0	1	0	0	0	0	0	0
+foam	0	1	0	0	0	0	0	0
+zinc	0	1	0	0	0	0	0	0
+tin	0	1	0	0	0	0	0	0
+ivory	0	1	0	0	0	0	0	0
+yttrium	0	1	0	0	0	0	0	0
+cardboard	0	1	0	0	0	0	0	0
+ice	0	1	0	0	0	0	0	0
+rubies	0	1	0	0	0	0	0	0
+emeralds	0	1	0	0	0	0	0	0
+tulle	0	1	0	0	0	0	0	0
+salt	0	1	0	0	0	0	0	0
+magnesium	0	1	0	0	0	0	0	0
+gears	0	1	0	0	0	0	0	0
+pear	0	1	0	0	0	0	0	0
+oyster shell	0	1	0	0	0	0	0	0
+grass	0	1	0	0	0	0	0	0
+seaweed	0	1	0	0	0	0	0	0
+peat	0	1	0	0	0	0	0	0
+translucent concrete	0	1	0	0	0	0	0	0
+cerrosafe	0	1	0	0	0	0	0	0
+nichrome	0	1	0	0	0	0	0	0
+electrum	0	1	0	0	0	0	0	0
+ammunition	0	1	0	0	0	0	0	0
+glitter	0	1	0	0	0	0	0	0
+silicone	0	1	0	0	0	0	0	0
+pig iron	0	1	0	0	0	0	0	0
+plutonium	0	1	0	0	0	0	0	0
+discarded machines	0	1	0	0	0	0	0	0
+zirconium	0	1	0	0	0	0	0	0
+nanobots	0	1	0	0	0	0	0	0
+mithril	0	1	0	0	0	0	0	0
+adamantium	0	1	0	0	0	0	0	0
+orichalcum	0	1	0	0	0	0	0	0
+vanadium	0	1	0	0	0	0	0	0
+psychic energy	0	1	0	0	0	0	0	0
+dreams	0	1	0	0	0	0	0	0
+pure evil	0	1	0	0	0	0	0	0
+tuff	0	1	0	0	0	0	0	0
+andesite	0	1	0	0	0	0	0	0
+tridymite	0	1	0	0	0	0	0	0
+opal	0	1	0	0	0	0	0	0
+plastic bottles	0	1	0	0	0	0	0	0
+plastic bags	0	1	0	0	0	0	0	0
+glass bottles	0	1	0	0	0	0	0	0
+cigarettes	0	1	0	0	0	0	0	0
+old tires	0	1	0	0	0	0	0	0
+coral	0	1	0	0	0	0	0	0
+sponge	0	1	0	0	0	0	0	0
+sharkskin	0	1	0	0	0	0	0	0
+fruit	0	1	0	0	0	0	0	0
+cedar	0	1	0	0	0	0	0	0
+gristle	0	1	0	0	0	0	0	0
+dark matter	0	1	0	0	0	0	0	0
+marble	0	1	0	0	0	0	0	0
+stained glass	0	1	0	0	0	0	0	0
+junk mail	0	1	0	0	0	0	0	0
+algae	0	1	0	0	0	0	0	0
+bread	0	1	0	0	0	0	0	0
+cheese	0	1	0	0	0	0	0	0
+latex	0	1	0	0	0	0	0	0
+brass	0	1	0	0	0	0	0	0
+egg	0	1	0	0	0	0	0	0
+paper money	0	1	0	0	0	0	0	0
+information	0	1	0	0	0	0	0	0
+artificial bone	0	1	0	0	0	0	0	0
+butter	0	1	0	0	0	0	0	0
+yak hair	0	1	0	0	0	0	0	0
+artificial silk	0	1	0	0	0	0	0	0
+sulfur	0	1	0	0	0	0	0	0
+graphite	0	1	0	0	0	0	0	0
+aluminum foil	0	1	0	0	0	0	0	0
+string	0	1	0	0	0	0	0	0
+actinides	0	1	0	0	0	0	0	0
+coinage	0	1	0	0	0	0	0	0
+tree bark	0	1	0	0	0	0	0	0
+paper ballots	0	1	0	0	0	0	0	0
+pine needles	0	1	0	0	0	0	0	0
+name tags	0	1	0	0	0	0	0	0
+evidence	0	1	0	0	0	0	0	0
+dust	0	1	0	0	0	0	0	0
+metal springs	0	1	0	0	0	0	0	0
+eggshell	0	1	0	0	0	0	0	0
+lard	0	1	0	0	0	0	0	0
+glitchy	0	0	1	0	0	0	0	0
+Mediterranean	0	0	1	0	0	0	0	0
+Moroccan	0	0	1	0	0	0	0	0
+Indian	0	0	1	0	0	0	0	0
+Zulu	0	0	1	0	0	0	0	0
+frantic	0	0	1	0	0	0	0	0
+humid	0	0	1	0	0	0	0	0
+highly-organized	0	0	1	0	0	0	0	0
+trash-strewn	0	0	1	0	0	0	0	0
+misty	0	0	1	0	0	0	0	0
+dusty	0	0	1	0	0	0	0	0
+tiny	0	0	1	0	0	0	0	0
+utopian	0	0	1	0	0	0	0	0
+dystopian	0	0	1	0	0	0	0	0
+near-future	0	0	1	0	0	0	0	0
+Y2K-era	0	0	1	0	0	0	0	0
+1990's	0	0	1	0	0	0	0	0
+1980's	0	0	1	0	0	0	0	0
+1970's	0	0	1	0	0	0	0	0
+1960's	0	0	1	0	0	0	0	0
+1950's	0	0	1	0	0	0	0	0
+1940's	0	0	1	0	0	0	0	0
+1930's	0	0	1	0	0	0	0	0
+1920's	0	0	1	0	0	0	0	0
+turn-of-the-century	0	0	1	0	0	0	0	0
+19th century	0	0	1	0	0	0	0	0
+18th century	0	0	1	0	0	0	0	0
+17th century	0	0	1	0	0	0	0	0
+16th century	0	0	1	0	0	0	0	0
+15th century	0	0	1	0	0	0	0	0
+high fantasy	0	0	1	0	0	0	0	0
+low fantasy	0	0	1	0	0	0	0	0
+wintry	0	0	1	0	0	0	0	0
+summery	0	0	1	0	0	0	0	0
+autumnal	0	0	1	0	0	0	0	0
+wide	0	0	1	0	0	0	0	0
+tasteless	0	0	1	0	0	0	0	0
+tawdry	0	0	1	0	0	0	0	0
+smelly	0	0	1	0	0	0	0	0
+flooded	0	0	1	0	0	0	0	0
+auspicious	0	0	1	0	0	0	0	0
+cursed	0	0	1	0	0	0	0	0
+bawdy	0	0	1	0	0	0	0	0
+clammy	0	0	1	0	0	0	0	0
+fragile	0	0	1	0	0	0	0	0
+gaudy	0	0	1	0	0	0	0	0
+humdrum	0	0	1	0	0	0	0	0
+hypnotic	0	0	1	0	0	0	0	0
+lame	0	0	1	0	0	0	0	0
+majestic	0	0	1	0	0	0	0	0
+nondescript	0	0	1	0	0	0	0	0
+oddly-shaped	0	0	1	0	0	0	0	0
+sophisticated	0	0	1	0	0	0	0	0
+sweet	0	0	1	0	0	0	0	0
+voodoo	0	0	1	0	0	0	0	0
+tiki	0	0	1	0	0	0	0	0
+shadowy	0	0	1	0	0	0	0	0
+edible	0	0	1	0	0	0	0	0
+fantastique	0	0	1	0	0	0	0	0
+shenmo	0	0	1	0	0	0	0	0
+romantic	0	0	1	0	0	0	0	0
+barbaric	0	0	1	0	0	0	0	0
+tragic	0	0	1	0	0	0	0	0
+synchronized	0	0	1	0	0	0	0	0
+politically-tense	0	0	1	0	0	0	0	0
+satirical	0	0	1	0	0	0	0	0
+wuxia	0	0	1	0	0	0	0	0
+Orwellian	0	0	1	0	0	0	0	0
+floating	0	0	1	0	0	0	0	0
+draconian	0	0	1	0	0	0	0	0
+merciless	0	0	1	0	0	0	0	0
+comic	0	0	1	0	0	0	0	0
+apocalyptic	0	0	1	0	0	0	0	0
+musical	0	0	1	0	0	0	0	0
+folkloric	0	0	1	0	0	0	0	0
+ironic	0	0	1	0	0	0	0	0
+clearly fictional	0	0	1	0	0	0	0	0
+misunderstood	0	0	1	0	0	0	0	0
+bright	0	0	1	0	0	0	0	0
+dark	0	0	1	0	0	0	0	0
+fuzzy	0	0	1	0	0	0	0	0
+ancient	0	0	1	0	0	0	0	0
+dull	0	0	1	0	0	0	0	0
+bustling	0	0	1	0	0	0	0	0
+charming	0	0	1	0	0	0	0	0
+quaint	0	0	1	0	0	0	0	0
+historic	0	0	1	0	0	0	0	0
+compact	0	0	1	0	0	0	0	0
+culturally diverse	0	0	1	0	0	0	0	0
+seedy	0	0	1	0	0	0	0	0
+corrupt	0	0	1	0	0	0	0	0
+expressionistic	0	0	1	0	0	0	0	0
+stereotypical	0	0	1	0	0	0	0	0
+smoky	0	0	1	0	0	0	0	0
+overdramatic	0	0	1	0	0	0	0	0
+recently-renovated	0	0	1	0	0	0	0	0
+reconstructed	0	0	1	0	0	0	0	0
+faded	0	0	1	0	0	0	0	0
+shabby	0	0	1	0	0	0	0	0
+inelegant	0	0	1	0	0	0	0	0
+elegant	0	0	1	0	0	0	0	0
+unrefined	0	0	1	0	0	0	0	0
+vulgar	0	0	1	0	0	0	0	0
+crumbling	0	0	1	0	0	0	0	0
+idyllic	0	0	1	0	0	0	0	0
+supernatural	0	0	1	0	0	0	0	0
+shabby chic	0	0	1	0	0	0	0	0
+dilapidated	0	0	1	0	0	0	0	0
+tacky	0	0	1	0	0	0	0	0
+delicate	0	0	1	0	0	0	0	0
+glittery	0	0	1	0	0	0	0	0
+Elvish	0	0	1	0	0	0	0	0
+Dwarven	0	0	1	0	0	0	0	0
+spacious	0	0	1	0	0	0	0	0
+sanguine	0	0	1	0	0	0	0	0
+grisly	0	0	1	0	0	0	0	0
+pleasing	0	0	1	0	0	0	0	0
+delightful	0	0	1	0	0	0	0	0
+merry	0	0	1	0	0	0	0	0
+jovial	0	0	1	0	0	0	0	0
+crowded	0	0	1	0	0	0	0	0
+vast	0	0	1	0	0	0	0	0
+vibrant	0	0	1	0	0	0	0	0
+contaminated	0	0	1	0	0	0	0	0
+toxic	0	0	1	0	0	0	0	0
+deserted	0	0	1	0	0	0	0	0
+graffiti-covered	0	0	1	0	0	0	0	0
+melting	0	0	1	0	0	0	0	0
+hazardous	0	0	1	0	0	0	0	0
+anachronistic	0	0	1	0	0	0	0	0
+peaceful	0	0	1	0	0	0	0	0
+rusty	0	0	1	0	0	0	0	0
+miniature	0	0	1	0	0	0	0	0
+quiet	0	0	1	0	0	0	0	0
+Egyptian	0	0	1	0	0	0	0	0
+Victorian	0	0	1	0	0	0	0	0
+Edwardian	0	0	1	0	0	0	0	0
+Soviet	0	0	1	0	0	0	0	0
+glitched	0	0	1	0	0	0	0	0
+medieval	0	0	1	0	0	0	0	0
+Renaissance	0	0	1	0	0	0	0	0
+Caribbean	0	0	1	0	0	0	0	0
+Norse	0	0	1	0	0	0	0	0
+Persian	0	0	1	0	0	0	0	0
+Mesoamerican	0	0	1	0	0	0	0	0
+Japanese	0	0	1	0	0	0	0	0
+Chinese	0	0	1	0	0	0	0	0
+Korean	0	0	1	0	0	0	0	0
+Cambodian	0	0	1	0	0	0	0	0
+Australian	0	0	1	0	0	0	0	0
+Swiss	0	0	1	0	0	0	0	0
+French	0	0	1	0	0	0	0	0
+Spanish	0	0	1	0	0	0	0	0
+Daliesque	0	0	1	0	0	0	0	0
+Kafkaesque	0	0	1	0	0	0	0	0
+cartoonish	0	0	1	0	0	0	0	0
+anachronistic	0	0	1	0	0	0	0	0
+cyberpunk	0	0	1	0	0	0	0	0
+steampunk	0	0	1	0	0	0	0	0
+seapunk	0	0	1	0	0	0	0	0
+abandoned	0	0	1	0	0	0	0	0
+biopunk	0	0	1	0	0	0	0	0
+nanopunk	0	0	1	0	0	0	0	0
+post-cyberpunk	0	0	1	0	0	0	0	0
+dieselpunk	0	0	1	0	0	0	0	0
+elfpunk	0	0	1	0	0	0	0	0
+mythpunk	0	0	1	0	0	0	0	0
+dreampunk	0	0	1	0	0	0	0	0
+decopunk	0	0	1	0	0	0	0	0
+atompunk	0	0	1	0	0	0	0	0
+cyberprep	0	0	1	0	0	0	0	0
+solarpunk	0	0	1	0	0	0	0	0
+huge	0	0	1	0	0	0	0	0
+frontier	0	0	1	0	0	0	0	0
+painterly	0	0	1	0	0	0	0	0
+grotesque	0	0	1	0	0	0	0	0
+brutalist	0	0	1	0	0	0	0	0
+magical realist	0	0	1	0	0	0	0	0
+surreal	0	0	1	0	0	0	0	0
+pixelated	0	0	1	0	0	0	0	0
+shocking	0	0	1	0	0	0	0	0
+heavenly	0	0	1	0	0	0	0	0
+underwater	0	0	1	0	0	0	0	0
+gritty	0	0	1	0	0	0	0	0
+disintegrating	0	0	1	0	0	0	0	0
+smog-choked	0	0	1	0	0	0	0	0
+foggy	0	0	1	0	0	0	0	0
+sleepy	0	0	1	0	0	0	0	0
+New England	0	0	1	0	0	0	0	0
+foreboding	0	0	1	0	0	0	0	0
+cute	0	0	1	0	0	0	0	0
+laconic	0	0	1	0	0	0	0	0
+mystical	0	0	1	0	0	0	0	0
+timeless	0	0	1	0	0	0	0	0
+forbidden	0	0	1	0	0	0	0	0
+sprawling	0	0	1	0	0	0	0	0
+palatial	0	0	1	0	0	0	0	0
+stalwart	0	0	1	0	0	0	0	0
+rainy	0	0	1	0	0	0	0	0
+mysterious	0	0	1	0	0	0	0	0
+dreary	0	0	1	0	0	0	0	0
+offensive	0	0	1	0	0	0	0	0
+simplified	0	0	1	0	0	0	0	0
+family-friendly	0	0	1	0	0	0	0	0
+sanitized	0	0	1	0	0	0	0	0
+unsanitary	0	0	1	0	0	0	0	0
+disgusting	0	0	1	0	0	0	0	0
+stereotypical	0	0	1	0	0	0	0	0
+florid	0	0	1	0	0	0	0	0
+jazzy	0	0	1	0	0	0	0	0
+vivid	0	0	1	0	0	0	0	0
+gaudy	0	0	1	0	0	0	0	0
+drab	0	0	1	0	0	0	0	0
+lifeless	0	0	1	0	0	0	0	0
+monochromatic	0	0	1	0	0	0	0	0
+mind-bending	0	0	1	0	0	0	0	0
+heartbreaking	0	0	1	0	0	0	0	0
+conservative	0	0	1	0	0	0	0	0
+puritanical	0	0	1	0	0	0	0	0
+prim	0	0	1	0	0	0	0	0
+demure	0	0	1	0	0	0	0	0
+tidy	0	0	1	0	0	0	0	0
+fuzzy	0	0	1	0	0	0	0	0
+solid	0	0	1	0	0	0	0	0
+rough	0	0	1	0	0	0	0	0
+oppressive	0	0	1	0	0	0	0	0
+gentle	0	0	1	0	0	0	0	0
+suggestive	0	0	1	0	0	0	0	0
+raunchy	0	0	1	0	0	0	0	0
+demolished	0	0	1	0	0	0	0	0
+tragic	0	0	1	0	0	0	0	0
+ruined	0	0	1	0	0	0	0	0
+grim	0	0	1	0	0	0	0	0
+glowing	0	0	1	0	0	0	0	0
+glossy	0	0	1	0	0	0	0	0
+slimy	0	0	1	0	0	0	0	0
+sweaty	0	0	1	0	0	0	0	0
+clammy	0	0	1	0	0	0	0	0
+arid	0	0	1	0	0	0	0	0
+barren	0	0	1	0	0	0	0	0
+moist	0	0	1	0	0	0	0	0
+folksy	0	0	1	0	0	0	0	0
+remixed	0	0	1	0	0	0	0	0
+pluralistic	0	0	1	0	0	0	0	0
+abstract realistic	0	0	1	0	0	0	0	0
+fashionable	0	0	1	0	0	0	0	0
+pretentious	0	0	1	0	0	0	0	0
+impoverished	0	0	1	0	0	0	0	0
+earthy	0	0	1	0	0	0	0	0
+feminist	0	0	1	0	0	0	0	0
+Gutai	0	0	1	0	0	0	0	0
+Lego	0	0	1	0	0	0	0	0
+decorated	0	0	1	0	0	0	0	0
+furrowed	0	0	1	0	0	0	0	0
+lithographed	0	0	1	0	0	0	0	0
+scratched	0	0	1	0	0	0	0	0
+embossed	0	0	1	0	0	0	0	0
+symbol-covered	0	0	1	0	0	0	0	0
+well-lit	0	0	1	0	0	0	0	0
+blurry	0	0	1	0	0	0	0	0
+tenebrous	0	0	1	0	0	0	0	0
+somber	0	0	1	0	0	0	0	0
+sober	0	0	1	0	0	0	0	0
+sullied	0	0	1	0	0	0	0	0
+overcast	0	0	1	0	0	0	0	0
+sparkling	0	0	1	0	0	0	0	0
+shimmering	0	0	1	0	0	0	0	0
+scintillating	0	0	1	0	0	0	0	0
+refulgent	0	0	1	0	0	0	0	0
+ashen	0	0	1	0	0	0	0	0
+sallow	0	0	1	0	0	0	0	0
+ash-covered	0	0	1	0	0	0	0	0
+water-logged	0	0	1	0	0	0	0	0
+maritime	0	0	1	0	0	0	0	0
+seagoing	0	0	1	0	0	0	0	0
+oceangoing	0	0	1	0	0	0	0	0
+deep-sea	0	0	1	0	0	0	0	0
+lofty	0	0	1	0	0	0	0	0
+ethereal	0	0	1	0	0	0	0	0
+soaring	0	0	1	0	0	0	0	0
+canonical	0	0	1	0	0	0	0	0
+Latin	0	0	1	0	0	0	0	0
+rabbinical	0	0	1	0	0	0	0	0
+theocratical	0	0	1	0	0	0	0	0
+ministerial	0	0	1	0	0	0	0	0
+theoretical	0	0	1	0	0	0	0	0
+orthodox	0	0	1	0	0	0	0	0
+Greek	0	0	1	0	0	0	0	0
+Austrian	0	0	1	0	0	0	0	0
+Portuguese	0	0	1	0	0	0	0	0
+Italian	0	0	1	0	0	0	0	0
+Eastern European	0	0	1	0	0	0	0	0
+Cambodian	0	0	1	0	0	0	0	0
+Danish	0	0	1	0	0	0	0	0
+Czech	0	0	1	0	0	0	0	0
+Viking	0	0	1	0	0	0	0	0
+Mexican	0	0	1	0	0	0	0	0
+Irish	0	0	1	0	0	0	0	0
+Welsh	0	0	1	0	0	0	0	0
+South African	0	0	1	0	0	0	0	0
+Nigerian	0	0	1	0	0	0	0	0
+Saudi Arabian	0	0	1	0	0	0	0	0
+Ukrainian	0	0	1	0	0	0	0	0
+Caribbean	0	0	1	0	0	0	0	0
+Assyrian	0	0	1	0	0	0	0	0
+Bagirmi	0	0	1	0	0	0	0	0
+Bedouin	0	0	1	0	0	0	0	0
+Berber	0	0	1	0	0	0	0	0
+Coptic	0	0	1	0	0	0	0	0
+Jewish	0	0	1	0	0	0	0	0
+Kanuri	0	0	1	0	0	0	0	0
+Kurdish	0	0	1	0	0	0	0	0
+Persian	0	0	1	0	0	0	0	0
+Somali	0	0	1	0	0	0	0	0
+Swazi	0	0	1	0	0	0	0	0
+Tuareg	0	0	1	0	0	0	0	0
+agricultural	0	0	1	0	0	0	0	0
+radioactive	0	0	1	0	0	0	0	0
+unstable	0	0	1	0	0	0	0	0
+anarchic	0	0	1	0	0	0	0	0
+soft-focus	0	0	1	0	0	0	0	0
+drug-fueled	0	0	1	0	0	0	0	0
+rainy	0	0	1	0	0	0	0	0
+feudal	0	0	1	0	0	0	0	0
+lost	0	0	1	0	0	0	0	0
+forgotten	0	0	1	0	0	0	0	0
+rediscovered	0	0	1	0	0	0	0	0
+Joyful	0	0	0	1	0	0	0	0
+Tender	0	0	0	1	0	0	0	0
+Helpless	0	0	0	1	0	0	0	0
+Defeated	0	0	0	1	0	0	0	0
+Raging	0	0	0	1	0	0	0	0
+Cheerful	0	0	0	1	0	0	0	0
+Sympathetic	0	0	0	1	0	0	0	0
+Powerless	0	0	0	1	0	0	0	0
+Bored	0	0	0	1	0	0	0	0
+Outraged	0	0	0	1	0	0	0	0
+Content	0	0	0	1	0	0	0	0
+Adoring	0	0	0	1	0	0	0	0
+Dreading	0	0	0	1	0	0	0	0
+Rejected	0	0	0	1	0	0	0	0
+Hostile	0	0	0	1	0	0	0	0
+Proud	0	0	0	1	0	0	0	0
+Fond	0	0	0	1	0	0	0	0
+Distrusting	0	0	0	1	0	0	0	0
+Disillusioned	0	0	0	1	0	0	0	0
+Bitter	0	0	0	1	0	0	0	0
+Satisfied	0	0	0	1	0	0	0	0
+Receptive	0	0	0	1	0	0	0	0
+Suspicious	0	0	0	1	0	0	0	0
+Inferior	0	0	0	1	0	0	0	0
+Hateful	0	0	0	1	0	0	0	0
+Excited	0	0	0	1	0	0	0	0
+Interested	0	0	0	1	0	0	0	0
+Cautious	0	0	0	1	0	0	0	0
+Confused	0	0	0	1	0	0	0	0
+Scornful	0	0	0	1	0	0	0	0
+Amused	0	0	0	1	0	0	0	0
+Delighted	0	0	0	1	0	0	0	0
+Disturbed	0	0	0	1	0	0	0	0
+Grief-stricken	0	0	0	1	0	0	0	0
+Spiteful	0	0	0	1	0	0	0	0
+Elated	0	0	0	1	0	0	0	0
+Shocked	0	0	0	1	0	0	0	0
+Overwhelmed	0	0	0	1	0	0	0	0
+Helpless	0	0	0	1	0	0	0	0
+Vengeful	0	0	0	1	0	0	0	0
+Enthusiastic	0	0	0	1	0	0	0	0
+Exhilarated	0	0	0	1	0	0	0	0
+Uncomfortable	0	0	0	1	0	0	0	0
+Isolated	0	0	0	1	0	0	0	0
+Disliked	0	0	0	1	0	0	0	0
+Optimistic	0	0	0	1	0	0	0	0
+Dismayed	0	0	0	1	0	0	0	0
+Guilty	0	0	0	1	0	0	0	0
+Numb	0	0	0	1	0	0	0	0
+Resentful	0	0	0	1	0	0	0	0
+Amazed	0	0	0	1	0	0	0	0
+Hurt	0	0	0	1	0	0	0	0
+Regretful	0	0	0	1	0	0	0	0
+Trusting	0	0	0	1	0	0	0	0
+Delighted	0	0	0	1	0	0	0	0
+Confused	0	0	0	1	0	0	0	0
+Lonely	0	0	0	1	0	0	0	0
+Ambivalent	0	0	0	1	0	0	0	0
+Alienated	0	0	0	1	0	0	0	0
+Calm	0	0	0	1	0	0	0	0
+Stunned	0	0	0	1	0	0	0	0
+Melancholy	0	0	0	1	0	0	0	0
+Exhausted	0	0	0	1	0	0	0	0
+Bitter	0	0	0	1	0	0	0	0
+Relaxed	0	0	0	1	0	0	0	0
+Interested	0	0	0	1	0	0	0	0
+Depressed	0	0	0	1	0	0	0	0
+Insecure	0	0	0	1	0	0	0	0
+Insulted	0	0	0	1	0	0	0	0
+Relieved	0	0	0	1	0	0	0	0
+Intrigued	0	0	0	1	0	0	0	0
+Hopeless	0	0	0	1	0	0	0	0
+Disgusted	0	0	0	1	0	0	0	0
+Indifferent	0	0	0	1	0	0	0	0
+Hopeful	0	0	0	1	0	0	0	0
+Absorbed	0	0	0	1	0	0	0	0
+Sad	0	0	0	1	0	0	0	0
+Pity	0	0	0	1	0	0	0	0
+Pleased	0	0	0	1	0	0	0	0
+Curious	0	0	0	1	0	0	0	0
+Guilty	0	0	0	1	0	0	0	0
+Disgusted	0	0	0	1	0	0	0	0
+Confident	0	0	0	1	0	0	0	0
+Anticipating	0	0	0	1	0	0	0	0
+Hurt	0	0	0	1	0	0	0	0
+Contemptuous	0	0	0	1	0	0	0	0
+Brave	0	0	0	1	0	0	0	0
+Eager	0	0	0	1	0	0	0	0
+Lonely	0	0	0	1	0	0	0	0
+Weary	0	0	0	1	0	0	0	0
+Comfortable	0	0	0	1	0	0	0	0
+Hesitant	0	0	0	1	0	0	0	0
+Regretful	0	0	0	1	0	0	0	0
+Bored	0	0	0	1	0	0	0	0
+Safe	0	0	0	1	0	0	0	0
+Fearful	0	0	0	1	0	0	0	0
+Depressed	0	0	0	1	0	0	0	0
+Preoccupied	0	0	0	1	0	0	0	0
+Happy	0	0	0	1	0	0	0	0
+Anxious	0	0	0	1	0	0	0	0
+Hopeless	0	0	0	1	0	0	0	0
+Angry	0	0	0	1	0	0	0	0
+Loving	0	0	0	1	0	0	0	0
+Worried	0	0	0	1	0	0	0	0
+Sorrowful	0	0	0	1	0	0	0	0
+Jealous	0	0	0	1	0	0	0	0
+Lustful	0	0	0	1	0	0	0	0
+Scared	0	0	0	1	0	0	0	0
+Uncertain	0	0	0	1	0	0	0	0
+Envious	0	0	0	1	0	0	0	0
+Aroused	0	0	0	1	0	0	0	0
+Insecure	0	0	0	1	0	0	0	0
+Anguished	0	0	0	1	0	0	0	0
+Annoyed	0	0	0	1	0	0	0	0
+Tender	0	0	0	1	0	0	0	0
+Rejected	0	0	0	1	0	0	0	0
+Disappointed	0	0	0	1	0	0	0	0
+Humiliated	0	0	0	1	0	0	0	0
+Compassionate	0	0	0	1	0	0	0	0
+Horrified	0	0	0	1	0	0	0	0
+Self conscious	0	0	0	1	0	0	0	0
+Irritated	0	0	0	1	0	0	0	0
+Caring	0	0	0	1	0	0	0	0
+Alarmed	0	0	0	1	0	0	0	0
+Shamed	0	0	0	1	0	0	0	0
+Aggravated	0	0	0	1	0	0	0	0
+Infatuated	0	0	0	1	0	0	0	0
+Shocked	0	0	0	1	0	0	0	0
+Embarrassed	0	0	0	1	0	0	0	0
+Restless	0	0	0	1	0	0	0	0
+Concerned	0	0	0	1	0	0	0	0
+Panicked	0	0	0	1	0	0	0	0
+Humiliated	0	0	0	1	0	0	0	0
+Grumpy	0	0	0	1	0	0	0	0
+Trusting	0	0	0	1	0	0	0	0
+trustworthy	0	0	0	1	0	0	0	0
+Afraid	0	0	0	1	0	0	0	0
+Disgraced	0	0	0	1	0	0	0	0
+Awkward	0	0	0	1	0	0	0	0
+Liked	0	0	0	1	0	0	0	0
+Nervous	0	0	0	1	0	0	0	0
+Uncomfortable	0	0	0	1	0	0	0	0
+Exasperated	0	0	0	1	0	0	0	0
+Attracted	0	0	0	1	0	0	0	0
+Disoriented	0	0	0	1	0	0	0	0
+Neglected	0	0	0	1	0	0	0	0
+Frustrated	0	0	0	1	0	0	0	0
+air force blue	0	0	0	0	1	0	0	0
+alice blue	0	0	0	0	1	0	0	0
+alizarin crimson	0	0	0	0	1	0	0	0
+almond	0	0	0	0	1	0	0	0
+amaranth	0	0	0	0	1	0	0	0
+amber	0	0	0	0	1	0	0	0
+american rose	0	0	0	0	1	0	0	0
+amethyst	0	0	0	0	1	0	0	0
+android green	0	0	0	0	1	0	0	0
+anti-flash white	0	0	0	0	1	0	0	0
+antique brass	0	0	0	0	1	0	0	0
+antique fuchsia	0	0	0	0	1	0	0	0
+antique white	0	0	0	0	1	0	0	0
+ao	0	0	0	0	1	0	0	0
+apple green	0	0	0	0	1	0	0	0
+apricot	0	0	0	0	1	0	0	0
+aqua	0	0	0	0	1	0	0	0
+aquamarine	0	0	0	0	1	0	0	0
+army green	0	0	0	0	1	0	0	0
+arylide yellow	0	0	0	0	1	0	0	0
+ash grey	0	0	0	0	1	0	0	0
+asparagus	0	0	0	0	1	0	0	0
+atomic tangerine	0	0	0	0	1	0	0	0
+auburn	0	0	0	0	1	0	0	0
+aureolin	0	0	0	0	1	0	0	0
+awesome	0	0	0	0	1	0	0	0
+azure	0	0	0	0	1	0	0	0
+azure mist	0	0	0	0	1	0	0	0
+baby blue	0	0	0	0	1	0	0	0
+baby blue eyes	0	0	0	0	1	0	0	0
+baby pink	0	0	0	0	1	0	0	0
+ball blue	0	0	0	0	1	0	0	0
+banana mania	0	0	0	0	1	0	0	0
+banana yellow	0	0	0	0	1	0	0	0
+battleship grey	0	0	0	0	1	0	0	0
+bazaar	0	0	0	0	1	0	0	0
+beau blue	0	0	0	0	1	0	0	0
+beaver	0	0	0	0	1	0	0	0
+beige	0	0	0	0	1	0	0	0
+bisque	0	0	0	0	1	0	0	0
+bistre	0	0	0	0	1	0	0	0
+bittersweet	0	0	0	0	1	0	0	0
+black	0	0	0	0	1	0	0	0
+blanched almond	0	0	0	0	1	0	0	0
+bleu de france	0	0	0	0	1	0	0	0
+blizzard blue	0	0	0	0	1	0	0	0
+blond	0	0	0	0	1	0	0	0
+blue	0	0	0	0	1	0	0	0
+blue bell	0	0	0	0	1	0	0	0
+blue gray	0	0	0	0	1	0	0	0
+blue green	0	0	0	0	1	0	0	0
+blue purple	0	0	0	0	1	0	0	0
+blue violet	0	0	0	0	1	0	0	0
+blush	0	0	0	0	1	0	0	0
+bole	0	0	0	0	1	0	0	0
+bondi blue	0	0	0	0	1	0	0	0
+bone	0	0	0	0	1	0	0	0
+boston university red	0	0	0	0	1	0	0	0
+bottle green	0	0	0	0	1	0	0	0
+boysenberry	0	0	0	0	1	0	0	0
+Brandeis blue	0	0	0	0	1	0	0	0
+brass	0	0	0	0	1	0	0	0
+brick red	0	0	0	0	1	0	0	0
+bright cerulean	0	0	0	0	1	0	0	0
+bright green	0	0	0	0	1	0	0	0
+bright lavender	0	0	0	0	1	0	0	0
+bright maroon	0	0	0	0	1	0	0	0
+bright pink	0	0	0	0	1	0	0	0
+bright turquoise	0	0	0	0	1	0	0	0
+bright ube	0	0	0	0	1	0	0	0
+brilliant lavender	0	0	0	0	1	0	0	0
+brilliant rose	0	0	0	0	1	0	0	0
+brink pink	0	0	0	0	1	0	0	0
+british racing green	0	0	0	0	1	0	0	0
+bronze	0	0	0	0	1	0	0	0
+brown	0	0	0	0	1	0	0	0
+bubble gum	0	0	0	0	1	0	0	0
+bubbles	0	0	0	0	1	0	0	0
+buff	0	0	0	0	1	0	0	0
+bulgarian rose	0	0	0	0	1	0	0	0
+burgundy	0	0	0	0	1	0	0	0
+burlywood	0	0	0	0	1	0	0	0
+burnt orange	0	0	0	0	1	0	0	0
+burnt sienna	0	0	0	0	1	0	0	0
+burnt umber	0	0	0	0	1	0	0	0
+byzantine	0	0	0	0	1	0	0	0
+byzantium	0	0	0	0	1	0	0	0
+cg blue	0	0	0	0	1	0	0	0
+cg red	0	0	0	0	1	0	0	0
+cadet	0	0	0	0	1	0	0	0
+cadet blue	0	0	0	0	1	0	0	0
+cadet grey	0	0	0	0	1	0	0	0
+cadmium green	0	0	0	0	1	0	0	0
+cadmium orange	0	0	0	0	1	0	0	0
+cadmium red	0	0	0	0	1	0	0	0
+cadmium yellow	0	0	0	0	1	0	0	0
+café au lait	0	0	0	0	1	0	0	0
+café noir	0	0	0	0	1	0	0	0
+cal poly pomona green	0	0	0	0	1	0	0	0
+cambridge blue	0	0	0	0	1	0	0	0
+camel	0	0	0	0	1	0	0	0
+camouflage green	0	0	0	0	1	0	0	0
+canary	0	0	0	0	1	0	0	0
+canary yellow	0	0	0	0	1	0	0	0
+candy apple red	0	0	0	0	1	0	0	0
+candy pink	0	0	0	0	1	0	0	0
+capri	0	0	0	0	1	0	0	0
+caput mortuum	0	0	0	0	1	0	0	0
+cardinal	0	0	0	0	1	0	0	0
+caribbean green	0	0	0	0	1	0	0	0
+carmine	0	0	0	0	1	0	0	0
+carmine pink	0	0	0	0	1	0	0	0
+carmine red	0	0	0	0	1	0	0	0
+carnation pink	0	0	0	0	1	0	0	0
+carnelian	0	0	0	0	1	0	0	0
+carolina blue	0	0	0	0	1	0	0	0
+carrot orange	0	0	0	0	1	0	0	0
+celadon	0	0	0	0	1	0	0	0
+celeste	0	0	0	0	1	0	0	0
+celestial blue	0	0	0	0	1	0	0	0
+cerise	0	0	0	0	1	0	0	0
+cerise pink	0	0	0	0	1	0	0	0
+cerulean	0	0	0	0	1	0	0	0
+cerulean blue	0	0	0	0	1	0	0	0
+chamoisee	0	0	0	0	1	0	0	0
+champagne	0	0	0	0	1	0	0	0
+charcoal	0	0	0	0	1	0	0	0
+chartreuse	0	0	0	0	1	0	0	0
+cherry	0	0	0	0	1	0	0	0
+cherry blossom pink	0	0	0	0	1	0	0	0
+chestnut	0	0	0	0	1	0	0	0
+chocolate	0	0	0	0	1	0	0	0
+chrome yellow	0	0	0	0	1	0	0	0
+cinereous	0	0	0	0	1	0	0	0
+cinnabar	0	0	0	0	1	0	0	0
+cinnamon	0	0	0	0	1	0	0	0
+citrine	0	0	0	0	1	0	0	0
+classic rose	0	0	0	0	1	0	0	0
+cobalt	0	0	0	0	1	0	0	0
+cocoa brown	0	0	0	0	1	0	0	0
+coffee	0	0	0	0	1	0	0	0
+columbia blue	0	0	0	0	1	0	0	0
+cool black	0	0	0	0	1	0	0	0
+cool grey	0	0	0	0	1	0	0	0
+copper	0	0	0	0	1	0	0	0
+copper rose	0	0	0	0	1	0	0	0
+coquelicot	0	0	0	0	1	0	0	0
+coral	0	0	0	0	1	0	0	0
+coral pink	0	0	0	0	1	0	0	0
+coral red	0	0	0	0	1	0	0	0
+cordovan	0	0	0	0	1	0	0	0
+corn	0	0	0	0	1	0	0	0
+cornell red	0	0	0	0	1	0	0	0
+cornflower	0	0	0	0	1	0	0	0
+cornflower blue	0	0	0	0	1	0	0	0
+cornsilk	0	0	0	0	1	0	0	0
+cosmic latte	0	0	0	0	1	0	0	0
+cotton candy	0	0	0	0	1	0	0	0
+cream	0	0	0	0	1	0	0	0
+crimson	0	0	0	0	1	0	0	0
+crimson red	0	0	0	0	1	0	0	0
+crimson glory	0	0	0	0	1	0	0	0
+cyan	0	0	0	0	1	0	0	0
+daffodil	0	0	0	0	1	0	0	0
+dandelion	0	0	0	0	1	0	0	0
+dark blue	0	0	0	0	1	0	0	0
+dark brown	0	0	0	0	1	0	0	0
+dark byzantium	0	0	0	0	1	0	0	0
+dark candy apple red	0	0	0	0	1	0	0	0
+dark cerulean	0	0	0	0	1	0	0	0
+dark chestnut	0	0	0	0	1	0	0	0
+dark coral	0	0	0	0	1	0	0	0
+dark cyan	0	0	0	0	1	0	0	0
+dark electric blue	0	0	0	0	1	0	0	0
+dark goldenrod	0	0	0	0	1	0	0	0
+dark gray	0	0	0	0	1	0	0	0
+dark green	0	0	0	0	1	0	0	0
+dark jungle green	0	0	0	0	1	0	0	0
+dark khaki	0	0	0	0	1	0	0	0
+dark lava	0	0	0	0	1	0	0	0
+dark lavender	0	0	0	0	1	0	0	0
+dark magenta	0	0	0	0	1	0	0	0
+dark midnight blue	0	0	0	0	1	0	0	0
+dark olive green	0	0	0	0	1	0	0	0
+dark orange	0	0	0	0	1	0	0	0
+dark orchid	0	0	0	0	1	0	0	0
+dark pastel blue	0	0	0	0	1	0	0	0
+dark pastel green	0	0	0	0	1	0	0	0
+dark pastel purple	0	0	0	0	1	0	0	0
+dark pastel red	0	0	0	0	1	0	0	0
+dark pink	0	0	0	0	1	0	0	0
+dark powder blue	0	0	0	0	1	0	0	0
+dark raspberry	0	0	0	0	1	0	0	0
+dark red	0	0	0	0	1	0	0	0
+dark salmon	0	0	0	0	1	0	0	0
+dark scarlet	0	0	0	0	1	0	0	0
+dark sea green	0	0	0	0	1	0	0	0
+dark sienna	0	0	0	0	1	0	0	0
+dark slate blue	0	0	0	0	1	0	0	0
+dark slate gray	0	0	0	0	1	0	0	0
+dark spring green	0	0	0	0	1	0	0	0
+dark tan	0	0	0	0	1	0	0	0
+dark tangerine	0	0	0	0	1	0	0	0
+dark taupe	0	0	0	0	1	0	0	0
+dark terra cotta	0	0	0	0	1	0	0	0
+dark turquoise	0	0	0	0	1	0	0	0
+dark violet	0	0	0	0	1	0	0	0
+dartmouth green	0	0	0	0	1	0	0	0
+davy grey	0	0	0	0	1	0	0	0
+debian red	0	0	0	0	1	0	0	0
+deep carmine	0	0	0	0	1	0	0	0
+deep carmine pink	0	0	0	0	1	0	0	0
+deep carrot orange	0	0	0	0	1	0	0	0
+deep cerise	0	0	0	0	1	0	0	0
+deep champagne	0	0	0	0	1	0	0	0
+deep chestnut	0	0	0	0	1	0	0	0
+deep coffee	0	0	0	0	1	0	0	0
+deep fuchsia	0	0	0	0	1	0	0	0
+deep jungle green	0	0	0	0	1	0	0	0
+deep lilac	0	0	0	0	1	0	0	0
+deep magenta	0	0	0	0	1	0	0	0
+deep peach	0	0	0	0	1	0	0	0
+deep pink	0	0	0	0	1	0	0	0
+deep saffron	0	0	0	0	1	0	0	0
+deep sky blue	0	0	0	0	1	0	0	0
+denim	0	0	0	0	1	0	0	0
+desert	0	0	0	0	1	0	0	0
+desert sand	0	0	0	0	1	0	0	0
+dim gray	0	0	0	0	1	0	0	0
+dodger blue	0	0	0	0	1	0	0	0
+dogwood rose	0	0	0	0	1	0	0	0
+dollar bill	0	0	0	0	1	0	0	0
+drab	0	0	0	0	1	0	0	0
+duke blue	0	0	0	0	1	0	0	0
+earth yellow	0	0	0	0	1	0	0	0
+ecru	0	0	0	0	1	0	0	0
+eggplant	0	0	0	0	1	0	0	0
+eggshell	0	0	0	0	1	0	0	0
+egyptian blue	0	0	0	0	1	0	0	0
+electric blue	0	0	0	0	1	0	0	0
+electric crimson	0	0	0	0	1	0	0	0
+electric cyan	0	0	0	0	1	0	0	0
+electric green	0	0	0	0	1	0	0	0
+electric indigo	0	0	0	0	1	0	0	0
+electric lavender	0	0	0	0	1	0	0	0
+electric lime	0	0	0	0	1	0	0	0
+electric purple	0	0	0	0	1	0	0	0
+electric ultramarine	0	0	0	0	1	0	0	0
+electric violet	0	0	0	0	1	0	0	0
+electric yellow	0	0	0	0	1	0	0	0
+emerald	0	0	0	0	1	0	0	0
+eton blue	0	0	0	0	1	0	0	0
+fallow	0	0	0	0	1	0	0	0
+falu red	0	0	0	0	1	0	0	0
+famous	0	0	0	0	1	0	0	0
+fandango	0	0	0	0	1	0	0	0
+fashion fuchsia	0	0	0	0	1	0	0	0
+fawn	0	0	0	0	1	0	0	0
+feldgrau	0	0	0	0	1	0	0	0
+fern	0	0	0	0	1	0	0	0
+fern green	0	0	0	0	1	0	0	0
+ferrari red	0	0	0	0	1	0	0	0
+field drab	0	0	0	0	1	0	0	0
+fire engine red	0	0	0	0	1	0	0	0
+firebrick	0	0	0	0	1	0	0	0
+flame	0	0	0	0	1	0	0	0
+flamingo pink	0	0	0	0	1	0	0	0
+flavescent	0	0	0	0	1	0	0	0
+flax	0	0	0	0	1	0	0	0
+floral white	0	0	0	0	1	0	0	0
+fluorescent orange	0	0	0	0	1	0	0	0
+fluorescent pink	0	0	0	0	1	0	0	0
+fluorescent yellow	0	0	0	0	1	0	0	0
+folly	0	0	0	0	1	0	0	0
+forest green	0	0	0	0	1	0	0	0
+french beige	0	0	0	0	1	0	0	0
+french blue	0	0	0	0	1	0	0	0
+french lilac	0	0	0	0	1	0	0	0
+french rose	0	0	0	0	1	0	0	0
+fuchsia	0	0	0	0	1	0	0	0
+fuchsia pink	0	0	0	0	1	0	0	0
+fulvous	0	0	0	0	1	0	0	0
+fuzzy wuzzy	0	0	0	0	1	0	0	0
+gainsboro	0	0	0	0	1	0	0	0
+gamboge	0	0	0	0	1	0	0	0
+ghost white	0	0	0	0	1	0	0	0
+ginger	0	0	0	0	1	0	0	0
+glaucous	0	0	0	0	1	0	0	0
+glitter	0	0	0	0	1	0	0	0
+gold	0	0	0	0	1	0	0	0
+golden brown	0	0	0	0	1	0	0	0
+golden poppy	0	0	0	0	1	0	0	0
+golden yellow	0	0	0	0	1	0	0	0
+goldenrod	0	0	0	0	1	0	0	0
+granny smith apple	0	0	0	0	1	0	0	0
+gray	0	0	0	0	1	0	0	0
+gray asparagus	0	0	0	0	1	0	0	0
+green	0	0	0	0	1	0	0	0
+green blue	0	0	0	0	1	0	0	0
+green yellow	0	0	0	0	1	0	0	0
+grullo	0	0	0	0	1	0	0	0
+guppie green	0	0	0	0	1	0	0	0
+halayà úbe	0	0	0	0	1	0	0	0
+han blue	0	0	0	0	1	0	0	0
+han purple	0	0	0	0	1	0	0	0
+hansa yellow	0	0	0	0	1	0	0	0
+harlequin	0	0	0	0	1	0	0	0
+harvard crimson	0	0	0	0	1	0	0	0
+harvest gold	0	0	0	0	1	0	0	0
+heart gold	0	0	0	0	1	0	0	0
+heliotrope	0	0	0	0	1	0	0	0
+hollywood cerise	0	0	0	0	1	0	0	0
+honeydew	0	0	0	0	1	0	0	0
+hooker green	0	0	0	0	1	0	0	0
+hot magenta	0	0	0	0	1	0	0	0
+hot pink	0	0	0	0	1	0	0	0
+hunter green	0	0	0	0	1	0	0	0
+icterine	0	0	0	0	1	0	0	0
+inchworm	0	0	0	0	1	0	0	0
+india green	0	0	0	0	1	0	0	0
+indian red	0	0	0	0	1	0	0	0
+indian yellow	0	0	0	0	1	0	0	0
+indigo	0	0	0	0	1	0	0	0
+international klein blue	0	0	0	0	1	0	0	0
+international orange	0	0	0	0	1	0	0	0
+iris	0	0	0	0	1	0	0	0
+isabelline	0	0	0	0	1	0	0	0
+islamic green	0	0	0	0	1	0	0	0
+ivory	0	0	0	0	1	0	0	0
+jade	0	0	0	0	1	0	0	0
+jasmine	0	0	0	0	1	0	0	0
+jasper	0	0	0	0	1	0	0	0
+jazzberry jam	0	0	0	0	1	0	0	0
+jonquil	0	0	0	0	1	0	0	0
+june bud	0	0	0	0	1	0	0	0
+jungle green	0	0	0	0	1	0	0	0
+KU crimson	0	0	0	0	1	0	0	0
+kelly green	0	0	0	0	1	0	0	0
+khaki	0	0	0	0	1	0	0	0
+la salle green	0	0	0	0	1	0	0	0
+languid lavender	0	0	0	0	1	0	0	0
+lapis lazuli	0	0	0	0	1	0	0	0
+laser lemon	0	0	0	0	1	0	0	0
+laurel green	0	0	0	0	1	0	0	0
+lava	0	0	0	0	1	0	0	0
+lavender	0	0	0	0	1	0	0	0
+lavender blue	0	0	0	0	1	0	0	0
+lavender blush	0	0	0	0	1	0	0	0
+lavender gray	0	0	0	0	1	0	0	0
+lavender indigo	0	0	0	0	1	0	0	0
+lavender magenta	0	0	0	0	1	0	0	0
+lavender mist	0	0	0	0	1	0	0	0
+lavender pink	0	0	0	0	1	0	0	0
+lavender purple	0	0	0	0	1	0	0	0
+lavender rose	0	0	0	0	1	0	0	0
+lawn green	0	0	0	0	1	0	0	0
+lemon	0	0	0	0	1	0	0	0
+lemon yellow	0	0	0	0	1	0	0	0
+lemon chiffon	0	0	0	0	1	0	0	0
+lemon lime	0	0	0	0	1	0	0	0
+light crimson	0	0	0	0	1	0	0	0
+light thulian pink	0	0	0	0	1	0	0	0
+light apricot	0	0	0	0	1	0	0	0
+light blue	0	0	0	0	1	0	0	0
+light brown	0	0	0	0	1	0	0	0
+light carmine pink	0	0	0	0	1	0	0	0
+light coral	0	0	0	0	1	0	0	0
+light cornflower blue	0	0	0	0	1	0	0	0
+light cyan	0	0	0	0	1	0	0	0
+light fuchsia pink	0	0	0	0	1	0	0	0
+light goldenrod yellow	0	0	0	0	1	0	0	0
+light gray	0	0	0	0	1	0	0	0
+light green	0	0	0	0	1	0	0	0
+light khaki	0	0	0	0	1	0	0	0
+light pastel purple	0	0	0	0	1	0	0	0
+light pink	0	0	0	0	1	0	0	0
+light salmon	0	0	0	0	1	0	0	0
+light salmon pink	0	0	0	0	1	0	0	0
+light sea green	0	0	0	0	1	0	0	0
+light sky blue	0	0	0	0	1	0	0	0
+light slate gray	0	0	0	0	1	0	0	0
+light taupe	0	0	0	0	1	0	0	0
+light yellow	0	0	0	0	1	0	0	0
+lilac	0	0	0	0	1	0	0	0
+lime	0	0	0	0	1	0	0	0
+lime green	0	0	0	0	1	0	0	0
+lincoln green	0	0	0	0	1	0	0	0
+linen	0	0	0	0	1	0	0	0
+lion	0	0	0	0	1	0	0	0
+liver	0	0	0	0	1	0	0	0
+lust	0	0	0	0	1	0	0	0
+msu green	0	0	0	0	1	0	0	0
+macaroni and cheese	0	0	0	0	1	0	0	0
+magenta	0	0	0	0	1	0	0	0
+magic mint	0	0	0	0	1	0	0	0
+magnolia	0	0	0	0	1	0	0	0
+mahogany	0	0	0	0	1	0	0	0
+maize	0	0	0	0	1	0	0	0
+majorelle blue	0	0	0	0	1	0	0	0
+malachite	0	0	0	0	1	0	0	0
+manatee	0	0	0	0	1	0	0	0
+mango tango	0	0	0	0	1	0	0	0
+mantis	0	0	0	0	1	0	0	0
+maroon	0	0	0	0	1	0	0	0
+mauve	0	0	0	0	1	0	0	0
+mauve taupe	0	0	0	0	1	0	0	0
+mauvelous	0	0	0	0	1	0	0	0
+maya blue	0	0	0	0	1	0	0	0
+meat brown	0	0	0	0	1	0	0	0
+medium persian blue	0	0	0	0	1	0	0	0
+medium aquamarine	0	0	0	0	1	0	0	0
+medium blue	0	0	0	0	1	0	0	0
+medium candy apple red	0	0	0	0	1	0	0	0
+medium carmine	0	0	0	0	1	0	0	0
+medium champagne	0	0	0	0	1	0	0	0
+medium electric blue	0	0	0	0	1	0	0	0
+medium jungle green	0	0	0	0	1	0	0	0
+medium lavender magenta	0	0	0	0	1	0	0	0
+medium orchid	0	0	0	0	1	0	0	0
+medium purple	0	0	0	0	1	0	0	0
+medium red violet	0	0	0	0	1	0	0	0
+medium sea green	0	0	0	0	1	0	0	0
+medium slate blue	0	0	0	0	1	0	0	0
+medium spring bud	0	0	0	0	1	0	0	0
+medium spring green	0	0	0	0	1	0	0	0
+medium taupe	0	0	0	0	1	0	0	0
+medium teal blue	0	0	0	0	1	0	0	0
+medium turquoise	0	0	0	0	1	0	0	0
+medium violet red	0	0	0	0	1	0	0	0
+melon	0	0	0	0	1	0	0	0
+midnight blue	0	0	0	0	1	0	0	0
+midnight green	0	0	0	0	1	0	0	0
+mikado yellow	0	0	0	0	1	0	0	0
+mint	0	0	0	0	1	0	0	0
+mint cream	0	0	0	0	1	0	0	0
+mint green	0	0	0	0	1	0	0	0
+misty rose	0	0	0	0	1	0	0	0
+moccasin	0	0	0	0	1	0	0	0
+mode beige	0	0	0	0	1	0	0	0
+moonstone blue	0	0	0	0	1	0	0	0
+mordant red 19	0	0	0	0	1	0	0	0
+moss green	0	0	0	0	1	0	0	0
+mountain meadow	0	0	0	0	1	0	0	0
+mountbatten pink	0	0	0	0	1	0	0	0
+mulberry	0	0	0	0	1	0	0	0
+munsell	0	0	0	0	1	0	0	0
+mustard	0	0	0	0	1	0	0	0
+myrtle	0	0	0	0	1	0	0	0
+nadeshiko pink	0	0	0	0	1	0	0	0
+napier green	0	0	0	0	1	0	0	0
+naples yellow	0	0	0	0	1	0	0	0
+navajo white	0	0	0	0	1	0	0	0
+navy blue	0	0	0	0	1	0	0	0
+neon carrot	0	0	0	0	1	0	0	0
+neon fuchsia	0	0	0	0	1	0	0	0
+neon green	0	0	0	0	1	0	0	0
+non-photo blue	0	0	0	0	1	0	0	0
+north Texas green	0	0	0	0	1	0	0	0
+ocean boat blue	0	0	0	0	1	0	0	0
+ochre	0	0	0	0	1	0	0	0
+office green	0	0	0	0	1	0	0	0
+old gold	0	0	0	0	1	0	0	0
+old lace	0	0	0	0	1	0	0	0
+old lavender	0	0	0	0	1	0	0	0
+old mauve	0	0	0	0	1	0	0	0
+old rose	0	0	0	0	1	0	0	0
+olive	0	0	0	0	1	0	0	0
+olive drab	0	0	0	0	1	0	0	0
+olive green	0	0	0	0	1	0	0	0
+olivine	0	0	0	0	1	0	0	0
+onyx	0	0	0	0	1	0	0	0
+opera mauve	0	0	0	0	1	0	0	0
+orange	0	0	0	0	1	0	0	0
+orange yellow	0	0	0	0	1	0	0	0
+orange peel	0	0	0	0	1	0	0	0
+orange red	0	0	0	0	1	0	0	0
+orchid	0	0	0	0	1	0	0	0
+otter brown	0	0	0	0	1	0	0	0
+outer space	0	0	0	0	1	0	0	0
+outrageous orange	0	0	0	0	1	0	0	0
+oxford blue	0	0	0	0	1	0	0	0
+pacific blue	0	0	0	0	1	0	0	0
+pakistan green	0	0	0	0	1	0	0	0
+palatinate blue	0	0	0	0	1	0	0	0
+palatinate purple	0	0	0	0	1	0	0	0
+pale aqua	0	0	0	0	1	0	0	0
+pale blue	0	0	0	0	1	0	0	0
+pale brown	0	0	0	0	1	0	0	0
+pale carmine	0	0	0	0	1	0	0	0
+pale cerulean	0	0	0	0	1	0	0	0
+pale chestnut	0	0	0	0	1	0	0	0
+pale copper	0	0	0	0	1	0	0	0
+pale cornflower blue	0	0	0	0	1	0	0	0
+pale gold	0	0	0	0	1	0	0	0
+pale goldenrod	0	0	0	0	1	0	0	0
+pale green	0	0	0	0	1	0	0	0
+pale lavender	0	0	0	0	1	0	0	0
+pale magenta	0	0	0	0	1	0	0	0
+pale pink	0	0	0	0	1	0	0	0
+pale plum	0	0	0	0	1	0	0	0
+pale red violet	0	0	0	0	1	0	0	0
+pale robin egg blue	0	0	0	0	1	0	0	0
+pale silver	0	0	0	0	1	0	0	0
+pale spring bud	0	0	0	0	1	0	0	0
+pale taupe	0	0	0	0	1	0	0	0
+pale violet red	0	0	0	0	1	0	0	0
+pansy purple	0	0	0	0	1	0	0	0
+papaya whip	0	0	0	0	1	0	0	0
+paris green	0	0	0	0	1	0	0	0
+pastel blue	0	0	0	0	1	0	0	0
+pastel brown	0	0	0	0	1	0	0	0
+pastel gray	0	0	0	0	1	0	0	0
+pastel green	0	0	0	0	1	0	0	0
+pastel magenta	0	0	0	0	1	0	0	0
+pastel orange	0	0	0	0	1	0	0	0
+pastel pink	0	0	0	0	1	0	0	0
+pastel purple	0	0	0	0	1	0	0	0
+pastel red	0	0	0	0	1	0	0	0
+pastel violet	0	0	0	0	1	0	0	0
+pastel yellow	0	0	0	0	1	0	0	0
+patriarch	0	0	0	0	1	0	0	0
+payne grey	0	0	0	0	1	0	0	0
+peach	0	0	0	0	1	0	0	0
+peach puff	0	0	0	0	1	0	0	0
+peach yellow	0	0	0	0	1	0	0	0
+pear	0	0	0	0	1	0	0	0
+pearl	0	0	0	0	1	0	0	0
+pearl aqua	0	0	0	0	1	0	0	0
+peridot	0	0	0	0	1	0	0	0
+periwinkle	0	0	0	0	1	0	0	0
+persian blue	0	0	0	0	1	0	0	0
+persian indigo	0	0	0	0	1	0	0	0
+persian orange	0	0	0	0	1	0	0	0
+persian pink	0	0	0	0	1	0	0	0
+persian plum	0	0	0	0	1	0	0	0
+persian red	0	0	0	0	1	0	0	0
+persian rose	0	0	0	0	1	0	0	0
+phlox	0	0	0	0	1	0	0	0
+phthalo blue	0	0	0	0	1	0	0	0
+phthalo green	0	0	0	0	1	0	0	0
+piggy pink	0	0	0	0	1	0	0	0
+pine green	0	0	0	0	1	0	0	0
+pink	0	0	0	0	1	0	0	0
+pink flamingo	0	0	0	0	1	0	0	0
+pink sherbet	0	0	0	0	1	0	0	0
+pink pearl	0	0	0	0	1	0	0	0
+pistachio	0	0	0	0	1	0	0	0
+platinum	0	0	0	0	1	0	0	0
+plum	0	0	0	0	1	0	0	0
+portland orange	0	0	0	0	1	0	0	0
+powder blue	0	0	0	0	1	0	0	0
+princeton orange	0	0	0	0	1	0	0	0
+prussian blue	0	0	0	0	1	0	0	0
+psychedelic purple	0	0	0	0	1	0	0	0
+puce	0	0	0	0	1	0	0	0
+pumpkin	0	0	0	0	1	0	0	0
+purple	0	0	0	0	1	0	0	0
+purple heart	0	0	0	0	1	0	0	0
+purple mountain's majesty	0	0	0	0	1	0	0	0
+purple mountain majesty	0	0	0	0	1	0	0	0
+purple pizzazz	0	0	0	0	1	0	0	0
+purple taupe	0	0	0	0	1	0	0	0
+rackley	0	0	0	0	1	0	0	0
+radical red	0	0	0	0	1	0	0	0
+raspberry	0	0	0	0	1	0	0	0
+raspberry glace	0	0	0	0	1	0	0	0
+raspberry pink	0	0	0	0	1	0	0	0
+raspberry rose	0	0	0	0	1	0	0	0
+raw sienna	0	0	0	0	1	0	0	0
+razzle dazzle rose	0	0	0	0	1	0	0	0
+razzmatazz	0	0	0	0	1	0	0	0
+red	0	0	0	0	1	0	0	0
+red orange	0	0	0	0	1	0	0	0
+red brown	0	0	0	0	1	0	0	0
+red violet	0	0	0	0	1	0	0	0
+rich black	0	0	0	0	1	0	0	0
+rich carmine	0	0	0	0	1	0	0	0
+rich electric blue	0	0	0	0	1	0	0	0
+rich lilac	0	0	0	0	1	0	0	0
+rich maroon	0	0	0	0	1	0	0	0
+rifle green	0	0	0	0	1	0	0	0
+robin's egg blue	0	0	0	0	1	0	0	0
+rose	0	0	0	0	1	0	0	0
+rose bonbon	0	0	0	0	1	0	0	0
+rose ebony	0	0	0	0	1	0	0	0
+rose gold	0	0	0	0	1	0	0	0
+rose madder	0	0	0	0	1	0	0	0
+rose pink	0	0	0	0	1	0	0	0
+rose quartz	0	0	0	0	1	0	0	0
+rose taupe	0	0	0	0	1	0	0	0
+rose vale	0	0	0	0	1	0	0	0
+rosewood	0	0	0	0	1	0	0	0
+rosso corsa	0	0	0	0	1	0	0	0
+rosy brown	0	0	0	0	1	0	0	0
+royal azure	0	0	0	0	1	0	0	0
+royal blue	0	0	0	0	1	0	0	0
+royal fuchsia	0	0	0	0	1	0	0	0
+royal purple	0	0	0	0	1	0	0	0
+ruby	0	0	0	0	1	0	0	0
+ruddy	0	0	0	0	1	0	0	0
+ruddy brown	0	0	0	0	1	0	0	0
+ruddy pink	0	0	0	0	1	0	0	0
+rufous	0	0	0	0	1	0	0	0
+russet	0	0	0	0	1	0	0	0
+rust	0	0	0	0	1	0	0	0
+sacramento state green	0	0	0	0	1	0	0	0
+saddle brown	0	0	0	0	1	0	0	0
+safety orange	0	0	0	0	1	0	0	0
+saffron	0	0	0	0	1	0	0	0
+saint patrick blue	0	0	0	0	1	0	0	0
+salmon	0	0	0	0	1	0	0	0
+salmon pink	0	0	0	0	1	0	0	0
+sand	0	0	0	0	1	0	0	0
+sand dune	0	0	0	0	1	0	0	0
+sandstorm	0	0	0	0	1	0	0	0
+sandy brown	0	0	0	0	1	0	0	0
+sandy taupe	0	0	0	0	1	0	0	0
+sap green	0	0	0	0	1	0	0	0
+sapphire	0	0	0	0	1	0	0	0
+satin sheen gold	0	0	0	0	1	0	0	0
+scarlet	0	0	0	0	1	0	0	0
+school bus yellow	0	0	0	0	1	0	0	0
+screamin green	0	0	0	0	1	0	0	0
+sea blue	0	0	0	0	1	0	0	0
+sea green	0	0	0	0	1	0	0	0
+seal brown	0	0	0	0	1	0	0	0
+seashell	0	0	0	0	1	0	0	0
+selective yellow	0	0	0	0	1	0	0	0
+sepia	0	0	0	0	1	0	0	0
+shadow	0	0	0	0	1	0	0	0
+shamrock	0	0	0	0	1	0	0	0
+shamrock green	0	0	0	0	1	0	0	0
+shocking pink	0	0	0	0	1	0	0	0
+sienna	0	0	0	0	1	0	0	0
+silver	0	0	0	0	1	0	0	0
+sinopia	0	0	0	0	1	0	0	0
+skobeloff	0	0	0	0	1	0	0	0
+sky blue	0	0	0	0	1	0	0	0
+sky magenta	0	0	0	0	1	0	0	0
+slate blue	0	0	0	0	1	0	0	0
+slate gray	0	0	0	0	1	0	0	0
+smalt	0	0	0	0	1	0	0	0
+smokey topaz	0	0	0	0	1	0	0	0
+smoky black	0	0	0	0	1	0	0	0
+snow	0	1	0	0	1	0	0	0
+spiro disco ball	0	0	0	0	1	0	0	0
+spring bud	0	0	0	0	1	0	0	0
+spring green	0	0	0	0	1	0	0	0
+steel blue	0	0	0	0	1	0	0	0
+stil de grain yellow	0	0	0	0	1	0	0	0
+stizza	0	0	0	0	1	0	0	0
+stormcloud	0	0	0	0	1	0	0	0
+straw	0	0	0	0	1	0	0	0
+sunglow	0	0	0	0	1	0	0	0
+sunset	0	0	0	0	1	0	0	0
+sunset orange	0	0	0	0	1	0	0	0
+tan	0	0	0	0	1	0	0	0
+tangelo	0	0	0	0	1	0	0	0
+tangerine	0	0	0	0	1	0	0	0
+tangerine yellow	0	0	0	0	1	0	0	0
+taupe	0	0	0	0	1	0	0	0
+taupe gray	0	0	0	0	1	0	0	0
+tawny	0	0	0	0	1	0	0	0
+tea green	0	0	0	0	1	0	0	0
+tea rose	0	0	0	0	1	0	0	0
+teal	0	0	0	0	1	0	0	0
+teal blue	0	0	0	0	1	0	0	0
+teal green	0	0	0	0	1	0	0	0
+terra cotta	0	0	0	0	1	0	0	0
+thistle	0	0	0	0	1	0	0	0
+thulian pink	0	0	0	0	1	0	0	0
+tickle me pink	0	0	0	0	1	0	0	0
+tiffany blue	0	0	0	0	1	0	0	0
+tiger eye	0	0	0	0	1	0	0	0
+timberwolf	0	0	0	0	1	0	0	0
+titanium yellow	0	0	0	0	1	0	0	0
+tomato	0	0	0	0	1	0	0	0
+toolbox	0	0	0	0	1	0	0	0
+topaz	0	0	0	0	1	0	0	0
+tractor red	0	0	0	0	1	0	0	0
+trolley grey	0	0	0	0	1	0	0	0
+tropical rain forest	0	0	0	0	1	0	0	0
+true blue	0	0	0	0	1	0	0	0
+tufts blue	0	0	0	0	1	0	0	0
+tumbleweed	0	0	0	0	1	0	0	0
+turkish rose	0	0	0	0	1	0	0	0
+turquoise	0	0	0	0	1	0	0	0
+turquoise blue	0	0	0	0	1	0	0	0
+turquoise green	0	0	0	0	1	0	0	0
+tuscan red	0	0	0	0	1	0	0	0
+twilight lavender	0	0	0	0	1	0	0	0
+tyrian purple	0	0	0	0	1	0	0	0
+UA blue	0	0	0	0	1	0	0	0
+UA red	0	0	0	0	1	0	0	0
+UCLA blue	0	0	0	0	1	0	0	0
+UCLA gold	0	0	0	0	1	0	0	0
+UFO green	0	0	0	0	1	0	0	0
+UP forest green	0	0	0	0	1	0	0	0
+UP maroon	0	0	0	0	1	0	0	0
+USC cardinal	0	0	0	0	1	0	0	0
+USC gold	0	0	0	0	1	0	0	0
+ube	0	0	0	0	1	0	0	0
+ultra pink	0	0	0	0	1	0	0	0
+ultramarine	0	0	0	0	1	0	0	0
+ultramarine blue	0	0	0	0	1	0	0	0
+umber	0	0	0	0	1	0	0	0
+United Nations blue	0	0	0	0	1	0	0	0
+University of California gold	0	0	0	0	1	0	0	0
+unmellow yellow	0	0	0	0	1	0	0	0
+upsdell red	0	0	0	0	1	0	0	0
+urobilin	0	0	0	0	1	0	0	0
+utah crimson	0	0	0	0	1	0	0	0
+vanilla	0	0	0	0	1	0	0	0
+Vegas gold	0	0	0	0	1	0	0	0
+venetian red	0	0	0	0	1	0	0	0
+verdigris	0	0	0	0	1	0	0	0
+vermilion	0	0	0	0	1	0	0	0
+veronica	0	0	0	0	1	0	0	0
+violet	0	0	0	0	1	0	0	0
+violet blue	0	0	0	0	1	0	0	0
+violet red	0	0	0	0	1	0	0	0
+viridian	0	0	0	0	1	0	0	0
+vivid auburn	0	0	0	0	1	0	0	0
+vivid burgundy	0	0	0	0	1	0	0	0
+vivid cerise	0	0	0	0	1	0	0	0
+vivid tangerine	0	0	0	0	1	0	0	0
+vivid violet	0	0	0	0	1	0	0	0
+warm black	0	0	0	0	1	0	0	0
+waterspout	0	0	0	0	1	0	0	0
+wenge	0	0	0	0	1	0	0	0
+wheat	0	0	0	0	1	0	0	0
+white	0	0	0	0	1	0	0	0
+white smoke	0	0	0	0	1	0	0	0
+wild strawberry	0	0	0	0	1	0	0	0
+wild watermelon	0	0	0	0	1	0	0	0
+wild blue yonder	0	0	0	0	1	0	0	0
+wine	0	0	0	0	1	0	0	0
+wisteria	0	0	0	0	1	0	0	0
+xanadu	0	0	0	0	1	0	0	0
+yale blue	0	0	0	0	1	0	0	0
+yellow	0	0	0	0	1	0	0	0
+yellow orange	0	0	0	0	1	0	0	0
+yellow green	0	0	0	0	1	0	0	0
+zaffre	0	0	0	0	1	0	0	0
+zinnwaldite brown	0	0	0	0	1	0	0	0
+art nouveau	0	0	1	0	0	0	0	0
+Art Deco	0	0	1	0	0	0	0	0
+arts and crafts	0	0	1	0	0	0	0	0
+american kitsch	0	0	1	0	0	0	0	0
+contemporary	0	0	1	0	0	0	0	0
+digital	0	0	1	0	0	0	0	0
+grunge	0	0	1	0	0	0	0	0
+early modern	0	0	1	0	0	0	0	0
+late modern	0	0	1	0	0	0	0	0
+post-modern	0	0	1	0	0	0	0	0
+post-post-modern	0	0	1	0	0	0	0	0
+psychedelic	0	0	1	0	0	0	0	0
+Swiss design	0	0	1	0	0	0	0	0
+international design	0	0	1	0	0	0	0	0
+Victorian	0	0	1	0	0	0	0	0
+Bauhaus	0	0	1	0	0	0	0	0
+Biedermeier	0	0	1	0	0	0	0	0
+classicist	0	0	1	0	0	0	0	0
+cubist	0	0	1	0	0	0	0	0
+expressionist	0	0	1	0	0	0	0	0
+gothic	0	0	1	0	0	0	0	0
+impressionist	0	0	1	0	0	0	0	0
+seapunk	0	0	1	0	0	0	0	0
+vaporwave	0	0	1	0	0	0	0	0
+glitch	0	0	1	0	0	0	0	0
+mannerist	0	0	1	0	0	0	0	0
+minimalist	0	0	1	0	0	0	0	0
+neo-Baroque	0	0	1	0	0	0	0	0
+neo-romanticist	0	0	1	0	0	0	0	0
+orphic	0	0	1	0	0	0	0	0
+New Wave	0	0	1	0	0	0	0	0
+photographic	0	0	1	0	0	0	0	0
+photorealistic	0	0	1	0	0	0	0	0
+surrealist	0	0	1	0	0	0	0	0
+comic	0	0	1	0	0	0	0	0
+comics-inspired	0	0	1	0	0	0	0	0
+pop art	0	0	1	0	0	0	0	0
+hypermodernist	0	0	1	0	0	0	0	0
+dadaist	0	0	1	0	0	0	0	0
+Fauvist	0	0	1	0	0	0	0	0
+DIY	0	0	1	0	0	0	0	0
+messy	0	0	1	0	0	0	0	0
+photocopied	0	0	1	0	0	0	0	0
+etched	0	0	1	0	0	0	0	0
+woodcut	0	0	1	0	0	0	0	0
+Superflat	0	0	1	0	0	0	0	0
+collage	0	0	1	0	0	0	0	0
+funky	0	0	1	0	0	0	0	0
+futurist	0	0	1	0	0	0	0	0
+punk	0	0	1	0	0	0	0	0
+Soviet	0	0	1	0	0	0	0	0
+propaganda	0	0	1	0	0	0	0	0
+outsider art	0	0	1	0	0	0	0	0
+abstract	0	0	1	0	0	0	0	0
+Fluxus	0	0	1	0	0	0	0	0
+geometric	0	0	1	0	0	0	0	0
+maximalist	0	0	1	0	0	0	0	0
+neo-primitivist	0	0	1	0	0	0	0	0
+rococo	0	0	1	0	0	0	0	0
+gilded	0	0	1	0	0	0	0	0
+vorticist	0	0	1	0	0	0	0	0
+Stuckist	0	0	1	0	0	0	0	0
+disco	0	0	1	0	0	0	0	0
+junk art	0	0	1	0	0	0	0	0
+painterly	0	0	1	0	0	0	0	0
+typography-heavy	0	0	1	0	0	0	0	0
+super-geometric	0	0	1	0	0	0	0	0
+technical	0	0	1	0	0	0	0	0
+simple	0	0	1	0	0	0	0	0
+retro	0	0	1	0	0	0	0	0
+modernist	0	0	1	0	0	0	0	0
+De Stijl	0	0	1	0	0	0	0	0
+Suprematism	0	0	1	0	0	0	0	0
+corporate	0	0	1	0	0	0	0	0
+brutalist	0	0	1	0	0	0	0	0
+nostalgic	0	0	1	0	0	0	0	0
+kinetic	0	0	1	0	0	0	0	0
+equestrian	0	0	1	0	0	0	0	0
+funerary	0	0	1	0	0	0	0	0
+assemblage	0	0	1	0	0	0	0	0
+luminescent	0	0	1	0	0	0	0	0
+imposing	0	0	1	0	0	0	0	0
+tondo	0	0	1	0	0	0	0	0
+memorial	0	0	1	0	0	0	0	0
+dualistic	0	0	1	0	0	0	0	0
+fascist	0	0	1	0	0	0	0	0
+futurist	0	0	1	0	0	0	0	0
+separatist	0	0	1	0	0	0	0	0
+neoconservative	0	0	1	0	0	0	0	0
+neoliberal	0	0	1	0	0	0	0	0
+capitalist	0	0	1	0	0	0	0	0
+Anti-capitalist	0	0	1	0	0	0	0	0
+rebellious	0	0	1	0	0	0	0	0
+libertarian	0	0	1	0	0	0	0	0
+environmentalist	0	0	1	0	0	0	0	0
+secular	0	0	1	0	0	0	0	0
+democratic	0	0	1	0	0	0	0	0
+Communist	0	0	1	0	0	0	0	0
+feminist	0	0	1	0	0	0	0	0
+ecofeminist	0	0	1	0	0	0	0	0
+post-human	0	0	1	0	0	0	0	0
+post-post-human	0	0	1	0	0	0	0	0
+transhuman	0	0	1	0	0	0	0	0
+Hippie	0	0	1	0	0	0	0	0
+student-centric	0	0	1	0	0	0	0	0
+scholarly	0	0	1	0	0	0	0	0
+monastic	0	0	1	0	0	0	0	0
+hedonistic	0	0	1	0	0	0	0	0
+epicurean	0	0	1	0	0	0	0	0
+Catholicpunk	0	0	1	0	0	0	0	0
+Dentalpunk	0	0	1	0	0	0	0	0
+Dairypunk	0	0	1	0	0	0	0	0
+honeycombed	0	0	1	0	0	0	0	0
+late capitalist	0	0	1	0	0	0	0	0
+post-structuralist	0	0	1	0	0	0	0	0
+acrid	0	0	0	0	0	1	0	0
+damp	0	0	0	0	0	1	0	0
+delicious	0	0	0	0	0	1	0	0
+earthy	0	0	0	0	0	1	0	0
+flowery	0	0	0	0	0	1	0	0
+fresh	0	0	0	0	0	1	0	0
+like a can of tennis balls	0	0	0	0	0	1	0	0
+like alcohol	0	0	0	0	0	1	0	0
+like babies	0	0	0	0	0	1	0	0
+like bleach	0	0	0	0	0	1	0	0
+like dead leaves	0	0	0	0	0	1	0	0
+like grass	0	0	0	0	0	1	0	0
+like gunpowder	0	0	0	0	0	1	0	0
+like oil	0	0	0	0	0	1	0	0
+like ozone	0	0	0	0	0	1	0	0
+like paint	0	0	0	0	0	1	0	0
+like paper	0	0	0	0	0	1	0	0
+like peppermint	0	0	0	0	0	1	0	0
+like petrichor	0	0	0	0	0	1	0	0
+like rubber	0	0	0	0	0	1	0	0
+like sawdust	0	0	0	0	0	1	0	0
+like tobacco	0	0	0	0	0	1	0	0
+medicinal	0	0	0	0	0	1	0	0
+metallic	0	0	0	0	0	1	0	0
+musky	0	0	0	0	0	1	0	0
+musty	0	0	0	0	0	1	0	0
+like old books	0	0	0	0	0	1	0	0
+perfumed	0	0	0	0	0	1	0	0
+putrid	0	0	0	0	0	1	0	0
+rancid	0	0	0	0	0	1	0	0
+resinous	0	0	0	0	0	1	0	0
+salty	0	0	0	0	0	1	0	0
+smoky	0	0	0	0	0	1	0	0
+sour	0	0	0	0	0	1	0	0
+stale	0	0	0	0	0	1	0	0
+stuffy	0	0	0	0	0	1	0	0
+sweaty	0	0	0	0	0	1	0	0
+tangy	0	0	0	0	0	1	0	0
+woodsy	0	0	0	0	0	1	0	0
+yeasty	0	0	0	0	0	1	0	0
+the American Southwest	0	0	0	0	0	0	1	0
+the Pacific Northwest	0	0	0	0	0	0	1	0
+the Rust Belt	0	0	0	0	0	0	1	0
+the Bible Belt	0	0	0	0	0	0	1	0
+the American South	0	0	0	0	0	0	1	0
+New England	0	0	0	0	0	0	1	0
+the American Midwest	0	0	0	0	0	0	1	0
+the American Mid-Atlantic	0	0	0	0	0	0	1	0
+Alabama	0	0	0	0	0	0	1	0
+Alaska	0	0	0	0	0	0	1	0
+Arizona	0	0	0	0	0	0	1	0
+Arkansas	0	0	0	0	0	0	1	0
+California	0	0	0	0	0	0	1	0
+Colorado	0	0	0	0	0	0	1	0
+Connecticut	0	0	0	0	0	0	1	0
+Delaware	0	0	0	0	0	0	1	0
+Florida	0	0	0	0	0	0	1	0
+Georgia	0	0	0	0	0	0	1	0
+Hawaii	0	0	0	0	0	0	1	0
+Idaho	0	0	0	0	0	0	1	0
+Illinois	0	0	0	0	0	0	1	0
+Indiana	0	0	0	0	0	0	1	0
+Iowa	0	0	0	0	0	0	1	0
+Kansas	0	0	0	0	0	0	1	0
+Kentucky	0	0	0	0	0	0	1	0
+Louisiana	0	0	0	0	0	0	1	0
+Maine	0	0	0	0	0	0	1	0
+Maryland	0	0	0	0	0	0	1	0
+Massachusetts	0	0	0	0	0	0	1	0
+Michigan	0	0	0	0	0	0	1	0
+Minnesota	0	0	0	0	0	0	1	0
+Mississippi	0	0	0	0	0	0	1	0
+Missouri	0	0	0	0	0	0	1	0
+Montana	0	0	0	0	0	0	1	0
+Nebraska	0	0	0	0	0	0	1	0
+Nevada	0	0	0	0	0	0	1	0
+New Hampshire	0	0	0	0	0	0	1	0
+New Jersey	0	0	0	0	0	0	1	0
+New Mexico	0	0	0	0	0	0	1	0
+New York	0	0	0	0	0	0	1	0
+North Carolina	0	0	0	0	0	0	1	0
+North Dakota	0	0	0	0	0	0	1	0
+Ohio	0	0	0	0	0	0	1	0
+Oklahoma	0	0	0	0	0	0	1	0
+Oregon	0	0	0	0	0	0	1	0
+Pennsylvania	0	0	0	0	0	0	1	0
+Rhode Island	0	0	0	0	0	0	1	0
+South Carolina	0	0	0	0	0	0	1	0
+South Dakota	0	0	0	0	0	0	1	0
+Tennessee	0	0	0	0	0	0	1	0
+Texas	0	0	0	0	0	0	1	0
+Utah	0	0	0	0	0	0	1	0
+Vermont	0	0	0	0	0	0	1	0
+Virginia	0	0	0	0	0	0	1	0
+Washington	0	0	0	0	0	0	1	0
+West Virginia	0	0	0	0	0	0	1	0
+Wisconsin	0	0	0	0	0	0	1	0
+Wyoming	0	0	0	0	0	0	1	0
+Shanghai	0	0	0	0	0	0	1	0
+Karachi	0	0	0	0	0	0	1	0
+Beijing	0	0	0	0	0	0	1	0
+São Paulo	0	0	0	0	0	0	1	0
+Delhi	0	0	0	0	0	0	1	0
+Lagos	0	0	0	0	0	0	1	0
+Instanbul	0	0	0	0	0	0	1	0
+Tokyo	0	0	0	0	0	0	1	0
+Mumbai	0	0	0	0	0	0	1	0
+Moscow	0	0	0	0	0	0	1	0
+Guangzhou	0	0	0	0	0	0	1	0
+Shenzhen	0	0	0	0	0	0	1	0
+Suzhou	0	0	0	0	0	0	1	0
+Kinshasa	0	0	0	0	0	0	1	0
+Cairo	0	0	0	0	0	0	1	0
+Jakarta	0	0	0	0	0	0	1	0
+Lahore	0	0	0	0	0	0	1	0
+Seoul	0	0	0	0	0	0	1	0
+Mexico City	0	0	0	0	0	0	1	0
+London	0	0	0	0	0	0	1	0
+Lima	0	0	0	0	0	0	1	0
+New York City	0	0	0	0	0	0	1	0
+Bengaluru	0	0	0	0	0	0	1	0
+Bangkok	0	0	0	0	0	0	1	0
+Dongguan	0	0	0	0	0	0	1	0
+Chongquing	0	0	0	0	0	0	1	0
+Nanjing	0	0	0	0	0	0	1	0
+Tehran	0	0	0	0	0	0	1	0
+Shenyang	0	0	0	0	0	0	1	0
+Bogotá	0	0	0	0	0	0	1	0
+Ho Chi Minh City	0	0	0	0	0	0	1	0
+Hong Kong	0	0	0	0	0	0	1	0
+Baghdad	0	0	0	0	0	0	1	0
+Chennai	0	0	0	0	0	0	1	0
+Changsha	0	0	0	0	0	0	1	0
+Dhaka	0	0	0	0	0	0	1	0
+Singapore	0	0	0	0	0	0	1	0
+Los Angeles	0	0	0	0	0	0	1	0
+Kabul	0	0	0	0	0	0	1	0
+Madrid	0	0	0	0	0	0	1	0
+Paris	0	0	0	0	0	0	1	0
+Casablanca	0	0	0	0	0	0	1	0
+Osaka	0	0	0	0	0	0	1	0
+Chicago	0	0	0	0	0	0	1	0
+Houston	0	0	0	0	0	0	1	0
+Philadelphia	0	0	0	0	0	0	1	0
+Manila	0	0	0	0	0	0	1	0
+Taipei	0	0	0	0	0	0	1	0
+Central Europe	0	0	0	0	0	0	1	0
+Eastern Europe	0	0	0	0	0	0	1	0
+Scandinavia	0	0	0	0	0	0	1	0
+Southern Europe	0	0	0	0	0	0	1	0
+France	0	0	0	0	0	0	1	0
+Germany	0	0	0	0	0	0	1	0
+the UK	0	0	0	0	0	0	1	0
+Italy	0	0	0	0	0	0	1	0
+Iceland	0	0	0	0	0	0	1	0
+Ireland	0	0	0	0	0	0	1	0
+Switzerland	0	0	0	0	0	0	1	0
+the Swiss Alps	0	0	0	0	0	0	1	0
+Greece	0	0	0	0	0	0	1	0
+Croatia	0	0	0	0	0	0	1	0
+Austria	0	0	0	0	0	0	1	0
+Poland	0	0	0	0	0	0	1	0
+Ukraine	0	0	0	0	0	0	1	0
+Belgium	0	0	0	0	0	0	1	0
+Malta	0	0	0	0	0	0	1	0
+Czechia	0	0	0	0	0	0	1	0
+Sweden	0	0	0	0	0	0	1	0
+Norway	0	0	0	0	0	0	1	0
+Denmark	0	0	0	0	0	0	1	0
+Cyprus	0	0	0	0	0	0	1	0
+Bulgaria	0	0	0	0	0	0	1	0
+Hungary	0	0	0	0	0	0	1	0
+Albania	0	0	0	0	0	0	1	0
+Romania	0	0	0	0	0	0	1	0
+Monaco	0	0	0	0	0	0	1	0
+Finland	0	0	0	0	0	0	1	0
+Slovenia	0	0	0	0	0	0	1	0
+Brazil	0	0	0	0	0	0	1	0
+Venezuela	0	0	0	0	0	0	1	0
+Argentina	0	0	0	0	0	0	1	0
+Peru	0	0	0	0	0	0	1	0
+Chile	0	0	0	0	0	0	1	0
+Colombia	0	0	0	0	0	0	1	0
+Ecuador	0	0	0	0	0	0	1	0
+Bolivia	0	0	0	0	0	0	1	0
+Uruguay	0	0	0	0	0	0	1	0
+Paraguay	0	0	0	0	0	0	1	0
+the Caribbean	0	0	0	0	0	0	1	0
+Mexico	0	0	0	0	0	0	1	0
+Canada	0	0	0	0	0	0	1	0
+Costa Rica	0	0	0	0	0	0	1	0
+El Salvador	0	0	0	0	0	0	1	0
+Guatemala	0	0	0	0	0	0	1	0
+Honduras	0	0	0	0	0	0	1	0
+Central Asia	0	0	0	0	0	0	1	0
+Kazakhstan	0	0	0	0	0	0	1	0
+Kyrgyzstan	0	0	0	0	0	0	1	0
+Tajikistan	0	0	0	0	0	0	1	0
+Turkmenistan	0	0	0	0	0	0	1	0
+Uzbekistan	0	0	0	0	0	0	1	0
+China	0	0	0	0	0	0	1	0
+India	0	0	0	0	0	0	1	0
+Pakistan	0	0	0	0	0	0	1	0
+Japan	0	0	0	0	0	0	1	0
+Korea	0	0	0	0	0	0	1	0
+North Korea	0	0	0	0	0	0	1	0
+Australia	0	0	0	0	0	0	1	0
+New Zealand	0	0	0	0	0	0	1	0
+Antarctica	0	0	0	0	0	0	1	0
+Morocco	0	0	0	0	0	0	1	0
+South Africa	0	0	0	0	0	0	1	0
+Algeria	0	0	0	0	0	0	1	0
+Nigeria	0	0	0	0	0	0	1	0
+Kenya	0	0	0	0	0	0	1	0
+Tunisia	0	0	0	0	0	0	1	0
+Ethiopia	0	0	0	0	0	0	1	0
+Mauritius	0	0	0	0	0	0	1	0
+Tanzania	0	0	0	0	0	0	1	0
+Libya	0	0	0	0	0	0	1	0
+Madagascar	0	0	0	0	0	0	1	0
+Qatar	0	0	0	0	0	0	1	0
+Saudi Arabia	0	0	0	0	0	0	1	0
+Panama	0	0	0	0	0	0	1	0
+Cuba	0	0	0	0	0	0	1	0
+Venice	0	0	0	0	0	0	1	0
+Seville	0	0	0	0	0	0	1	0
+Lhasa	0	0	0	0	0	0	1	0
+Rio de Janeiro	0	0	0	0	0	0	1	0
+Marrakesh	0	0	0	0	0	0	1	0
+Petra	0	0	0	0	0	0	1	0
+Florence	0	0	0	0	0	0	1	0
+Havana	0	0	0	0	0	0	1	0
+Kyoto	0	0	0	0	0	0	1	0
+Jerusalem	0	0	0	0	0	0	1	0
+Athens	0	0	0	0	0	0	1	0
+Kathmandu	0	0	0	0	0	0	1	0
+a moon colony	0	0	0	0	0	0	1	0
+a Martian colony	0	0	0	0	0	0	1	0
+an asteroid mining colony	0	0	0	0	0	0	1	0
+a deep space station	0	0	0	0	0	0	1	0
+space	0	0	0	0	0	0	1	0
+a fallen empire	0	0	0	0	0	0	1	0
+a frontier	0	0	0	0	0	0	1	0
+a world like our own	0	0	0	0	0	0	1	0
+a virtual world	0	0	0	0	0	0	1	0
+a deep jungle	0	0	0	0	0	0	1	0
+an undersea society	0	0	0	0	0	0	1	0
+a primitive society	0	0	0	0	0	0	1	0
+a battleground	0	0	0	0	0	0	1	0
+the Internet	0	0	0	0	0	0	1	0
+a dream	0	0	0	0	0	0	1	0
+screams	0	0	0	0	0	0	0	1
+conversation	0	0	0	0	0	0	0	1
+music	0	0	0	0	0	0	0	1
+gunfire	0	0	0	0	0	0	0	1
+traffic	0	0	0	0	0	0	0	1
+industry	0	0	0	0	0	0	0	1
+machinery	0	0	0	0	0	0	0	1
+birdsong	0	0	0	0	0	0	0	1
+flowing water	0	0	0	0	0	0	0	1
+rainfall	0	0	0	0	0	0	0	1
+storms	0	0	0	0	0	0	0	1
+ocean waves	0	0	0	0	0	0	0	1
+steam trains	0	0	0	0	0	0	0	1
+horses	0	0	0	0	0	0	0	1
+panpipes	0	0	0	0	0	0	0	1
+insects	0	0	0	0	0	0	0	1
+didgeridoo	0	0	0	0	0	0	0	1
+fireworks	0	0	0	0	0	0	0	1
+demolition	0	0	0	0	0	0	0	1
+piano	0	0	0	0	0	0	0	1
+static	0	0	0	0	0	0	0	1
+accordion	0	0	0	0	0	0	0	1
+bass	0	0	0	0	0	0	0	1
+bagpipes	0	0	0	0	0	0	0	1
+sitar	0	0	0	0	0	0	0	1
+saxophone	0	0	0	0	0	0	0	1
+a cappella music	0	0	0	0	0	0	0	1
+abstract music	0	0	0	0	0	0	0	1
+abstract beats music	0	0	0	0	0	0	0	1
+abstract hip hop music	0	0	0	0	0	0	0	1
+abstract idm music	0	0	0	0	0	0	0	1
+abstractro music	0	0	0	0	0	0	0	1
+accordion music	0	0	0	0	0	0	0	1
+acid house music	0	0	0	0	0	0	0	1
+acid jazz music	0	0	0	0	0	0	0	1
+acid techno music	0	0	0	0	0	0	0	1
+acousmatic music	0	0	0	0	0	0	0	1
+acoustic blues music	0	0	0	0	0	0	0	1
+acoustic pop music	0	0	0	0	0	0	0	1
+adult standards music	0	0	0	0	0	0	0	1
+african percussion music	0	0	0	0	0	0	0	1
+african rock music	0	0	0	0	0	0	0	1
+afrikaans music	0	0	0	0	0	0	0	1
+afrobeat music	0	0	0	0	0	0	0	1
+afrobeats music	0	0	0	0	0	0	0	1
+aggrotech music	0	0	0	0	0	0	0	1
+albanian pop music	0	0	0	0	0	0	0	1
+album rock music	0	0	0	0	0	0	0	1
+albuquerque indie music	0	0	0	0	0	0	0	1
+alternative americana music	0	0	0	0	0	0	0	1
+alternative country music	0	0	0	0	0	0	0	1
+alternative dance music	0	0	0	0	0	0	0	1
+alternative emo music	0	0	0	0	0	0	0	1
+alternative hardcore music	0	0	0	0	0	0	0	1
+alternative hip hop music	0	0	0	0	0	0	0	1
+alternative metal music	0	0	0	0	0	0	0	1
+alternative metalcore music	0	0	0	0	0	0	0	1
+alternative new age music	0	0	0	0	0	0	0	1
+alternative pop music	0	0	0	0	0	0	0	1
+alternative pop rock music	0	0	0	0	0	0	0	1
+alternative r&b music	0	0	0	0	0	0	0	1
+alternative rock music	0	0	0	0	0	0	0	1
+alternative roots rock music	0	0	0	0	0	0	0	1
+ambeat music	0	0	0	0	0	0	0	1
+ambient music	0	0	0	0	0	0	0	1
+ambient dub techno music	0	0	0	0	0	0	0	1
+ambient fusion music	0	0	0	0	0	0	0	1
+ambient idm music	0	0	0	0	0	0	0	1
+ambient psychill music	0	0	0	0	0	0	0	1
+ambient trance music	0	0	0	0	0	0	0	1
+anarcho-punk music	0	0	0	0	0	0	0	1
+andean music	0	0	0	0	0	0	0	1
+anime music	0	0	0	0	0	0	0	1
+anime score music	0	0	0	0	0	0	0	1
+anti-folk music	0	0	0	0	0	0	0	1
+antiviral pop music	0	0	0	0	0	0	0	1
+appalachian folk music	0	0	0	0	0	0	0	1
+arab folk music	0	0	0	0	0	0	0	1
+arab pop music	0	0	0	0	0	0	0	1
+arabesk music	0	0	0	0	0	0	0	1
+argentine indie music	0	0	0	0	0	0	0	1
+argentine reggae music	0	0	0	0	0	0	0	1
+argentine rock music	0	0	0	0	0	0	0	1
+armenian folk music	0	0	0	0	0	0	0	1
+art rock music	0	0	0	0	0	0	0	1
+athens indie music	0	0	0	0	0	0	0	1
+atmospheric black metal music	0	0	0	0	0	0	0	1
+atmospheric post rock music	0	0	0	0	0	0	0	1
+atmospheric post-metal music	0	0	0	0	0	0	0	1
+aussietronica music	0	0	0	0	0	0	0	1
+austindie music	0	0	0	0	0	0	0	1
+australian alternative rock music	0	0	0	0	0	0	0	1
+australian country music	0	0	0	0	0	0	0	1
+australian dance music	0	0	0	0	0	0	0	1
+australian hip hop music	0	0	0	0	0	0	0	1
+australian indie music	0	0	0	0	0	0	0	1
+australian pop music	0	0	0	0	0	0	0	1
+austrian hip hop music	0	0	0	0	0	0	0	1
+austropop music	0	0	0	0	0	0	0	1
+avant-garde music	0	0	0	0	0	0	0	1
+avant-garde jazz music	0	0	0	0	0	0	0	1
+avantgarde metal music	0	0	0	0	0	0	0	1
+axe music	0	0	0	0	0	0	0	1
+azonto music	0	0	0	0	0	0	0	1
+bachata music	0	0	0	0	0	0	0	1
+baile funk music	0	0	0	0	0	0	0	1
+balearic music	0	0	0	0	0	0	0	1
+balkan brass music	0	0	0	0	0	0	0	1
+banda music	0	0	0	0	0	0	0	1
+bangla music	0	0	0	0	0	0	0	1
+barbershop music	0	0	0	0	0	0	0	1
+barnemusikk music	0	0	0	0	0	0	0	1
+barnmusik music	0	0	0	0	0	0	0	1
+baroque music	0	0	0	0	0	0	0	1
+baroque ensemble music	0	0	0	0	0	0	0	1
+basque rock music	0	0	0	0	0	0	0	1
+bass music	0	0	0	0	0	0	0	1
+bass trip music	0	0	0	0	0	0	0	1
+bassline music	0	0	0	0	0	0	0	1
+bay area hip hop music	0	0	0	0	0	0	0	1
+beach music	0	0	0	0	0	0	0	1
+beatdown music	0	0	0	0	0	0	0	1
+beats & rhymes music	0	0	0	0	0	0	0	1
+bebop music	0	0	0	0	0	0	0	1
+belgian indie music	0	0	0	0	0	0	0	1
+belgian rock music	0	0	0	0	0	0	0	1
+belly dance music	0	0	0	0	0	0	0	1
+belorush music	0	0	0	0	0	0	0	1
+bemani music	0	0	0	0	0	0	0	1
+benga music	0	0	0	0	0	0	0	1
+bhangra music	0	0	0	0	0	0	0	1
+big band music	0	0	0	0	0	0	0	1
+big beat music	0	0	0	0	0	0	0	1
+big room music	0	0	0	0	0	0	0	1
+black death music	0	0	0	0	0	0	0	1
+black metal music	0	0	0	0	0	0	0	1
+black sludge music	0	0	0	0	0	0	0	1
+black thrash music	0	0	0	0	0	0	0	1
+blackgaze music	0	0	0	0	0	0	0	1
+blaskapelle music	0	0	0	0	0	0	0	1
+bluegrass music	0	0	0	0	0	0	0	1
+blues music	0	0	0	0	0	0	0	1
+blues-rock music	0	0	0	0	0	0	0	1
+blues-rock guitar music	0	0	0	0	0	0	0	1
+bmore music	0	0	0	0	0	0	0	1
+bolero music	0	0	0	0	0	0	0	1
+boogaloo music	0	0	0	0	0	0	0	1
+boogie-woogie music	0	0	0	0	0	0	0	1
+bossa nova music	0	0	0	0	0	0	0	1
+bossa nova jazz music	0	0	0	0	0	0	0	1
+boston rock music	0	0	0	0	0	0	0	1
+bounce music	0	0	0	0	0	0	0	1
+bouncy house music	0	0	0	0	0	0	0	1
+bow pop music	0	0	0	0	0	0	0	1
+boy band music	0	0	0	0	0	0	0	1
+brass band music	0	0	0	0	0	0	0	1
+brass ensemble music	0	0	0	0	0	0	0	1
+brazilian composition music	0	0	0	0	0	0	0	1
+brazilian gospel music	0	0	0	0	0	0	0	1
+brazilian hip hop music	0	0	0	0	0	0	0	1
+brazilian indie music	0	0	0	0	0	0	0	1
+brazilian pop music	0	0	0	0	0	0	0	1
+brazilian punk music	0	0	0	0	0	0	0	1
+breakbeat music	0	0	0	0	0	0	0	1
+breakcore music	0	0	0	0	0	0	0	1
+breaks music	0	0	0	0	0	0	0	1
+brega music	0	0	0	0	0	0	0	1
+breton folk music	0	0	0	0	0	0	0	1
+brill building pop music	0	0	0	0	0	0	0	1
+british alternative rock music	0	0	0	0	0	0	0	1
+british blues music	0	0	0	0	0	0	0	1
+british brass band music	0	0	0	0	0	0	0	1
+british dance band music	0	0	0	0	0	0	0	1
+british folk music	0	0	0	0	0	0	0	1
+british indie rock music	0	0	0	0	0	0	0	1
+british invasion music	0	0	0	0	0	0	0	1
+britpop music	0	0	0	0	0	0	0	1
+broadway music	0	0	0	0	0	0	0	1
+broken beat music	0	0	0	0	0	0	0	1
+brooklyn indie music	0	0	0	0	0	0	0	1
+brostep music	0	0	0	0	0	0	0	1
+brutal death metal music	0	0	0	0	0	0	0	1
+brutal deathcore music	0	0	0	0	0	0	0	1
+bubble trance music	0	0	0	0	0	0	0	1
+bubblegum dance music	0	0	0	0	0	0	0	1
+bubblegum pop music	0	0	0	0	0	0	0	1
+bulgarian rock music	0	0	0	0	0	0	0	1
+byzantine music	0	0	0	0	0	0	0	1
+c-pop music	0	0	0	0	0	0	0	1
+c64 music	0	0	0	0	0	0	0	1
+c86 music	0	0	0	0	0	0	0	1
+cabaret music	0	0	0	0	0	0	0	1
+cajun music	0	0	0	0	0	0	0	1
+calypso music	0	0	0	0	0	0	0	1
+canadian country music	0	0	0	0	0	0	0	1
+canadian hip hop music	0	0	0	0	0	0	0	1
+canadian indie music	0	0	0	0	0	0	0	1
+canadian metal music	0	0	0	0	0	0	0	1
+canadian pop music	0	0	0	0	0	0	0	1
+candy pop music	0	0	0	0	0	0	0	1
+cantautor music	0	0	0	0	0	0	0	1
+cante flamenco music	0	0	0	0	0	0	0	1
+canterbury scene music	0	0	0	0	0	0	0	1
+cantopop music	0	0	0	0	0	0	0	1
+canzone napoletana music	0	0	0	0	0	0	0	1
+capoeira music	0	0	0	0	0	0	0	1
+carnatic music	0	0	0	0	0	0	0	1
+catstep music	0	0	0	0	0	0	0	1
+caucasian folk music	0	0	0	0	0	0	0	1
+ccm music	0	0	0	0	0	0	0	1
+ceilidh music	0	0	0	0	0	0	0	1
+cello music	0	0	0	0	0	0	0	1
+celtic music	0	0	0	0	0	0	0	1
+celtic christmas music	0	0	0	0	0	0	0	1
+celtic punk music	0	0	0	0	0	0	0	1
+celtic rock music	0	0	0	0	0	0	0	1
+central asian folk music	0	0	0	0	0	0	0	1
+chalga music	0	0	0	0	0	0	0	1
+chamber pop music	0	0	0	0	0	0	0	1
+chanson music	0	0	0	0	0	0	0	1
+chanson quebecois music	0	0	0	0	0	0	0	1
+chaotic black metal music	0	0	0	0	0	0	0	1
+chaotic hardcore music	0	0	0	0	0	0	0	1
+charred death music	0	0	0	0	0	0	0	1
+chicago blues music	0	0	0	0	0	0	0	1
+chicago house music	0	0	0	0	0	0	0	1
+chicago indie music	0	0	0	0	0	0	0	1
+chicago soul music	0	0	0	0	0	0	0	1
+chicano rap music	0	0	0	0	0	0	0	1
+children's christmas music	0	0	0	0	0	0	0	1
+children's music	0	0	0	0	0	0	0	1
+chilean rock music	0	0	0	0	0	0	0	1
+chill groove music	0	0	0	0	0	0	0	1
+chill lounge music	0	0	0	0	0	0	0	1
+chill-out music	0	0	0	0	0	0	0	1
+chill-out trance music	0	0	0	0	0	0	0	1
+chillstep music	0	0	0	0	0	0	0	1
+chillwave music	0	0	0	0	0	0	0	1
+chinese indie rock music	0	0	0	0	0	0	0	1
+chinese opera music	0	0	0	0	0	0	0	1
+chinese traditional music	0	0	0	0	0	0	0	1
+chip hop music	0	0	0	0	0	0	0	1
+chiptune music	0	0	0	0	0	0	0	1
+choral music	0	0	0	0	0	0	0	1
+choro music	0	0	0	0	0	0	0	1
+christian alternative rock music	0	0	0	0	0	0	0	1
+christian christmas music	0	0	0	0	0	0	0	1
+christian dance music	0	0	0	0	0	0	0	1
+christian hardcore music	0	0	0	0	0	0	0	1
+christian hip hop music	0	0	0	0	0	0	0	1
+christian metal music	0	0	0	0	0	0	0	1
+christian music	0	0	0	0	0	0	0	1
+christian punk music	0	0	0	0	0	0	0	1
+christian rock music	0	0	0	0	0	0	0	1
+christmas music	0	0	0	0	0	0	0	1
+christmas product music	0	0	0	0	0	0	0	1
+cinematic dubstep music	0	0	0	0	0	0	0	1
+clarinet music	0	0	0	0	0	0	0	1
+classic afrobeat music	0	0	0	0	0	0	0	1
+classic belgian pop music	0	0	0	0	0	0	0	1
+classic chinese pop music	0	0	0	0	0	0	0	1
+classic colombian pop music	0	0	0	0	0	0	0	1
+classic czech pop music	0	0	0	0	0	0	0	1
+classic danish pop music	0	0	0	0	0	0	0	1
+classic dutch pop music	0	0	0	0	0	0	0	1
+classic eurovision music	0	0	0	0	0	0	0	1
+classic finnish pop music	0	0	0	0	0	0	0	1
+classic finnish rock music	0	0	0	0	0	0	0	1
+classic french pop music	0	0	0	0	0	0	0	1
+classic funk rock music	0	0	0	0	0	0	0	1
+classic garage rock music	0	0	0	0	0	0	0	1
+classic italian pop music	0	0	0	0	0	0	0	1
+classic norwegian pop music	0	0	0	0	0	0	0	1
+classic peruvian pop music	0	0	0	0	0	0	0	1
+classic polish pop music	0	0	0	0	0	0	0	1
+classic psychedelic rock music	0	0	0	0	0	0	0	1
+classic rock music	0	0	0	0	0	0	0	1
+classic russian pop music	0	0	0	0	0	0	0	1
+classic russian rock music	0	0	0	0	0	0	0	1
+classic schlager music	0	0	0	0	0	0	0	1
+classic soundtrack music	0	0	0	0	0	0	0	1
+classic swedish pop music	0	0	0	0	0	0	0	1
+classic turkish pop music	0	0	0	0	0	0	0	1
+classic venezuelan pop music	0	0	0	0	0	0	0	1
+classical music	0	0	0	0	0	0	0	1
+classical christmas music	0	0	0	0	0	0	0	1
+classical flute music	0	0	0	0	0	0	0	1
+classical guitar music	0	0	0	0	0	0	0	1
+classical organ music	0	0	0	0	0	0	0	1
+classical performance music	0	0	0	0	0	0	0	1
+classical period music	0	0	0	0	0	0	0	1
+classical piano music	0	0	0	0	0	0	0	1
+college a cappella music	0	0	0	0	0	0	0	1
+college marching band music	0	0	0	0	0	0	0	1
+colombian rock music	0	0	0	0	0	0	0	1
+columbus ohio indie music	0	0	0	0	0	0	0	1
+comedy music	0	0	0	0	0	0	0	1
+comedy rock music	0	0	0	0	0	0	0	1
+comic music	0	0	0	0	0	0	0	1
+commons music	0	0	0	0	0	0	0	1
+complextro music	0	0	0	0	0	0	0	1
+composition d music	0	0	0	0	0	0	0	1
+concert piano music	0	0	0	0	0	0	0	1
+consort music	0	0	0	0	0	0	0	1
+contemporary classical music	0	0	0	0	0	0	0	1
+contemporary country music	0	0	0	0	0	0	0	1
+contemporary folk music	0	0	0	0	0	0	0	1
+contemporary jazz music	0	0	0	0	0	0	0	1
+contemporary post-bop music	0	0	0	0	0	0	0	1
+cool jazz music	0	0	0	0	0	0	0	1
+corrosion music	0	0	0	0	0	0	0	1
+corsican folk music	0	0	0	0	0	0	0	1
+country music	0	0	0	0	0	0	0	1
+country blues music	0	0	0	0	0	0	0	1
+country christmas music	0	0	0	0	0	0	0	1
+country dawn music	0	0	0	0	0	0	0	1
+country gospel music	0	0	0	0	0	0	0	1
+country road music	0	0	0	0	0	0	0	1
+country rock music	0	0	0	0	0	0	0	1
+coupe decale music	0	0	0	0	0	0	0	1
+coverchill music	0	0	0	0	0	0	0	1
+covertrance music	0	0	0	0	0	0	0	1
+cowboy western music	0	0	0	0	0	0	0	1
+cowpunk music	0	0	0	0	0	0	0	1
+crack rock steady music	0	0	0	0	0	0	0	1
+croatian pop music	0	0	0	0	0	0	0	1
+crossover prog music	0	0	0	0	0	0	0	1
+crossover thrash music	0	0	0	0	0	0	0	1
+crunk music	0	0	0	0	0	0	0	1
+crust punk music	0	0	0	0	0	0	0	1
+cryptic black metal music	0	0	0	0	0	0	0	1
+cuban rumba music	0	0	0	0	0	0	0	1
+cubaton music	0	0	0	0	0	0	0	1
+cumbia music	0	0	0	0	0	0	0	1
+cumbia funk music	0	0	0	0	0	0	0	1
+cumbia sonidera music	0	0	0	0	0	0	0	1
+cumbia villera music	0	0	0	0	0	0	0	1
+cyber metal music	0	0	0	0	0	0	0	1
+czech folk music	0	0	0	0	0	0	0	1
+czech rock music	0	0	0	0	0	0	0	1
+dallas indie music	0	0	0	0	0	0	0	1
+dance pop music	0	0	0	0	0	0	0	1
+dance rock music	0	0	0	0	0	0	0	1
+dance-punk music	0	0	0	0	0	0	0	1
+dancehall music	0	0	0	0	0	0	0	1
+dangdut music	0	0	0	0	0	0	0	1
+danish hip hop music	0	0	0	0	0	0	0	1
+danish indie music	0	0	0	0	0	0	0	1
+danish jazz music	0	0	0	0	0	0	0	1
+danish pop music	0	0	0	0	0	0	0	1
+danish pop rock music	0	0	0	0	0	0	0	1
+dansband music	0	0	0	0	0	0	0	1
+danseband music	0	0	0	0	0	0	0	1
+dark ambient music	0	0	0	0	0	0	0	1
+dark black metal music	0	0	0	0	0	0	0	1
+dark cabaret music	0	0	0	0	0	0	0	1
+dark electro-industrial music	0	0	0	0	0	0	0	1
+dark hardcore music	0	0	0	0	0	0	0	1
+dark jazz music	0	0	0	0	0	0	0	1
+dark minimal techno music	0	0	0	0	0	0	0	1
+dark progressive house music	0	0	0	0	0	0	0	1
+dark psytrance music	0	0	0	0	0	0	0	1
+dark wave music	0	0	0	0	0	0	0	1
+darkstep music	0	0	0	0	0	0	0	1
+death core music	0	0	0	0	0	0	0	1
+death metal music	0	0	0	0	0	0	0	1
+deathgrind music	0	0	0	0	0	0	0	1
+deep acoustic pop music	0	0	0	0	0	0	0	1
+deep adult standards music	0	0	0	0	0	0	0	1
+deep alternative r&b music	0	0	0	0	0	0	0	1
+deep ambient music	0	0	0	0	0	0	0	1
+deep baroque music	0	0	0	0	0	0	0	1
+deep brazilian pop music	0	0	0	0	0	0	0	1
+deep breakcore music	0	0	0	0	0	0	0	1
+deep canadian indie music	0	0	0	0	0	0	0	1
+deep ccm music	0	0	0	0	0	0	0	1
+deep cello music	0	0	0	0	0	0	0	1
+deep chill music	0	0	0	0	0	0	0	1
+deep chill-out music	0	0	0	0	0	0	0	1
+deep christian rock music	0	0	0	0	0	0	0	1
+deep classic garage rock music	0	0	0	0	0	0	0	1
+deep classical piano music	0	0	0	0	0	0	0	1
+deep comedy music	0	0	0	0	0	0	0	1
+deep contemporary country music	0	0	0	0	0	0	0	1
+deep dance pop music	0	0	0	0	0	0	0	1
+deep darkpsy music	0	0	0	0	0	0	0	1
+deep deep house music	0	0	0	0	0	0	0	1
+deep deep tech house music	0	0	0	0	0	0	0	1
+deep delta blues music	0	0	0	0	0	0	0	1
+deep disco music	0	0	0	0	0	0	0	1
+deep disco house music	0	0	0	0	0	0	0	1
+deep discofox music	0	0	0	0	0	0	0	1
+deep downtempo fusion music	0	0	0	0	0	0	0	1
+deep dub techno music	0	0	0	0	0	0	0	1
+deep east coast hip hop music	0	0	0	0	0	0	0	1
+deep euro house music	0	0	0	0	0	0	0	1
+deep eurodance music	0	0	0	0	0	0	0	1
+deep filthstep music	0	0	0	0	0	0	0	1
+deep flow music	0	0	0	0	0	0	0	1
+deep folk metal music	0	0	0	0	0	0	0	1
+deep free jazz music	0	0	0	0	0	0	0	1
+deep freestyle music	0	0	0	0	0	0	0	1
+deep full on music	0	0	0	0	0	0	0	1
+deep funk music	0	0	0	0	0	0	0	1
+deep funk house music	0	0	0	0	0	0	0	1
+deep g funk music	0	0	0	0	0	0	0	1
+deep german indie music	0	0	0	0	0	0	0	1
+deep german punk music	0	0	0	0	0	0	0	1
+deep gothic post-punk music	0	0	0	0	0	0	0	1
+deep happy hardcore music	0	0	0	0	0	0	0	1
+deep hardcore music	0	0	0	0	0	0	0	1
+deep hardcore punk music	0	0	0	0	0	0	0	1
+deep hardstyle music	0	0	0	0	0	0	0	1
+deep house music	0	0	0	0	0	0	0	1
+deep indian pop music	0	0	0	0	0	0	0	1
+deep indie pop music	0	0	0	0	0	0	0	1
+deep indie rock music	0	0	0	0	0	0	0	1
+deep indie singer-songwriter music	0	0	0	0	0	0	0	1
+deep italo disco music	0	0	0	0	0	0	0	1
+deep jazz fusion music	0	0	0	0	0	0	0	1
+deep jazz guitar music	0	0	0	0	0	0	0	1
+deep jazz piano music	0	0	0	0	0	0	0	1
+deep latin alternative music	0	0	0	0	0	0	0	1
+deep liquid music	0	0	0	0	0	0	0	1
+deep liquid bass music	0	0	0	0	0	0	0	1
+deep melodic death metal music	0	0	0	0	0	0	0	1
+deep melodic hard rock music	0	0	0	0	0	0	0	1
+deep melodic house music	0	0	0	0	0	0	0	1
+deep melodic metalcore music	0	0	0	0	0	0	0	1
+deep minimal techno music	0	0	0	0	0	0	0	1
+deep motown music	0	0	0	0	0	0	0	1
+deep neo-synthpop music	0	0	0	0	0	0	0	1
+deep neofolk music	0	0	0	0	0	0	0	1
+deep new wave music	0	0	0	0	0	0	0	1
+deep nordic folk music	0	0	0	0	0	0	0	1
+deep northern soul music	0	0	0	0	0	0	0	1
+deep opera music	0	0	0	0	0	0	0	1
+deep orchestral music	0	0	0	0	0	0	0	1
+deep orgcore music	0	0	0	0	0	0	0	1
+deep pop emo music	0	0	0	0	0	0	0	1
+deep pop punk music	0	0	0	0	0	0	0	1
+deep power-pop punk music	0	0	0	0	0	0	0	1
+deep progressive house music	0	0	0	0	0	0	0	1
+deep progressive trance music	0	0	0	0	0	0	0	1
+deep psychobilly music	0	0	0	0	0	0	0	1
+deep psytrance music	0	0	0	0	0	0	0	1
+deep punk rock music	0	0	0	0	0	0	0	1
+deep ragga music	0	0	0	0	0	0	0	1
+deep rai music	0	0	0	0	0	0	0	1
+deep regional mexican music	0	0	0	0	0	0	0	1
+deep smooth jazz music	0	0	0	0	0	0	0	1
+deep soft rock music	0	0	0	0	0	0	0	1
+deep soul house music	0	0	0	0	0	0	0	1
+deep soundtrack music	0	0	0	0	0	0	0	1
+deep southern soul music	0	0	0	0	0	0	0	1
+deep space rock music	0	0	0	0	0	0	0	1
+deep string quartet music	0	0	0	0	0	0	0	1
+deep sunset lounge music	0	0	0	0	0	0	0	1
+deep surf music	0	0	0	0	0	0	0	1
+deep symphonic black metal music	0	0	0	0	0	0	0	1
+deep talent show music	0	0	0	0	0	0	0	1
+deep tech house music	0	0	0	0	0	0	0	1
+deep thrash metal music	0	0	0	0	0	0	0	1
+deep trap music	0	0	0	0	0	0	0	1
+deep turkish pop music	0	0	0	0	0	0	0	1
+deep uplifting trance music	0	0	0	0	0	0	0	1
+deep vocal house music	0	0	0	0	0	0	0	1
+deep vocal jazz music	0	0	0	0	0	0	0	1
+delta blues music	0	0	0	0	0	0	0	1
+demoscene music	0	0	0	0	0	0	0	1
+denver indie music	0	0	0	0	0	0	0	1
+depressive black metal music	0	0	0	0	0	0	0	1
+desert blues music	0	0	0	0	0	0	0	1
+desi music	0	0	0	0	0	0	0	1
+destroy techno music	0	0	0	0	0	0	0	1
+detroit hip hop music	0	0	0	0	0	0	0	1
+detroit techno music	0	0	0	0	0	0	0	1
+didgeridoo music	0	0	0	0	0	0	0	1
+digital hardcore music	0	0	0	0	0	0	0	1
+dirty south rap music	0	0	0	0	0	0	0	1
+dirty texas rap music	0	0	0	0	0	0	0	1
+disco music	0	0	0	0	0	0	0	1
+disco house music	0	0	0	0	0	0	0	1
+discofox music	0	0	0	0	0	0	0	1
+dixieland music	0	0	0	0	0	0	0	1
+djent music	0	0	0	0	0	0	0	1
+dominican pop music	0	0	0	0	0	0	0	1
+doo-wop music	0	0	0	0	0	0	0	1
+doom metal music	0	0	0	0	0	0	0	1
+doomcore music	0	0	0	0	0	0	0	1
+doujin music	0	0	0	0	0	0	0	1
+downtempo music	0	0	0	0	0	0	0	1
+downtempo fusion music	0	0	0	0	0	0	0	1
+downtempo trip hop music	0	0	0	0	0	0	0	1
+drama music	0	0	0	0	0	0	0	1
+dream pop music	0	0	0	0	0	0	0	1
+dreamo music	0	0	0	0	0	0	0	1
+drill and bass music	0	0	0	0	0	0	0	1
+drone music	0	0	0	0	0	0	0	1
+drone folk music	0	0	0	0	0	0	0	1
+drone metal music	0	0	0	0	0	0	0	1
+drone psych music	0	0	0	0	0	0	0	1
+drum and bass music	0	0	0	0	0	0	0	1
+drumfunk music	0	0	0	0	0	0	0	1
+dub music	0	0	0	0	0	0	0	1
+dub techno music	0	0	0	0	0	0	0	1
+dubstep music	0	0	0	0	0	0	0	1
+dubstep product music	0	0	0	0	0	0	0	1
+dubsteppe music	0	0	0	0	0	0	0	1
+duranguense music	0	0	0	0	0	0	0	1
+dutch hip hop music	0	0	0	0	0	0	0	1
+dutch house music	0	0	0	0	0	0	0	1
+dutch pop music	0	0	0	0	0	0	0	1
+dutch rock music	0	0	0	0	0	0	0	1
+e6fi music	0	0	0	0	0	0	0	1
+early music	0	0	0	0	0	0	0	1
+early ensemble music	0	0	0	0	0	0	0	1
+east coast hip hop music	0	0	0	0	0	0	0	1
+easy listening music	0	0	0	0	0	0	0	1
+ebm music	0	0	0	0	0	0	0	1
+ectofolk music	0	0	0	0	0	0	0	1
+ecuadoria music	0	0	0	0	0	0	0	1
+edm music	0	0	0	0	0	0	0	1
+electric blues music	0	0	0	0	0	0	0	1
+electro music	0	0	0	0	0	0	0	1
+electro dub music	0	0	0	0	0	0	0	1
+electro house music	0	0	0	0	0	0	0	1
+electro jazz music	0	0	0	0	0	0	0	1
+electro latino music	0	0	0	0	0	0	0	1
+electro swing music	0	0	0	0	0	0	0	1
+electro trash music	0	0	0	0	0	0	0	1
+electro-industrial music	0	0	0	0	0	0	0	1
+electroacoustic improvisation music	0	0	0	0	0	0	0	1
+electroclash music	0	0	0	0	0	0	0	1
+electrofox music	0	0	0	0	0	0	0	1
+electronic music	0	0	0	0	0	0	0	1
+electronica music	0	0	0	0	0	0	0	1
+electronicore music	0	0	0	0	0	0	0	1
+electropowerpop music	0	0	0	0	0	0	0	1
+electropunk music	0	0	0	0	0	0	0	1
+emo music	0	0	0	0	0	0	0	1
+emo punk music	0	0	0	0	0	0	0	1
+enka music	0	0	0	0	0	0	0	1
+entehno music	0	0	0	0	0	0	0	1
+environmental music	0	0	0	0	0	0	0	1
+epicore music	0	0	0	0	0	0	0	1
+estonian pop music	0	0	0	0	0	0	0	1
+ethereal gothic music	0	0	0	0	0	0	0	1
+ethereal wave music	0	0	0	0	0	0	0	1
+etherpop music	0	0	0	0	0	0	0	1
+ethiopian pop music	0	0	0	0	0	0	0	1
+eurobeat music	0	0	0	0	0	0	0	1
+eurodance music	0	0	0	0	0	0	0	1
+europop music	0	0	0	0	0	0	0	1
+euroska music	0	0	0	0	0	0	0	1
+eurovision music	0	0	0	0	0	0	0	1
+exotica music	0	0	0	0	0	0	0	1
+experimental music	0	0	0	0	0	0	0	1
+experimental dubstep music	0	0	0	0	0	0	0	1
+experimental psych music	0	0	0	0	0	0	0	1
+experimental rock music	0	0	0	0	0	0	0	1
+fado music	0	0	0	0	0	0	0	1
+fake music	0	0	0	0	0	0	0	1
+fallen angel music	0	0	0	0	0	0	0	1
+faroese pop music	0	0	0	0	0	0	0	1
+fast melodic punk music	0	0	0	0	0	0	0	1
+fidget house music	0	0	0	0	0	0	0	1
+filmi music	0	0	0	0	0	0	0	1
+filter house music	0	0	0	0	0	0	0	1
+filthstep music	0	0	0	0	0	0	0	1
+fingerstyle music	0	0	0	0	0	0	0	1
+finnish hardcore music	0	0	0	0	0	0	0	1
+finnish hip hop music	0	0	0	0	0	0	0	1
+finnish indie music	0	0	0	0	0	0	0	1
+finnish jazz music	0	0	0	0	0	0	0	1
+finnish metal music	0	0	0	0	0	0	0	1
+finnish pop music	0	0	0	0	0	0	0	1
+flamenco music	0	0	0	0	0	0	0	1
+flick hop music	0	0	0	0	0	0	0	1
+folk music	0	0	0	0	0	0	0	1
+folk christmas music	0	0	0	0	0	0	0	1
+folk metal music	0	0	0	0	0	0	0	1
+folk punk music	0	0	0	0	0	0	0	1
+folk rock music	0	0	0	0	0	0	0	1
+folk-pop music	0	0	0	0	0	0	0	1
+folk-prog music	0	0	0	0	0	0	0	1
+folklore argentino music	0	0	0	0	0	0	0	1
+folkmusik music	0	0	0	0	0	0	0	1
+footwork music	0	0	0	0	0	0	0	1
+forro music	0	0	0	0	0	0	0	1
+fourth world music	0	0	0	0	0	0	0	1
+freak folk music	0	0	0	0	0	0	0	1
+freakbeat music	0	0	0	0	0	0	0	1
+free improvisation music	0	0	0	0	0	0	0	1
+free jazz music	0	0	0	0	0	0	0	1
+freestyle music	0	0	0	0	0	0	0	1
+french folk music	0	0	0	0	0	0	0	1
+french folk pop music	0	0	0	0	0	0	0	1
+french hip hop music	0	0	0	0	0	0	0	1
+french indie pop music	0	0	0	0	0	0	0	1
+french movie tunes music	0	0	0	0	0	0	0	1
+french pop music	0	0	0	0	0	0	0	1
+french punk music	0	0	0	0	0	0	0	1
+french reggae music	0	0	0	0	0	0	0	1
+french rock music	0	0	0	0	0	0	0	1
+full on music	0	0	0	0	0	0	0	1
+funeral doom music	0	0	0	0	0	0	0	1
+funk music	0	0	0	0	0	0	0	1
+funk carioca music	0	0	0	0	0	0	0	1
+funk metal music	0	0	0	0	0	0	0	1
+funk rock music	0	0	0	0	0	0	0	1
+funky breaks music	0	0	0	0	0	0	0	1
+future ambient music	0	0	0	0	0	0	0	1
+future garage music	0	0	0	0	0	0	0	1
+futurepop music	0	0	0	0	0	0	0	1
+g funk music	0	0	0	0	0	0	0	1
+gabba music	0	0	0	0	0	0	0	1
+galego music	0	0	0	0	0	0	0	1
+gamecore music	0	0	0	0	0	0	0	1
+gamelan music	0	0	0	0	0	0	0	1
+gangster rap music	0	0	0	0	0	0	0	1
+garage pop music	0	0	0	0	0	0	0	1
+garage punk music	0	0	0	0	0	0	0	1
+garage punk blues music	0	0	0	0	0	0	0	1
+garage rock music	0	0	0	0	0	0	0	1
+gauze pop music	0	0	0	0	0	0	0	1
+gbvfi music	0	0	0	0	0	0	0	1
+geek folk music	0	0	0	0	0	0	0	1
+geek rock music	0	0	0	0	0	0	0	1
+german ccm music	0	0	0	0	0	0	0	1
+german hip hop music	0	0	0	0	0	0	0	1
+german indie music	0	0	0	0	0	0	0	1
+german metal music	0	0	0	0	0	0	0	1
+german oi music	0	0	0	0	0	0	0	1
+german pop music	0	0	0	0	0	0	0	1
+german pop rock music	0	0	0	0	0	0	0	1
+german punk music	0	0	0	0	0	0	0	1
+german show tunes music	0	0	0	0	0	0	0	1
+german techno music	0	0	0	0	0	0	0	1
+ghettotech music	0	0	0	0	0	0	0	1
+ghoststep music	0	0	0	0	0	0	0	1
+girl group music	0	0	0	0	0	0	0	1
+glam metal music	0	0	0	0	0	0	0	1
+glam rock music	0	0	0	0	0	0	0	1
+glitch music	0	0	0	0	0	0	0	1
+glitch beats music	0	0	0	0	0	0	0	1
+glitch hop music	0	0	0	0	0	0	0	1
+glitter trance music	0	0	0	0	0	0	0	1
+goa trance music	0	0	0	0	0	0	0	1
+goregrind music	0	0	0	0	0	0	0	1
+gospel music	0	0	0	0	0	0	0	1
+gospel blues music	0	0	0	0	0	0	0	1
+gospel reggae music	0	0	0	0	0	0	0	1
+gothic alternative music	0	0	0	0	0	0	0	1
+gothic americana music	0	0	0	0	0	0	0	1
+gothic doom music	0	0	0	0	0	0	0	1
+gothic metal music	0	0	0	0	0	0	0	1
+gothic post-punk music	0	0	0	0	0	0	0	1
+gothic rock music	0	0	0	0	0	0	0	1
+gothic symphonic metal music	0	0	0	0	0	0	0	1
+grave wave music	0	0	0	0	0	0	0	1
+greek hip hop music	0	0	0	0	0	0	0	1
+greek house music	0	0	0	0	0	0	0	1
+greek indie music	0	0	0	0	0	0	0	1
+grim death metal music	0	0	0	0	0	0	0	1
+grime music	0	0	0	0	0	0	0	1
+grindcore music	0	0	0	0	0	0	0	1
+grisly death metal music	0	0	0	0	0	0	0	1
+groove metal music	0	0	0	0	0	0	0	1
+grunge music	0	0	0	0	0	0	0	1
+grunge pop music	0	0	0	0	0	0	0	1
+grupera music	0	0	0	0	0	0	0	1
+guidance music	0	0	0	0	0	0	0	1
+gypsy jazz music	0	0	0	0	0	0	0	1
+hands up music	0	0	0	0	0	0	0	1
+happy hardcore music	0	0	0	0	0	0	0	1
+hard alternative music	0	0	0	0	0	0	0	1
+hard bop music	0	0	0	0	0	0	0	1
+hard glam music	0	0	0	0	0	0	0	1
+hard house music	0	0	0	0	0	0	0	1
+hard rock music	0	0	0	0	0	0	0	1
+hard stoner rock music	0	0	0	0	0	0	0	1
+hard trance music	0	0	0	0	0	0	0	1
+hardcore music	0	0	0	0	0	0	0	1
+hardcore breaks music	0	0	0	0	0	0	0	1
+hardcore hip hop music	0	0	0	0	0	0	0	1
+hardcore punk music	0	0	0	0	0	0	0	1
+hardcore techno music	0	0	0	0	0	0	0	1
+hardstyle music	0	0	0	0	0	0	0	1
+harmonica blues music	0	0	0	0	0	0	0	1
+harp music	0	0	0	0	0	0	0	1
+hatecore music	0	0	0	0	0	0	0	1
+hauntology music	0	0	0	0	0	0	0	1
+hawaiian music	0	0	0	0	0	0	0	1
+healing music	0	0	0	0	0	0	0	1
+heavy alternative music	0	0	0	0	0	0	0	1
+heavy christmas music	0	0	0	0	0	0	0	1
+heavy gothic rock music	0	0	0	0	0	0	0	1
+hi nrg music	0	0	0	0	0	0	0	1
+highlife music	0	0	0	0	0	0	0	1
+hindustani classical music	0	0	0	0	0	0	0	1
+hip hop music	0	0	0	0	0	0	0	1
+hip hop quebecois music	0	0	0	0	0	0	0	1
+hip hop tuga music	0	0	0	0	0	0	0	1
+hip house music	0	0	0	0	0	0	0	1
+hip pop music	0	0	0	0	0	0	0	1
+hiplife music	0	0	0	0	0	0	0	1
+hoerspiel music	0	0	0	0	0	0	0	1
+hollywood music	0	0	0	0	0	0	0	1
+honky tonk music	0	0	0	0	0	0	0	1
+horror punk music	0	0	0	0	0	0	0	1
+horrorcore music	0	0	0	0	0	0	0	1
+house music	0	0	0	0	0	0	0	1
+hungarian hip hop music	0	0	0	0	0	0	0	1
+hungarian pop music	0	0	0	0	0	0	0	1
+hungarian rock music	0	0	0	0	0	0	0	1
+hurban music	0	0	0	0	0	0	0	1
+hyphy music	0	0	0	0	0	0	0	1
+icelandic pop music	0	0	0	0	0	0	0	1
+idol music	0	0	0	0	0	0	0	1
+illbient music	0	0	0	0	0	0	0	1
+indian classical music	0	0	0	0	0	0	0	1
+indian pop music	0	0	0	0	0	0	0	1
+indian rock music	0	0	0	0	0	0	0	1
+indie christmas music	0	0	0	0	0	0	0	1
+indie dream pop music	0	0	0	0	0	0	0	1
+indie emo music	0	0	0	0	0	0	0	1
+indie emo rock music	0	0	0	0	0	0	0	1
+indie folk music	0	0	0	0	0	0	0	1
+indie fuzzpop music	0	0	0	0	0	0	0	1
+indie pop music	0	0	0	0	0	0	0	1
+indie pop rock music	0	0	0	0	0	0	0	1
+indie post-punk music	0	0	0	0	0	0	0	1
+indie psych-pop music	0	0	0	0	0	0	0	1
+indie r&b music	0	0	0	0	0	0	0	1
+indie rock music	0	0	0	0	0	0	0	1
+indie shoegaze music	0	0	0	0	0	0	0	1
+indie singer-songwriter music	0	0	0	0	0	0	0	1
+indietronica music	0	0	0	0	0	0	0	1
+indonesian indie music	0	0	0	0	0	0	0	1
+indonesian pop music	0	0	0	0	0	0	0	1
+indorock music	0	0	0	0	0	0	0	1
+industrial music	0	0	0	0	0	0	0	1
+industrial metal music	0	0	0	0	0	0	0	1
+industrial rock music	0	0	0	0	0	0	0	1
+instrumental post rock music	0	0	0	0	0	0	0	1
+intelligent dance music	0	0	0	0	0	0	0	1
+irish folk music	0	0	0	0	0	0	0	1
+irish indie music	0	0	0	0	0	0	0	1
+irish rock music	0	0	0	0	0	0	0	1
+iskelma music	0	0	0	0	0	0	0	1
+islamic recitation music	0	0	0	0	0	0	0	1
+israeli rock music	0	0	0	0	0	0	0	1
+italian disco music	0	0	0	0	0	0	0	1
+italian folk music	0	0	0	0	0	0	0	1
+italian hip hop music	0	0	0	0	0	0	0	1
+italian indie pop music	0	0	0	0	0	0	0	1
+italian jazz music	0	0	0	0	0	0	0	1
+italian pop music	0	0	0	0	0	0	0	1
+italian pop rock music	0	0	0	0	0	0	0	1
+italian progressive rock music	0	0	0	0	0	0	0	1
+italian punk music	0	0	0	0	0	0	0	1
+italo dance music	0	0	0	0	0	0	0	1
+j-alt music	0	0	0	0	0	0	0	1
+j-ambient music	0	0	0	0	0	0	0	1
+j-core music	0	0	0	0	0	0	0	1
+j-dance music	0	0	0	0	0	0	0	1
+j-idol music	0	0	0	0	0	0	0	1
+j-indie music	0	0	0	0	0	0	0	1
+j-metal music	0	0	0	0	0	0	0	1
+j-pop music	0	0	0	0	0	0	0	1
+j-poppunk music	0	0	0	0	0	0	0	1
+j-poprock music	0	0	0	0	0	0	0	1
+j-punk music	0	0	0	0	0	0	0	1
+j-rap music	0	0	0	0	0	0	0	1
+j-rock music	0	0	0	0	0	0	0	1
+j-theme music	0	0	0	0	0	0	0	1
+jam band music	0	0	0	0	0	0	0	1
+jangle pop music	0	0	0	0	0	0	0	1
+jangle rock music	0	0	0	0	0	0	0	1
+japanese jazztronica music	0	0	0	0	0	0	0	1
+japanese psychedelic music	0	0	0	0	0	0	0	1
+japanese r&b music	0	0	0	0	0	0	0	1
+japanese standards music	0	0	0	0	0	0	0	1
+japanese traditional music	0	0	0	0	0	0	0	1
+japanoise music	0	0	0	0	0	0	0	1
+jazz music	0	0	0	0	0	0	0	1
+jazz bass music	0	0	0	0	0	0	0	1
+jazz blues music	0	0	0	0	0	0	0	1
+jazz brass music	0	0	0	0	0	0	0	1
+jazz christmas music	0	0	0	0	0	0	0	1
+jazz funk music	0	0	0	0	0	0	0	1
+jazz fusion music	0	0	0	0	0	0	0	1
+jazz metal music	0	0	0	0	0	0	0	1
+jazz orchestra music	0	0	0	0	0	0	0	1
+jazz trio music	0	0	0	0	0	0	0	1
+jerk music	0	0	0	0	0	0	0	1
+jig and reel music	0	0	0	0	0	0	0	1
+judaica music	0	0	0	0	0	0	0	1
+jug band music	0	0	0	0	0	0	0	1
+juggalo music	0	0	0	0	0	0	0	1
+jump blues music	0	0	0	0	0	0	0	1
+jump up music	0	0	0	0	0	0	0	1
+jumpstyle music	0	0	0	0	0	0	0	1
+jungle music	0	0	0	0	0	0	0	1
+k-hop music	0	0	0	0	0	0	0	1
+k-indie music	0	0	0	0	0	0	0	1
+k-pop music	0	0	0	0	0	0	0	1
+k-rock music	0	0	0	0	0	0	0	1
+kabarett music	0	0	0	0	0	0	0	1
+karneval music	0	0	0	0	0	0	0	1
+kc indie music	0	0	0	0	0	0	0	1
+kindermusik music	0	0	0	0	0	0	0	1
+kirtan music	0	0	0	0	0	0	0	1
+kiwi rock music	0	0	0	0	0	0	0	1
+kizomba music	0	0	0	0	0	0	0	1
+klapa music	0	0	0	0	0	0	0	1
+klezmer music	0	0	0	0	0	0	0	1
+kompa music	0	0	0	0	0	0	0	1
+kraut rock music	0	0	0	0	0	0	0	1
+kuduro music	0	0	0	0	0	0	0	1
+kurdish folk music	0	0	0	0	0	0	0	1
+kwaito music	0	0	0	0	0	0	0	1
+la indie music	0	0	0	0	0	0	0	1
+laboratorio music	0	0	0	0	0	0	0	1
+laiko music	0	0	0	0	0	0	0	1
+latin music	0	0	0	0	0	0	0	1
+latin alternative music	0	0	0	0	0	0	0	1
+latin christian music	0	0	0	0	0	0	0	1
+latin christmas music	0	0	0	0	0	0	0	1
+latin electronica music	0	0	0	0	0	0	0	1
+latin hip hop music	0	0	0	0	0	0	0	1
+latin jazz music	0	0	0	0	0	0	0	1
+latin metal music	0	0	0	0	0	0	0	1
+latin pop music	0	0	0	0	0	0	0	1
+latvian pop music	0	0	0	0	0	0	0	1
+lds music	0	0	0	0	0	0	0	1
+leeds indie music	0	0	0	0	0	0	0	1
+levenslied music	0	0	0	0	0	0	0	1
+liedermacher music	0	0	0	0	0	0	0	1
+light music	0	0	0	0	0	0	0	1
+lilith music	0	0	0	0	0	0	0	1
+liquid funk music	0	0	0	0	0	0	0	1
+lithumania music	0	0	0	0	0	0	0	1
+liturgical music	0	0	0	0	0	0	0	1
+lo star music	0	0	0	0	0	0	0	1
+lo-fi music	0	0	0	0	0	0	0	1
+louisiana blues music	0	0	0	0	0	0	0	1
+louisville indie music	0	0	0	0	0	0	0	1
+lounge music	0	0	0	0	0	0	0	1
+lounge house music	0	0	0	0	0	0	0	1
+lovers rock music	0	0	0	0	0	0	0	1
+lowercase music	0	0	0	0	0	0	0	1
+luk thung music	0	0	0	0	0	0	0	1
+madchester music	0	0	0	0	0	0	0	1
+maghreb music	0	0	0	0	0	0	0	1
+magyar music	0	0	0	0	0	0	0	1
+makossa music	0	0	0	0	0	0	0	1
+malagasy folk music	0	0	0	0	0	0	0	1
+malaysian pop music	0	0	0	0	0	0	0	1
+mallet music	0	0	0	0	0	0	0	1
+mambo music	0	0	0	0	0	0	0	1
+mande pop music	0	0	0	0	0	0	0	1
+mandopop music	0	0	0	0	0	0	0	1
+manele music	0	0	0	0	0	0	0	1
+marching band music	0	0	0	0	0	0	0	1
+mariachi music	0	0	0	0	0	0	0	1
+martial industrial music	0	0	0	0	0	0	0	1
+mashup music	0	0	0	0	0	0	0	1
+math pop music	0	0	0	0	0	0	0	1
+math rock music	0	0	0	0	0	0	0	1
+mathcore music	0	0	0	0	0	0	0	1
+mbalax music	0	0	0	0	0	0	0	1
+medieval music	0	0	0	0	0	0	0	1
+medieval rock music	0	0	0	0	0	0	0	1
+meditation music	0	0	0	0	0	0	0	1
+melancholia music	0	0	0	0	0	0	0	1
+melbourne bounce music	0	0	0	0	0	0	0	1
+mellow gold music	0	0	0	0	0	0	0	1
+melodic death metal music	0	0	0	0	0	0	0	1
+melodic hard rock music	0	0	0	0	0	0	0	1
+melodic hardcore music	0	0	0	0	0	0	0	1
+melodic metalcore music	0	0	0	0	0	0	0	1
+melodic power metal music	0	0	0	0	0	0	0	1
+melodic progressive metal music	0	0	0	0	0	0	0	1
+memphis blues music	0	0	0	0	0	0	0	1
+memphis hip hop music	0	0	0	0	0	0	0	1
+memphis soul music	0	0	0	0	0	0	0	1
+merengue music	0	0	0	0	0	0	0	1
+merengue urbano music	0	0	0	0	0	0	0	1
+merseybeat music	0	0	0	0	0	0	0	1
+metal music	0	0	0	0	0	0	0	1
+metal guitar music	0	0	0	0	0	0	0	1
+metalcore music	0	0	0	0	0	0	0	1
+metropopolis music	0	0	0	0	0	0	0	1
+mexican indie music	0	0	0	0	0	0	0	1
+mexican rock-and-roll music	0	0	0	0	0	0	0	1
+mexican son music	0	0	0	0	0	0	0	1
+mexican traditional music	0	0	0	0	0	0	0	1
+miami bass music	0	0	0	0	0	0	0	1
+michigan indie music	0	0	0	0	0	0	0	1
+microhouse music	0	0	0	0	0	0	0	1
+military band music	0	0	0	0	0	0	0	1
+minimal music	0	0	0	0	0	0	0	1
+minimal dub music	0	0	0	0	0	0	0	1
+minimal dubstep music	0	0	0	0	0	0	0	1
+minimal melodic techno music	0	0	0	0	0	0	0	1
+minimal tech house music	0	0	0	0	0	0	0	1
+minimal techno music	0	0	0	0	0	0	0	1
+minimal wave music	0	0	0	0	0	0	0	1
+mizrahi music	0	0	0	0	0	0	0	1
+mod revival music	0	0	0	0	0	0	0	1
+modern blues music	0	0	0	0	0	0	0	1
+modern classical music	0	0	0	0	0	0	0	1
+modern country rock music	0	0	0	0	0	0	0	1
+modern downshift music	0	0	0	0	0	0	0	1
+modern free jazz music	0	0	0	0	0	0	0	1
+modern performance music	0	0	0	0	0	0	0	1
+modern southern rock music	0	0	0	0	0	0	0	1
+modern uplift music	0	0	0	0	0	0	0	1
+monastic music	0	0	0	0	0	0	0	1
+moombahton music	0	0	0	0	0	0	0	1
+morna music	0	0	0	0	0	0	0	1
+motivation music	0	0	0	0	0	0	0	1
+motown music	0	0	0	0	0	0	0	1
+movie tunes music	0	0	0	0	0	0	0	1
+mpb music	0	0	0	0	0	0	0	1
+musica para ninos music	0	0	0	0	0	0	0	1
+musiikkia lapsille music	0	0	0	0	0	0	0	1
+musique concrete music	0	0	0	0	0	0	0	1
+musique pour enfants music	0	0	0	0	0	0	0	1
+muziek voor kinderen music	0	0	0	0	0	0	0	1
+nasheed music	0	0	0	0	0	0	0	1
+nashville sound music	0	0	0	0	0	0	0	1
+native american music	0	0	0	0	0	0	0	1
+necrogrind music	0	0	0	0	0	0	0	1
+neo classical metal music	0	0	0	0	0	0	0	1
+neo honky tonk music	0	0	0	0	0	0	0	1
+neo mellow music	0	0	0	0	0	0	0	1
+neo metal music	0	0	0	0	0	0	0	1
+neo soul music	0	0	0	0	0	0	0	1
+neo soul-jazz music	0	0	0	0	0	0	0	1
+neo-industrial rock music	0	0	0	0	0	0	0	1
+neo-pagan music	0	0	0	0	0	0	0	1
+neo-progressive music	0	0	0	0	0	0	0	1
+neo-psychedelic music	0	0	0	0	0	0	0	1
+neo-rockabilly music	0	0	0	0	0	0	0	1
+neo-singer-songwriter music	0	0	0	0	0	0	0	1
+neo-synthpop music	0	0	0	0	0	0	0	1
+neo-trad metal music	0	0	0	0	0	0	0	1
+neo-traditional country music	0	0	0	0	0	0	0	1
+neoclassical music	0	0	0	0	0	0	0	1
+neofolk music	0	0	0	0	0	0	0	1
+nepali music	0	0	0	0	0	0	0	1
+nerdcore music	0	0	0	0	0	0	0	1
+neue deutsche harte music	0	0	0	0	0	0	0	1
+neue deutsche welle music	0	0	0	0	0	0	0	1
+neurofunk music	0	0	0	0	0	0	0	1
+neurostep music	0	0	0	0	0	0	0	1
+new age music	0	0	0	0	0	0	0	1
+new age piano music	0	0	0	0	0	0	0	1
+new americana music	0	0	0	0	0	0	0	1
+new beat music	0	0	0	0	0	0	0	1
+new jack smooth music	0	0	0	0	0	0	0	1
+new jack swing music	0	0	0	0	0	0	0	1
+new orleans blues music	0	0	0	0	0	0	0	1
+new orleans jazz music	0	0	0	0	0	0	0	1
+new rave music	0	0	0	0	0	0	0	1
+new romantic music	0	0	0	0	0	0	0	1
+new tribe music	0	0	0	0	0	0	0	1
+new wave music	0	0	0	0	0	0	0	1
+new wave pop music	0	0	0	0	0	0	0	1
+new weird america music	0	0	0	0	0	0	0	1
+ninja music	0	0	0	0	0	0	0	1
+nintendocore music	0	0	0	0	0	0	0	1
+nl folk music	0	0	0	0	0	0	0	1
+no wave music	0	0	0	0	0	0	0	1
+noise music	0	0	0	0	0	0	0	1
+noise pop music	0	0	0	0	0	0	0	1
+noise punk music	0	0	0	0	0	0	0	1
+noise rock music	0	0	0	0	0	0	0	1
+nordic folk music	0	0	0	0	0	0	0	1
+nordic house music	0	0	0	0	0	0	0	1
+norteno music	0	0	0	0	0	0	0	1
+northern irish indie music	0	0	0	0	0	0	0	1
+northern soul music	0	0	0	0	0	0	0	1
+norwegian gospel music	0	0	0	0	0	0	0	1
+norwegian hip hop music	0	0	0	0	0	0	0	1
+norwegian jazz music	0	0	0	0	0	0	0	1
+norwegian metal music	0	0	0	0	0	0	0	1
+norwegian pop music	0	0	0	0	0	0	0	1
+norwegian punk music	0	0	0	0	0	0	0	1
+norwegian rock music	0	0	0	0	0	0	0	1
+nu age music	0	0	0	0	0	0	0	1
+nu disco music	0	0	0	0	0	0	0	1
+nu electro music	0	0	0	0	0	0	0	1
+nu gaze music	0	0	0	0	0	0	0	1
+nu jazz music	0	0	0	0	0	0	0	1
+nu metal music	0	0	0	0	0	0	0	1
+nu skool breaks music	0	0	0	0	0	0	0	1
+nu-cumbia music	0	0	0	0	0	0	0	1
+nueva cancion music	0	0	0	0	0	0	0	1
+nursery music	0	0	0	0	0	0	0	1
+nwobhm music	0	0	0	0	0	0	0	1
+nwothm music	0	0	0	0	0	0	0	1
+nz indie music	0	0	0	0	0	0	0	1
+oi music	0	0	0	0	0	0	0	1
+old school hip hop music	0	0	0	0	0	0	0	1
+old-time music	0	0	0	0	0	0	0	1
+opera music	0	0	0	0	0	0	0	1
+operatic pop music	0	0	0	0	0	0	0	1
+opm music	0	0	0	0	0	0	0	1
+oratory music	0	0	0	0	0	0	0	1
+orchestral music	0	0	0	0	0	0	0	1
+organic ambient music	0	0	0	0	0	0	0	1
+orgcore music	0	0	0	0	0	0	0	1
+orquesta tipica music	0	0	0	0	0	0	0	1
+orquesta tropical music	0	0	0	0	0	0	0	1
+oshare kei music	0	0	0	0	0	0	0	1
+ostrock music	0	0	0	0	0	0	0	1
+outer hip hop music	0	0	0	0	0	0	0	1
+outlaw country music	0	0	0	0	0	0	0	1
+outsider music	0	0	0	0	0	0	0	1
+outsider house music	0	0	0	0	0	0	0	1
+p funk music	0	0	0	0	0	0	0	1
+pagan black metal music	0	0	0	0	0	0	0	1
+pagode music	0	0	0	0	0	0	0	1
+pakistani pop music	0	0	0	0	0	0	0	1
+permanent wave music	0	0	0	0	0	0	0	1
+persian pop music	0	0	0	0	0	0	0	1
+persian traditional music	0	0	0	0	0	0	0	1
+perth indie music	0	0	0	0	0	0	0	1
+peruvian rock music	0	0	0	0	0	0	0	1
+piano blues music	0	0	0	0	0	0	0	1
+piano rock music	0	0	0	0	0	0	0	1
+piedmont blues music	0	0	0	0	0	0	0	1
+pipe band music	0	0	0	0	0	0	0	1
+poetry music	0	0	0	0	0	0	0	1
+polish hip hop music	0	0	0	0	0	0	0	1
+polish indie music	0	0	0	0	0	0	0	1
+polish jazz music	0	0	0	0	0	0	0	1
+polish pop music	0	0	0	0	0	0	0	1
+polish punk music	0	0	0	0	0	0	0	1
+polish reggae music	0	0	0	0	0	0	0	1
+polka music	0	0	0	0	0	0	0	1
+polynesian pop music	0	0	0	0	0	0	0	1
+polyphony music	0	0	0	0	0	0	0	1
+pop music	0	0	0	0	0	0	0	1
+pop christmas music	0	0	0	0	0	0	0	1
+pop emo music	0	0	0	0	0	0	0	1
+pop house music	0	0	0	0	0	0	0	1
+pop punk music	0	0	0	0	0	0	0	1
+pop rap music	0	0	0	0	0	0	0	1
+pop rock music	0	0	0	0	0	0	0	1
+popgaze music	0	0	0	0	0	0	0	1
+porro music	0	0	0	0	0	0	0	1
+portland indie music	0	0	0	0	0	0	0	1
+portuguese pop music	0	0	0	0	0	0	0	1
+portuguese rock music	0	0	0	0	0	0	0	1
+post rock music	0	0	0	0	0	0	0	1
+post-disco music	0	0	0	0	0	0	0	1
+post-disco soul music	0	0	0	0	0	0	0	1
+post-grunge music	0	0	0	0	0	0	0	1
+post-hardcore music	0	0	0	0	0	0	0	1
+post-metal music	0	0	0	0	0	0	0	1
+post-post-hardcore music	0	0	0	0	0	0	0	1
+post-punk music	0	0	0	0	0	0	0	1
+power blues-rock music	0	0	0	0	0	0	0	1
+power electronics music	0	0	0	0	0	0	0	1
+power metal music	0	0	0	0	0	0	0	1
+power noise music	0	0	0	0	0	0	0	1
+power pop music	0	0	0	0	0	0	0	1
+power violence music	0	0	0	0	0	0	0	1
+power-pop punk music	0	0	0	0	0	0	0	1
+praise music	0	0	0	0	0	0	0	1
+progressive alternative music	0	0	0	0	0	0	0	1
+progressive bluegrass music	0	0	0	0	0	0	0	1
+progressive electro house music	0	0	0	0	0	0	0	1
+progressive house music	0	0	0	0	0	0	0	1
+progressive metal music	0	0	0	0	0	0	0	1
+progressive psytrance music	0	0	0	0	0	0	0	1
+progressive rock music	0	0	0	0	0	0	0	1
+progressive trance music	0	0	0	0	0	0	0	1
+progressive trance house music	0	0	0	0	0	0	0	1
+progressive uplifting trance music	0	0	0	0	0	0	0	1
+protopunk music	0	0	0	0	0	0	0	1
+psych gaze music	0	0	0	0	0	0	0	1
+psychedelic blues-rock music	0	0	0	0	0	0	0	1
+psychedelic rock music	0	0	0	0	0	0	0	1
+psychedelic trance music	0	0	0	0	0	0	0	1
+psychill music	0	0	0	0	0	0	0	1
+psychobilly music	0	0	0	0	0	0	0	1
+pub rock music	0	0	0	0	0	0	0	1
+puerto rican rock music	0	0	0	0	0	0	0	1
+punjabi music	0	0	0	0	0	0	0	1
+punk music	0	0	0	0	0	0	0	1
+punk blues music	0	0	0	0	0	0	0	1
+punk christmas music	0	0	0	0	0	0	0	1
+punk ska music	0	0	0	0	0	0	0	1
+qawwali music	0	0	0	0	0	0	0	1
+quebecois music	0	0	0	0	0	0	0	1
+quiet storm music	0	0	0	0	0	0	0	1
+r&b music	0	0	0	0	0	0	0	1
+ragga jungle music	0	0	0	0	0	0	0	1
+ragtime music	0	0	0	0	0	0	0	1
+rai music	0	0	0	0	0	0	0	1
+ranchera music	0	0	0	0	0	0	0	1
+rap music	0	0	0	0	0	0	0	1
+rap metal music	0	0	0	0	0	0	0	1
+rap metalcore music	0	0	0	0	0	0	0	1
+rap rock music	0	0	0	0	0	0	0	1
+raw black metal music	0	0	0	0	0	0	0	1
+re:techno music	0	0	0	0	0	0	0	1
+reading music	0	0	0	0	0	0	0	1
+rebetiko music	0	0	0	0	0	0	0	1
+reggae music	0	0	0	0	0	0	0	1
+reggae fusion music	0	0	0	0	0	0	0	1
+reggae rock music	0	0	0	0	0	0	0	1
+reggaeton music	0	0	0	0	0	0	0	1
+regional mexican music	0	0	0	0	0	0	0	1
+relaxative music	0	0	0	0	0	0	0	1
+remix music	0	0	0	0	0	0	0	1
+renaissance music	0	0	0	0	0	0	0	1
+retro electro music	0	0	0	0	0	0	0	1
+retro metal music	0	0	0	0	0	0	0	1
+rhythm and boogie music	0	0	0	0	0	0	0	1
+riddim music	0	0	0	0	0	0	0	1
+rio de la plata music	0	0	0	0	0	0	0	1
+riot grrrl music	0	0	0	0	0	0	0	1
+rock music	0	0	0	0	0	0	0	1
+rock catala music	0	0	0	0	0	0	0	1
+rock en espanol music	0	0	0	0	0	0	0	1
+rock gaucho music	0	0	0	0	0	0	0	1
+rock noise music	0	0	0	0	0	0	0	1
+rock steady music	0	0	0	0	0	0	0	1
+rock-and-roll music	0	0	0	0	0	0	0	1
+rockabilly music	0	0	0	0	0	0	0	1
+romanian pop music	0	0	0	0	0	0	0	1
+romanian rock music	0	0	0	0	0	0	0	1
+romantic music	0	0	0	0	0	0	0	1
+roots reggae music	0	0	0	0	0	0	0	1
+roots rock music	0	0	0	0	0	0	0	1
+rumba music	0	0	0	0	0	0	0	1
+russian alternative music	0	0	0	0	0	0	0	1
+russian hip hop music	0	0	0	0	0	0	0	1
+russian pop music	0	0	0	0	0	0	0	1
+russian punk music	0	0	0	0	0	0	0	1
+russian rock music	0	0	0	0	0	0	0	1
+rva indie music	0	0	0	0	0	0	0	1
+salsa music	0	0	0	0	0	0	0	1
+salsa international music	0	0	0	0	0	0	0	1
+samba music	0	0	0	0	0	0	0	1
+saxophone music	0	0	0	0	0	0	0	1
+schlager music	0	0	0	0	0	0	0	1
+schranz music	0	0	0	0	0	0	0	1
+scorecore music	0	0	0	0	0	0	0	1
+scottish rock music	0	0	0	0	0	0	0	1
+scratch music	0	0	0	0	0	0	0	1
+screamo music	0	0	0	0	0	0	0	1
+screamo punk music	0	0	0	0	0	0	0	1
+screamocore music	0	0	0	0	0	0	0	1
+seattle indie music	0	0	0	0	0	0	0	1
+sega music	0	0	0	0	0	0	0	1
+serialism music	0	0	0	0	0	0	0	1
+sertanejo music	0	0	0	0	0	0	0	1
+sertanejo tradicional music	0	0	0	0	0	0	0	1
+sertanejo universitario music	0	0	0	0	0	0	0	1
+sevdah music	0	0	0	0	0	0	0	1
+shanty music	0	0	0	0	0	0	0	1
+sheffield indie music	0	0	0	0	0	0	0	1
+shibuya-kei music	0	0	0	0	0	0	0	1
+shimmer pop music	0	0	0	0	0	0	0	1
+shimmer psych music	0	0	0	0	0	0	0	1
+shiver pop music	0	0	0	0	0	0	0	1
+shoegaze music	0	0	0	0	0	0	0	1
+show tunes music	0	0	0	0	0	0	0	1
+singaporean pop music	0	0	0	0	0	0	0	1
+singer-songwriter music	0	0	0	0	0	0	0	1
+sinhala music	0	0	0	0	0	0	0	1
+ska music	0	0	0	0	0	0	0	1
+ska punk music	0	0	0	0	0	0	0	1
+ska revival music	0	0	0	0	0	0	0	1
+skate punk music	0	0	0	0	0	0	0	1
+skiffle music	0	0	0	0	0	0	0	1
+skinhead oi music	0	0	0	0	0	0	0	1
+skinhead reggae music	0	0	0	0	0	0	0	1
+skweee music	0	0	0	0	0	0	0	1
+slam death metal music	0	0	0	0	0	0	0	1
+slash punk music	0	0	0	0	0	0	0	1
+slc indie music	0	0	0	0	0	0	0	1
+sleaze rock music	0	0	0	0	0	0	0	1
+sleep music	0	0	0	0	0	0	0	1
+slovak hip hop music	0	0	0	0	0	0	0	1
+slovak pop music	0	0	0	0	0	0	0	1
+slovenian rock music	0	0	0	0	0	0	0	1
+slow core music	0	0	0	0	0	0	0	1
+sludge metal music	0	0	0	0	0	0	0	1
+smooth jazz music	0	0	0	0	0	0	0	1
+smooth urban r&b music	0	0	0	0	0	0	0	1
+soca music	0	0	0	0	0	0	0	1
+soda pop music	0	0	0	0	0	0	0	1
+soft rock music	0	0	0	0	0	0	0	1
+solipsynthm music	0	0	0	0	0	0	0	1
+soukous music	0	0	0	0	0	0	0	1
+soul music	0	0	0	0	0	0	0	1
+soul blues music	0	0	0	0	0	0	0	1
+soul christmas music	0	0	0	0	0	0	0	1
+soul flow music	0	0	0	0	0	0	0	1
+soul jazz music	0	0	0	0	0	0	0	1
+soundtrack music	0	0	0	0	0	0	0	1
+south african jazz music	0	0	0	0	0	0	0	1
+southern gospel music	0	0	0	0	0	0	0	1
+southern hip hop music	0	0	0	0	0	0	0	1
+southern rock music	0	0	0	0	0	0	0	1
+southern soul music	0	0	0	0	0	0	0	1
+southern soul blues music	0	0	0	0	0	0	0	1
+space rock music	0	0	0	0	0	0	0	1
+spanish classical music	0	0	0	0	0	0	0	1
+spanish folk music	0	0	0	0	0	0	0	1
+spanish hip hop music	0	0	0	0	0	0	0	1
+spanish indie pop music	0	0	0	0	0	0	0	1
+spanish indie rock music	0	0	0	0	0	0	0	1
+spanish invasion music	0	0	0	0	0	0	0	1
+spanish new wave music	0	0	0	0	0	0	0	1
+spanish pop music	0	0	0	0	0	0	0	1
+spanish pop rock music	0	0	0	0	0	0	0	1
+spanish punk music	0	0	0	0	0	0	0	1
+spanish reggae music	0	0	0	0	0	0	0	1
+speed garage music	0	0	0	0	0	0	0	1
+speed metal music	0	0	0	0	0	0	0	1
+speedcore music	0	0	0	0	0	0	0	1
+spoken word music	0	0	0	0	0	0	0	1
+spytrack music	0	0	0	0	0	0	0	1
+steampunk music	0	0	0	0	0	0	0	1
+steelpan music	0	0	0	0	0	0	0	1
+stl indie music	0	0	0	0	0	0	0	1
+stomp and flutter music	0	0	0	0	0	0	0	1
+stomp and holler music	0	0	0	0	0	0	0	1
+stomp and whittle music	0	0	0	0	0	0	0	1
+stomp pop music	0	0	0	0	0	0	0	1
+stoner metal music	0	0	0	0	0	0	0	1
+stoner rock music	0	0	0	0	0	0	0	1
+straight edge music	0	0	0	0	0	0	0	1
+street punk music	0	0	0	0	0	0	0	1
+stride music	0	0	0	0	0	0	0	1
+string band music	0	0	0	0	0	0	0	1
+string folk music	0	0	0	0	0	0	0	1
+string quartet music	0	0	0	0	0	0	0	1
+substep music	0	0	0	0	0	0	0	1
+sunset lounge music	0	0	0	0	0	0	0	1
+suomi rock music	0	0	0	0	0	0	0	1
+surf music	0	0	0	0	0	0	0	1
+swamp blues music	0	0	0	0	0	0	0	1
+swamp pop music	0	0	0	0	0	0	0	1
+swedish alternative rock music	0	0	0	0	0	0	0	1
+swedish hard rock music	0	0	0	0	0	0	0	1
+swedish hip hop music	0	0	0	0	0	0	0	1
+swedish indie pop music	0	0	0	0	0	0	0	1
+swedish indie rock music	0	0	0	0	0	0	0	1
+swedish jazz music	0	0	0	0	0	0	0	1
+swedish metal music	0	0	0	0	0	0	0	1
+swedish pop music	0	0	0	0	0	0	0	1
+swedish pop punk music	0	0	0	0	0	0	0	1
+swedish prog music	0	0	0	0	0	0	0	1
+swedish punk music	0	0	0	0	0	0	0	1
+swedish reggae music	0	0	0	0	0	0	0	1
+swedish soft pop music	0	0	0	0	0	0	0	1
+swedish synthpop music	0	0	0	0	0	0	0	1
+swing music	0	0	0	0	0	0	0	1
+swirl psych music	0	0	0	0	0	0	0	1
+swiss folk music	0	0	0	0	0	0	0	1
+swiss hip hop music	0	0	0	0	0	0	0	1
+swiss rock music	0	0	0	0	0	0	0	1
+symphonic black metal music	0	0	0	0	0	0	0	1
+symphonic metal music	0	0	0	0	0	0	0	1
+symphonic rock music	0	0	0	0	0	0	0	1
+synthpop music	0	0	0	0	0	0	0	1
+taiwanese pop music	0	0	0	0	0	0	0	1
+talent show music	0	0	0	0	0	0	0	1
+tango music	0	0	0	0	0	0	0	1
+tech house music	0	0	0	0	0	0	0	1
+technical brutal death metal music	0	0	0	0	0	0	0	1
+technical death metal music	0	0	0	0	0	0	0	1
+techno music	0	0	0	0	0	0	0	1
+teen pop music	0	0	0	0	0	0	0	1
+tejano music	0	0	0	0	0	0	0	1
+tekno music	0	0	0	0	0	0	0	1
+terrorcore music	0	0	0	0	0	0	0	1
+texas blues music	0	0	0	0	0	0	0	1
+texas country music	0	0	0	0	0	0	0	1
+thai indie music	0	0	0	0	0	0	0	1
+thai pop music	0	0	0	0	0	0	0	1
+thrash core music	0	0	0	0	0	0	0	1
+thrash metal music	0	0	0	0	0	0	0	1
+thrash-groove metal music	0	0	0	0	0	0	0	1
+throat singing music	0	0	0	0	0	0	0	1
+tibetan music	0	0	0	0	0	0	0	1
+tico music	0	0	0	0	0	0	0	1
+timba music	0	0	0	0	0	0	0	1
+tin pan alley music	0	0	0	0	0	0	0	1
+traditional blues music	0	0	0	0	0	0	0	1
+traditional british folk music	0	0	0	0	0	0	0	1
+traditional country music	0	0	0	0	0	0	0	1
+traditional folk music	0	0	0	0	0	0	0	1
+traditional funk music	0	0	0	0	0	0	0	1
+traditional irish folk music	0	0	0	0	0	0	0	1
+traditional reggae music	0	0	0	0	0	0	0	1
+traditional rock 'n roll music	0	0	0	0	0	0	0	1
+traditional rockabilly music	0	0	0	0	0	0	0	1
+traditional scottish folk music	0	0	0	0	0	0	0	1
+traditional ska music	0	0	0	0	0	0	0	1
+traditional soul music	0	0	0	0	0	0	0	1
+traditional swing music	0	0	0	0	0	0	0	1
+trance music	0	0	0	0	0	0	0	1
+trance hop music	0	0	0	0	0	0	0	1
+trap music	0	0	0	0	0	0	0	1
+trapstep music	0	0	0	0	0	0	0	1
+trash rock music	0	0	0	0	0	0	0	1
+triangle indie music	0	0	0	0	0	0	0	1
+tribal house music	0	0	0	0	0	0	0	1
+tribute music	0	0	0	0	0	0	0	1
+trip hop music	0	0	0	0	0	0	0	1
+tropical music	0	0	0	0	0	0	0	1
+trova music	0	0	0	0	0	0	0	1
+turbo folk music	0	0	0	0	0	0	0	1
+turkish alternative music	0	0	0	0	0	0	0	1
+turkish classical music	0	0	0	0	0	0	0	1
+turkish folk music	0	0	0	0	0	0	0	1
+turkish hip hop music	0	0	0	0	0	0	0	1
+turkish jazz music	0	0	0	0	0	0	0	1
+turkish pop music	0	0	0	0	0	0	0	1
+turkish rock music	0	0	0	0	0	0	0	1
+turntablism music	0	0	0	0	0	0	0	1
+twee indie pop music	0	0	0	0	0	0	0	1
+twee pop music	0	0	0	0	0	0	0	1
+twin cities indie music	0	0	0	0	0	0	0	1
+tzadik music	0	0	0	0	0	0	0	1
+uk dub music	0	0	0	0	0	0	0	1
+uk garage music	0	0	0	0	0	0	0	1
+uk hip hop music	0	0	0	0	0	0	0	1
+uk post-punk music	0	0	0	0	0	0	0	1
+ukrainian rock music	0	0	0	0	0	0	0	1
+ukulele music	0	0	0	0	0	0	0	1
+unblack metal music	0	0	0	0	0	0	0	1
+underground hip hop music	0	0	0	0	0	0	0	1
+underground latin hip hop music	0	0	0	0	0	0	0	1
+underground pop rap music	0	0	0	0	0	0	0	1
+underground power pop music	0	0	0	0	0	0	0	1
+underground rap music	0	0	0	0	0	0	0	1
+uplifting trance music	0	0	0	0	0	0	0	1
+urban contemporary music	0	0	0	0	0	0	0	1
+vallenato music	0	0	0	0	0	0	0	1
+vancouver indie music	0	0	0	0	0	0	0	1
+vapor house music	0	0	0	0	0	0	0	1
+vaporwave music	0	0	0	0	0	0	0	1
+vegan straight edge music	0	0	0	0	0	0	0	1
+vegas indie music	0	0	0	0	0	0	0	1
+velha guarda music	0	0	0	0	0	0	0	1
+venezuelan rock music	0	0	0	0	0	0	0	1
+video game music	0	0	0	0	0	0	0	1
+vienna indie music	0	0	0	0	0	0	0	1
+vietnamese pop music	0	0	0	0	0	0	0	1
+viking metal music	0	0	0	0	0	0	0	1
+vintage chanson music	0	0	0	0	0	0	0	1
+vintage country folk music	0	0	0	0	0	0	0	1
+vintage gospel music	0	0	0	0	0	0	0	1
+vintage jazz music	0	0	0	0	0	0	0	1
+vintage reggae music	0	0	0	0	0	0	0	1
+vintage rockabilly music	0	0	0	0	0	0	0	1
+vintage schlager music	0	0	0	0	0	0	0	1
+vintage swedish pop music	0	0	0	0	0	0	0	1
+vintage swing music	0	0	0	0	0	0	0	1
+vintage swoon music	0	0	0	0	0	0	0	1
+vintage tango music	0	0	0	0	0	0	0	1
+vintage western music	0	0	0	0	0	0	0	1
+violin music	0	0	0	0	0	0	0	1
+viral pop music	0	0	0	0	0	0	0	1
+visual kei music	0	0	0	0	0	0	0	1
+vocal house music	0	0	0	0	0	0	0	1
+vocal jazz music	0	0	0	0	0	0	0	1
+vocaloid music	0	0	0	0	0	0	0	1
+volksmusik music	0	0	0	0	0	0	0	1
+warm drone music	0	0	0	0	0	0	0	1
+welsh rock music	0	0	0	0	0	0	0	1
+west african jazz music	0	0	0	0	0	0	0	1
+west coast rap music	0	0	0	0	0	0	0	1
+western swing music	0	0	0	0	0	0	0	1
+wind ensemble music	0	0	0	0	0	0	0	1
+witch house music	0	0	0	0	0	0	0	1
+wonky music	0	0	0	0	0	0	0	1
+workout music	0	0	0	0	0	0	0	1
+world music	0	0	0	0	0	0	0	1
+world chill music	0	0	0	0	0	0	0	1
+world christmas music	0	0	0	0	0	0	0	1
+world fusion music	0	0	0	0	0	0	0	1
+worship music	0	0	0	0	0	0	0	1
+wrestling	0	0	0	0	0	0	0	1

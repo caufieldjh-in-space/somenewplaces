@@ -1,0 +1,26 @@
+A constantly-changing noir city with Art Deco and Japanese elements. It's actually a virtual world.
+A smog-choked hellscape built into the side of a giant rabbit's foot.
+A castle built out of foam. The residents are colorful and feathered.
+
+word types:
+Place
+Material
+Descriptor
+Art Style
+Color
+People
+Animal
+
+Eventual goal:
+Place types will determine some of the aspects in play, e.g. a dystopia gets something like "It's ruled by narcoleptic fanatics." and a castle gets "The towers have a peculiar smell." 
+
+This shouldn't just be about visual aesthetics and settings, though.
+It's also about what happens in these places.
+That's going to be the complicated part.
+
+Major next goal:
+Use Wikipedia (and potentially other sources?) to expand these settings
+into full-fledged...um...just prose for now. Not full stories yet.
+This may put it outside the realm of a Twitter bot but that's fine.
+The idea is to use the setting as the nucleus of a very short, 
+generated story.

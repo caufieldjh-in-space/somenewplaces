@@ -1,0 +1,384 @@
+	clothing	concept	animal
+keys	1	0	0
+bike helmet	1	0	0
+bracelet	1	0	0
+earrings	1	0	0
+necklace	1	0	0
+wedding band	1	0	0
+bracelet	1	0	0
+necklace	1	0	0
+earrings	1	0	0
+camp shirt	1	0	0
+jeans	1	0	0
+bell-bottoms	1	0	0
+suit pants	1	0	0
+Bermuda shorts	1	0	0
+capri pants	1	0	0
+cargo pants	1	0	0
+cargo shorts	1	0	0
+cycling shorts	1	0	0
+running pants	1	0	0
+dress pants	1	0	0
+jodhpurs	1	0	0
+leggings	1	0	0
+jeggings	1	0	0
+parachute pants	1	0	0
+shorts	1	0	0
+swim trunks	1	0	0
+sweatpants	1	0	0
+yoga pants	1	0	0
+skirt	1	0	0
+pencil skirt	1	0	0
+sarong	1	0	0
+stockings	1	0	0
+baseball cap	1	0	0
+bucket hat	1	0	0
+hard hat	1	0	0
+Stetson	1	0	0
+jacket	1	0	0
+dinner jacket	1	0	0
+suit jacket	1	0	0
+raincoat	1	0	0
+windbreaker	1	0	0
+poncho	1	0	0
+jean jacket	1	0	0
+Pea coat	1	0	0
+cape	1	0	0
+flight jacket	1	0	0
+trench coat	1	0	0
+overcoat	1	0	0
+parka	1	0	0
+winter coat	1	0	0
+sneakers	1	0	0
+dress shoes	1	0	0
+bowling shoes	1	0	0
+flats	1	0	0
+wedges	1	0	0
+sandals	1	0	0
+flip-flops	1	0	0
+dress shoes	1	0	0
+walking shoes	1	0	0
+boots	1	0	0
+hiking boots	1	0	0
+steel-toed boots	1	0	0
+cowboy boots	1	0	0
+fur-lined boots	1	0	0
+Crocs	1	0	0
+rain boots	1	0	0
+dress shirt	1	0	0
+t-shirt	1	0	0
+ringer t-shirt	1	0	0
+sleeveless shirt	1	0	0
+A-shirt	1	0	0
+camisole	1	0	0
+polo shirt	1	0	0
+Henley shirt	1	0	0
+baseball jersey	1	0	0
+basketball jersey	1	0	0
+sweatshirt	1	0	0
+hooded sweatshirt	1	0	0
+tunic	1	0	0
+halter top	1	0	0
+sweater	1	0	0
+heavy sweater	1	0	0
+tube top	1	0	0
+blouse	1	0	0
+cardigan	1	0	0
+jean shirt	1	0	0
+turtleneck	1	0	0
+sweater vest	1	0	0
+space suit	1	0	0
+armored suit	1	0	0
+suit	1	0	0
+bandolier	1	0	0
+belt	1	0	0
+chain	1	0	0
+collar	1	0	0
+crown	1	0	0
+torc	1	0	0
+amulet	1	0	0
+ring	1	0	0
+mask	1	0	0
+language	0	1	0
+tools	0	1	0
+writing	0	1	0
+mathematics	0	1	0
+time	0	1	0
+weapons	0	1	0
+science	0	1	0
+philosophy	0	1	0
+biology	0	1	0
+democracy	0	1	0
+libertarianism	0	1	0
+totalitarianism	0	1	0
+aristocracy	0	1	0
+dictatorship	0	1	0
+kleptocracy	0	1	0
+neptocracy	0	1	0
+capitalism	0	1	0
+fear	0	1	0
+plutocracy	0	1	0
+meritocracy	0	1	0
+socialism	0	1	0
+feudalism	0	1	0
+communism	0	1	0
+causality	0	1	0
+doubt	0	1	0
+ethics	0	1	0
+evolution	0	1	0
+God	0	1	0
+intuition	0	1	0
+logic	0	1	0
+fun	0	1	0
+humor	0	1	0
+music	0	1	0
+art	0	1	0
+dance	0	1	0
+code	0	1	0
+wisdom	0	1	0
+theology	0	1	0
+tradition	0	1	0
+eroticism	0	1	0
+ambition	0	1	0
+anger	0	1	0
+bravery	0	1	0
+censorship	0	1	0
+community	0	1	0
+cooperation	0	1	0
+death	0	1	0
+euthanasia	0	1	0
+failure	0	1	0
+faith	0	1	0
+forgiveness	0	1	0
+free will	0	1	0
+freedom	0	1	0
+fulfillment	0	1	0
+gender	0	1	0
+genealogy	0	1	0
+gratitude	0	1	0
+heartbreak	0	1	0
+heroism	0	1	0
+history	0	1	0
+honor	0	1	0
+isolation	0	1	0
+light	0	1	0
+patriotism	0	1	0
+poverty	0	1	0
+pride	0	1	0
+progress	0	1	0
+rebellion	0	1	0
+self-reliance	0	1	0
+self-awareness	0	1	0
+silence	0	1	0
+teamwork	0	1	0
+technology	0	1	0
+tragedy	0	1	0
+temptation	0	1	0
+wealth	0	1	0
+youth	0	1	0
+grief	0	1	0
+discrimination	0	1	0
+assimilation	0	1	0
+force	0	1	0
+entropy	0	1	0
+necromancy	0	1	0
+alchemy	0	1	0
+artifice	0	1	0
+illusion	0	1	0
+evocation	0	1	0
+conjuration	0	1	0
+virtue	0	1	0
+simplicity	0	1	0
+voting	0	1	0
+vanity	0	1	0
+labor	0	1	0
+butchery	0	1	0
+sacrifice	0	1	0
+dentistry	0	1	0
+baking	0	1	0
+painting	0	1	0
+hubris	0	1	0
+bloodshed	0	1	0
+murder	0	1	0
+arrogance	0	1	0
+retribution	0	1	0
+judgment	0	1	0
+beauty	0	1	0
+aesthetics	0	1	0
+love	0	1	0
+infatuation	0	1	0
+allegiance	0	1	0
+nationalism	0	1	0
+fire	0	1	0
+cannibalism	0	1	0
+symbolism	0	1	0
+miracles	0	1	0
+art	0	1	0
+sculpture	0	1	0
+engineering	0	1	0
+fermentation	0	1	0
+nano-architecture	0	1	0
+autonomous vehicles	0	1	0
+ballooning	0	1	0
+desalination	0	1	0
+dementia	0	1	0
+mental illness	0	1	0
+madness	0	1	0
+photosynthesis	0	1	0
+networking	0	1	0
+virtual reality	0	1	0
+travel	0	1	0
+cuisine	0	1	0
+robotics	0	1	0
+moralism	0	1	0
+prophecies	0	1	0
+racism	0	1	0
+world building	0	1	0
+alienation	0	1	0
+scientific progress	0	1	0
+time travel	0	1	0
+societal change	0	1	0
+naval warfare	0	1	0
+cycles	0	1	0
+escape	0	1	0
+escapism	0	1	0
+costuming	0	1	0
+comfort	0	1	0
+compulsion	0	1	0
+opposition	0	1	0
+imagination	0	1	0
+memory	0	1	0
+memorization	0	1	0
+despair	0	1	0
+names	0	1	0
+pharmaceuticals	0	1	0
+class struggle	0	1	0
+trials	0	1	0
+karma	0	1	0
+carpentry	0	1	0
+fatalism	0	1	0
+agnosticism	0	1	0
+probability	0	1	0
+statistics	0	1	0
+confidence	0	1	0
+justice	0	1	0
+boating	0	1	0
+government	0	1	0
+football	0	1	0
+software	0	1	0
+pop music	0	1	0
+wrestling	0	1	0
+food	0	1	0
+humanitarianism	0	1	0
+speech	0	1	0
+antibacterials	0	1	0
+candy	0	1	0
+religious law	0	1	0
+canon law	0	1	0
+common law	0	1	0
+bureaucracy	0	1	0
+violence	0	1	0
+gardening	0	1	0
+baseball	0	1	0
+literature	0	1	0
+poetry	0	1	0
+masonry	0	1	0
+television	0	1	0
+charity	0	1	0
+ghost hunting	0	1	0
+card games	0	1	0
+psychology	0	1	0
+transcendence	0	1	0
+Neoplatonism	0	1	0
+Sophism	0	1	0
+Pluralism	0	1	0
+Atomism	0	1	0
+cynicism	0	1	0
+Epicureanism	0	1	0
+Stoicism	0	1	0
+feminism	0	1	0
+facts	0	1	0
+unity	0	1	0
+anti-realism	0	1	0
+pseudoscience	0	1	0
+rhetoric	0	1	0
+ambiguity	0	1	0
+semantics	0	1	0
+semiotics	0	1	0
+quietism	0	1	0
+war	0	1	0
+action	0	1	0
+art	0	1	0
+business	0	1	0
+dialogue	0	1	0
+healthcare	0	1	0
+pain	0	1	0
+philosophy	0	1	0
+geography	0	1	0
+chemistry	0	1	0
+biology	0	1	0
+physics	0	1	0
+sexuality	0	1	0
+watchmaking	0	1	0
+sport	0	1	0
+Zoroastrianism	0	1	0
+Neo-Confucianism	0	1	0
+Spinozism	0	1	0
+idealism	0	1	0
+liberalism	0	1	0
+pragmatism	0	1	0
+reductionism	0	1	0
+vulnerability	0	1	0
+youth and beauty	0	1	0
+the working class	0	1	0
+courtly love	0	1	0
+accounting	0	1	0
+masculinity	0	1	0
+femininity	0	1	0
+folly	0	1	0
+craftsmanship	0	1	0
+fishing	0	1	0
+legalism	0	1	0
+friendship	0	1	0
+rune engraving	0	1	0
+ape	0	0	1
+rabbit	0	0	1
+owl	0	0	1
+frog	0	0	1
+dragon	0	0	1
+camel	0	0	1
+virus	0	0	1
+octopus	0	0	1
+bird	0	0	1
+fox	0	0	1
+bear	0	0	1
+otter	0	0	1
+whale	0	0	1
+worm	0	0	1
+snake	0	0	1
+iguana	0	0	1
+horse	0	0	1
+dog	0	0	1
+cat	0	0	1
+spider	0	0	1
+badger	0	0	1
+griffin	0	0	1
+giant	0	0	1
+troll	0	0	1
+gremlin	0	0	1
+turtle	0	0	1
+serpent	0	0	1
+snail	0	0	1
+slug	0	0	1
+panda	0	0	1
+orc	0	0	1
+sea lion	0	0	1
+sandworm	0	0	1
+lion	0	0	1
+satyr	0	0	1
+angel	0	0	1
+boar	0	0	1
+crab	0	0	1
+capybara	0	0	1
+humanoid	0	0	1
+phage	0	0	1

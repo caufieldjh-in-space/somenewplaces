@@ -1,3 +1,6 @@
+tw.auth
+tw.keys
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
