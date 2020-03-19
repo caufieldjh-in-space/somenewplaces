@@ -1,0 +1,212 @@
+geoareas
+the American Southwest
+the Pacific Northwest
+the Rust Belt
+the Bible Belt
+the American South
+New England
+the American Midwest
+the American Mid-Atlantic
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Shanghai
+Karachi
+Beijing
+São Paulo
+Delhi
+Lagos
+Instanbul
+Tokyo
+Mumbai
+Moscow
+Guangzhou
+Shenzhen
+Suzhou
+Kinshasa
+Cairo
+Jakarta
+Lahore
+Seoul
+Mexico City
+London
+Lima
+New York City
+Bengaluru
+Bangkok
+Dongguan
+Chongquing
+Nanjing
+Tehran
+Shenyang
+Bogotá
+Ho Chi Minh City
+Hong Kong
+Baghdad
+Chennai
+Changsha
+Dhaka
+Singapore
+Los Angeles
+Kabul
+Madrid
+Paris
+Casablanca
+Osaka
+Chicago
+Houston
+Philadelphia
+Manila
+Taipei
+Central Europe
+Eastern Europe
+Scandinavia
+Southern Europe
+France
+Germany
+the UK
+Italy
+Iceland
+Ireland
+Switzerland
+the Swiss Alps
+Greece
+Croatia
+Austria
+Poland
+Ukraine
+Belgium
+Malta
+Czechia
+Sweden
+Norway
+Denmark
+Cyprus
+Bulgaria
+Hungary
+Albania
+Romania
+Monaco
+Finland
+Slovenia
+Brazil
+Venezuela
+Argentina
+Peru
+Chile
+Colombia
+Ecuador
+Bolivia
+Uruguay
+Paraguay
+the Caribbean
+Mexico
+Canada
+Costa Rica
+El Salvador
+Guatemala
+Honduras
+Central Asia
+Kazakhstan
+Kyrgyzstan
+Tajikistan
+Turkmenistan
+Uzbekistan
+China
+India
+Pakistan
+Japan
+Korea
+North Korea
+Australia
+New Zealand
+Antarctica
+Morocco
+South Africa
+Algeria
+Nigeria
+Kenya
+Tunisia
+Ethiopia
+Mauritius
+Tanzania
+Libya
+Madagascar
+Qatar
+Saudi Arabia
+Panama
+Cuba
+Venice
+Seville
+Lhasa
+Rio de Janeiro
+Marrakesh
+Petra
+Florence
+Havana
+Kyoto
+Jerusalem
+Athens
+Kathmandu
+a moon colony
+a Martian colony
+an asteroid mining colony
+a deep space station
+space
+a fallen empire
+a frontier
+a world like our own
+a virtual world
+a deep jungle
+an undersea society
+a primitive society
+a battleground
+the Internet
+a dream

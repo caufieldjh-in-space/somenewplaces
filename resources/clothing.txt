@@ -1,0 +1,101 @@
+clothing
+keys
+bike helmet
+bracelet
+earrings
+necklace
+wedding band
+bracelet
+necklace
+earrings
+camp shirt
+jeans
+bell-bottoms
+suit pants
+Bermuda shorts
+capri pants
+cargo pants
+cargo shorts
+cycling shorts
+running pants
+dress pants
+jodhpurs
+leggings
+jeggings
+parachute pants
+shorts
+swim trunks
+sweatpants
+yoga pants
+skirt
+pencil skirt
+sarong
+stockings
+baseball cap
+bucket hat
+hard hat
+Stetson
+jacket
+dinner jacket
+suit jacket
+raincoat
+windbreaker
+poncho
+jean jacket
+Pea coat
+cape
+flight jacket
+trench coat
+overcoat
+parka
+winter coat
+sneakers
+dress shoes
+bowling shoes
+flats
+wedges
+sandals
+flip-flops
+dress shoes
+walking shoes
+boots
+hiking boots
+steel-toed boots
+cowboy boots
+fur-lined boots
+Crocs
+rain boots
+dress shirt
+t-shirt
+ringer t-shirt
+sleeveless shirt
+A-shirt
+camisole
+polo shirt
+Henley shirt
+baseball jersey
+basketball jersey
+sweatshirt
+hooded sweatshirt
+tunic
+halter top
+sweater
+heavy sweater
+tube top
+blouse
+cardigan
+jean shirt
+turtleneck
+sweater vest
+space suit
+armored suit
+suit
+bandolier
+belt
+chain
+collar
+crown
+torc
+amulet
+ring
+mask

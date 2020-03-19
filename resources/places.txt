@@ -1,0 +1,321 @@
+places
+society
+culture
+jungle
+gathering
+clubhouse
+secret society
+republic
+colony
+underworld
+gymnasium
+amphitheatre
+stadium
+skating rink
+race course
+cockpit
+colosseum
+iceberg
+ice floe
+riverbank
+megalopolis
+conurbation
+obelisk
+skyscraper
+stronghold
+minaret
+fortification
+fortress
+panic room
+phone booth
+villa
+acropolis
+antechamber
+cubicle
+office park
+industrial park
+bathroom
+lavatory
+den
+man cave
+closet
+scrap yard
+steel mill
+peak
+loft
+hellscape
+arena
+mountain
+desert
+glacier
+pit
+tower
+planet
+city
+town
+farm
+country
+metropolis
+empire
+airport
+amusement park
+temple
+church
+chapel
+bakery
+bank
+vault
+mine
+bar
+pub
+brewpub
+garden
+conservatory
+facility
+warehouse
+tenement
+asylum
+court
+beauty salon
+bookstore
+bowling alley
+bus station
+train station
+parking garage
+galaxy
+universe
+dimension
+cafe
+campground
+casino
+cemetary
+tomb
+pyramid
+clothing store
+convenience store
+pharmacy
+theater
+museum
+library
+office
+school
+college
+university
+grocery store
+gym
+hardware store
+zoo
+embassy
+spaceship
+nightclub
+hotel
+motel
+post office
+neighborhood
+nation
+virtual world
+underground society
+basement
+island
+utopia
+dystopia
+prison
+moon
+village
+mall
+golf course
+beach
+ship
+space station
+outpost
+manor
+estate
+mansion
+landscape
+cave
+duchy
+Dyson sphere
+woodland
+grove
+park
+terrarium
+cavern
+hamlet
+continent
+grotto
+keep
+chamber
+airship
+apartment
+pool hall
+sewer
+slum
+shantytown
+aquarium
+coral reef
+trench
+alley
+trading post
+circus
+valley
+river
+ocean
+lake
+pond
+community
+highway
+bridge
+hill
+waterfall
+chateau
+citadel
+fort
+cathedral
+dock
+palace
+art gallery
+satellite
+asteroid
+universe
+archipelago
+room
+ghost town
+hamlet
+auditorium
+port
+crossroads
+home
+condo
+district
+suburb
+crossroads
+collective
+borough
+township
+hole
+nook
+abode
+dwelling
+point
+property
+venue
+hamlet
+countryside
+parish
+sanctuary
+shrine
+star system
+nebula
+corporation
+business
+megacorp
+subway system
+bunker
+laboratory
+workshop
+college
+boarding school
+manor
+chateau
+graveyard
+junkyard
+plantation
+condo
+timeshare
+stable
+barnyard
+dormitory
+plaza
+portal
+golf course
+police station
+civic center
+ruins
+shipwreck
+battleground
+waypost
+memorial
+junk heap
+locale
+sector
+tundra
+moor
+grange hall
+grove
+orchard
+camp
+barracks
+aircraft
+train
+yacht
+cruise ship
+houseboat
+truck
+battleship
+party
+celebration
+amusement park
+carnival
+gala
+dinner party
+luncheon
+prom
+tea party
+Happening
+banquet
+ski lodge
+ski slope
+waterfront
+seaside
+pier
+harbor
+workmen's village
+boomtown
+walled city
+farming village
+star fleet
+trailer park
+arcology
+kibbutz
+domed city
+fishing village
+spaceport
+planetoid
+deep space station
+trans-dimensional area
+alternate history
+shoe store
+candy store
+sawmill
+chemical plant
+homestead
+cliffside
+overlook
+truck stop
+art school
+culinary school
+institute
+science museum
+history museum
+community college
+tree
+treehouse
+liquor store
+boutique
+nursery
+newsstand
+supermarket
+corner store
+chemistry lab
+greenhouse
+haberdashery
+party store
+tobacconist
+birdhouse
+purgatory
+roadside attraction
+government office
+record store
+flea market
+headquarters
+den of iniquity

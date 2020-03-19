@@ -1,0 +1,165 @@
+materials
+steel
+glass
+concrete
+brick
+wood
+brass
+bone
+marble
+chalk
+energy
+magic
+flesh
+copper
+aluminum
+silver
+gold
+cloth
+silk
+paper
+bamboo
+quartz
+crystal
+diamond
+carbon
+carbon fiber
+thorium
+tin foil
+mud
+compressed earth
+insulation
+plaster
+stucco
+carpet
+adobe
+terra cotta
+stone
+rebar
+wire
+rope
+plywood
+chromium
+PVC
+parrafin wax
+straw
+silica
+fur
+feathers
+scales
+cast iron
+lace
+burlap
+hemp
+magnesium
+titanium
+wrought iron
+nickel
+nickel silver
+teak
+birch
+balsa
+basalt
+granite
+pumice
+limestone
+sandstone
+slate
+leather
+horn
+rattan
+wicker
+cork
+tungsten
+ebony
+fruit
+Styrofoam
+lead
+charcoal
+vines
+ceramic
+plastic
+rubber
+foam
+zinc
+tin
+ivory
+yttrium
+cardboard
+ice
+rubies
+emeralds
+tulle
+salt
+magnesium
+gears
+pear
+oyster shell
+grass
+seaweed
+peat
+translucent concrete
+cerrosafe
+nichrome
+electrum
+ammunition
+glitter
+silicone
+pig iron
+plutonium
+discarded machines
+zirconium
+nanobots
+mithril
+adamantium
+orichalcum
+vanadium
+psychic energy
+dreams
+pure evil
+tuff
+andesite
+tridymite
+opal
+plastic bottles
+plastic bags
+glass bottles
+cigarettes
+old tires
+coral
+sponge
+sharkskin
+fruit
+cedar
+gristle
+dark matter
+marble
+stained glass
+junk mail
+algae
+bread
+cheese
+latex
+brass
+egg
+paper money
+information
+artificial bone
+butter
+yak hair
+artificial silk
+sulfur
+graphite
+aluminum foil
+string
+actinides
+coinage
+tree bark
+paper ballots
+pine needles
+name tags
+evidence
+dust
+metal springs
+eggshell
+lard

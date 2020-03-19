@@ -35,49 +35,18 @@ res = Path('resources')
 def get_words():
 	words = {}
 	wordtypes = ['places', 'materials', 'descriptors', 'emotions', 
-				'colors', 'smells', 'geoareas', 'sounds', 'clothes', 
+				'colors', 'smells', 'geoareas', 'sounds', 'clothing', 
 				'concepts', 'animals', 'names']
 				
 	for wordtype in wordtypes:
 		words[wordtype] = []
 	
-	with open(res / "place_words.tsv") as wordfile:
-		wordfile.readline()
-		for line in wordfile:
-			splitline = (line.rstrip()).split("\t")
-			if splitline[1] == "1":
-				words['places'].append(splitline[0])
-			if splitline[2] == "1":
-				words['materials'].append(splitline[0])
-			if splitline[3] == "1":
-				words['descriptors'].append(splitline[0])
-			if splitline[4] == "1":
-				words['emotions'].append(splitline[0])
-			if splitline[5] == "1":
-				words['colors'].append(splitline[0])
-			if splitline[6] == "1":
-				words['smells'].append(splitline[0])
-			if splitline[7] == "1":
-				words['geoareas'].append(splitline[0])
-			if splitline[8] == "1":
-				words['sounds'].append(splitline[0])
-	
-	with open(res / "object_words.tsv") as wordfile:
-		wordfile.readline()
-		for line in wordfile:
-			splitline = (line.rstrip()).split("\t")
-			if splitline[1] == "1":
-				words['clothes'].append(splitline[0])
-			if splitline[2] == "1":
-				words['concepts'].append(splitline[0])
-			if splitline[3] == "1":
-				words['animals'].append(splitline[0])
-
-	with open(res / "names.txt") as wordfile:
-		wordfile.readline()
-		for line in wordfile:
-			word = (line.rstrip()).capitalize()
-			words['names'].append(word)
+	for filename in res.glob('*.txt'):
+		with open(filename) as wordfile:
+			head = wordfile.readline().rstrip()
+			for line in wordfile:
+				splitline = (line.rstrip()).split("\t")
+				words[head].append(splitline[0])
 			
 	return words
 	
@@ -121,11 +90,9 @@ def make_place():
 	smells = words['smells']
 	geoareas = words['geoareas']
 	sounds = words['sounds']
-	
-	clothes = words['clothes']
+	clothing = words['clothing']
 	concepts = words['concepts']
 	animals = words['animals']
-	
 	names = words['names']
 	
 	while makeplace == True:
