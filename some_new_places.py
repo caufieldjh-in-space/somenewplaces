@@ -29,69 +29,55 @@ with open("tw.keys") as tw_api_file:
 auth = tweepy.OAuthHandler(tw_api_keys[0], tw_api_keys[1])
 auth.secure = True
 
+res = Path('resources')
+
 #Methods
 def get_words():
-	places = []
-	descriptors = []
-	materials = []
-	emotions = []
-	colors = []
-	smells = []
-	geoareas = []
-	sounds = []
+	words = {}
+	wordtypes = ['places', 'materials', 'descriptors', 'emotions', 
+				'colors', 'smells', 'geoareas', 'sounds', 'clothes', 
+				'concepts', 'animals', 'names']
+				
+	for wordtype in wordtypes:
+		words[wordtype] = []
 	
-	clothes = []
-	concepts = []
-	animals = []
-	
-	lastnames = []
-	
-	with open("place_words.tsv") as wordfile:
+	with open(res / "place_words.tsv") as wordfile:
 		wordfile.readline()
 		for line in wordfile:
 			splitline = (line.rstrip()).split("\t")
 			if splitline[1] == "1":
-				places.append(splitline[0])
+				words['places'].append(splitline[0])
 			if splitline[2] == "1":
-				materials.append(splitline[0])
+				words['materials'].append(splitline[0])
 			if splitline[3] == "1":
-				descriptors.append(splitline[0])
+				words['descriptors'].append(splitline[0])
 			if splitline[4] == "1":
-				emotions.append(splitline[0])
+				words['emotions'].append(splitline[0])
 			if splitline[5] == "1":
-				colors.append(splitline[0])
+				words['colors'].append(splitline[0])
 			if splitline[6] == "1":
-				smells.append(splitline[0])
+				words['smells'].append(splitline[0])
 			if splitline[7] == "1":
-				geoareas.append(splitline[0])
+				words['geoareas'].append(splitline[0])
 			if splitline[8] == "1":
-				sounds.append(splitline[0])
+				words['sounds'].append(splitline[0])
 	
-	with open("object_words.tsv") as wordfile:
+	with open(res / "object_words.tsv") as wordfile:
 		wordfile.readline()
 		for line in wordfile:
 			splitline = (line.rstrip()).split("\t")
 			if splitline[1] == "1":
-				clothes.append(splitline[0])
+				words['clothes'].append(splitline[0])
 			if splitline[2] == "1":
-				concepts.append(splitline[0])
+				words['concepts'].append(splitline[0])
 			if splitline[3] == "1":
-				animals.append(splitline[0])
-	
-	name_input_files = ["female_fn.txt","male_fn.txt","lastnames.txt"]
-	names = [] #Don't care if they're male or female or first or last
-	for filename in name_input_files:
-		with open(filename) as wordfile:
-			wordfile.readline()
-			for line in wordfile:
-				if filename == "lastnames.txt":
-					word = (line.rstrip()).capitalize()
-				else:
-					word = line.rstrip()
-				names.append(word)
-			
-	words = [places, materials, descriptors, emotions, colors, smells, 
-			geoareas, sounds, clothes, concepts, animals, names]
+				words['animals'].append(splitline[0])
+
+	with open(res / "names.txt") as wordfile:
+		wordfile.readline()
+		for line in wordfile:
+			word = (line.rstrip()).capitalize()
+			words['names'].append(word)
 			
 	return words
 	
@@ -127,20 +113,20 @@ def make_place():
 	makeplace = True
 	
 	words = get_words()
-	places = words[0]
-	materials = words[1]
-	descriptors = words[2]
-	emotions = words[3]
-	colors = words[4]
-	smells = words[5]
-	geoareas = words[6]
-	sounds = words[7]
+	places = words['places']
+	materials = words['materials']
+	descriptors = words['descriptors']
+	emotions = words['emotions']
+	colors = words['colors']
+	smells = words['smells']
+	geoareas = words['geoareas']
+	sounds = words['sounds']
 	
-	clothes = words[8]
-	concepts = words[9]
-	animals = words[10]
+	clothes = words['clothes']
+	concepts = words['concepts']
+	animals = words['animals']
 	
-	names = words[11]
+	names = words['names']
 	
 	while makeplace == True:
 		linechoice = random.randint(0,3)
