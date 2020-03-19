@@ -36,7 +36,8 @@ def get_words():
 	words = {}
 	wordtypes = ['places', 'materials', 'descriptors', 'emotions', 
 				'colors', 'smells', 'geoareas', 'sounds', 'clothing', 
-				'concepts', 'animals', 'names']
+				'concepts', 'animals', 'names', 'residents', 
+				'magic_types']
 				
 	for wordtype in wordtypes:
 		words[wordtype] = []
@@ -94,6 +95,8 @@ def make_place():
 	concepts = words['concepts']
 	animals = words['animals']
 	names = words['names']
+	residents = words['residents']
+	magic_types = words['magic_types']
 	
 	while makeplace == True:
 		linechoice = random.randint(0,3)
@@ -280,14 +283,7 @@ def make_place():
 								"realistic","surreal","fictional"])
 				mod5 = "It's in a %s world." % worldtype
 			elif modchoice == 2:
-				energy = random.choice(["magic","dark forces","wizardry",
-								"alchemy","conjuration","necromancy",
-								"voodoo","thaumaturgy","witchcraft",
-								"superstition","enchantment","sorcery",
-								"demons","demonic energy","angels",
-								"fairies","spirits","occultism","illusions",
-								"mysticism"])
-				mod5 = "It's full of %s." % energy
+				mod5 = "It's full of %s." % random.choice(magic_types)
 			elif modchoice == 3:
 				if random.randint(0,1) == 0:
 					mod5 = "It's part of the afterlife."
@@ -458,23 +454,7 @@ def make_place():
 		#Residents	
 		if random.randint(0,2) == 0:
 			part2 = random.choice(["Its","The","Some of its"])
-			people = (["residents","occupants","people",
-							"inhabitants","rulers","owners","overseers",
-							"administrators","laborers","workers","priests",
-							"aristocrats","businesspeople","doctors","lawyers",
-							"lawmakers","protectors","navigators","judges",
-							"warriors","managers","directors","executives",
-							"governors","artisans","operatives","peasants",
-							"ministers","emissaries","dignitaries","celebrities",
-							"luminaries","artists","VIPs","authorities","heroes",
-							"conquerors","scientists","researchers",
-							"engineers","idols","gods","demigods","giants",
-							"directors","janitors","surveyors","robots",
-							"cyborgs","aliens","elves","thieves","gangsters",
-							"politicians","soldiers","heroines","pioneers",
-							"travelers","tourists","pirates","mercenaries",
-							"champions"])
-			peopleword = random.choice(people)
+			peopleword = random.choice(residents)
 			modcount = modcount +1
 			modchoice = random.randint(0,24)
 			
