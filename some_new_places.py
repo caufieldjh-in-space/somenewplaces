@@ -17,7 +17,7 @@ But it may never happen.
 That's life I suppose.
 '''
 
-import random, re, string, sys, time, tweepy, wikipedia, webbrowser
+import os, random, re, string, sys, time, tweepy, wikipedia, webbrowser
 from pathlib import Path
 
 #Contants and Setup
@@ -34,15 +34,13 @@ res = Path('resources')
 #Methods
 def get_words():
 	words = {}
-	wordtypes = ['places', 'materials', 'descriptors', 'emotions', 
-				'colors', 'smells', 'geoareas', 'sounds', 'clothing', 
-				'concepts', 'animals', 'names', 'residents', 
-				'magic_types']
-				
-	for wordtype in wordtypes:
-		words[wordtype] = []
+	wordtypes = []
 	
-	for filename in res.glob('*.txt'):
+	wordtypefiles = res.glob('*.txt')
+	for filename in wordtypefiles:
+		wordtype = os.path.splitext(os.path.basename(filename))[0]
+		wordtypes.append(wordtype)
+		words[wordtype] = []
 		with open(filename) as wordfile:
 			head = wordfile.readline().rstrip()
 			for line in wordfile:
@@ -50,6 +48,26 @@ def get_words():
 				words[head].append(splitline[0])
 			
 	return words
+	
+def get_templates():
+	'''Template files include both text and denotation of word types to be
+	 included.'''
+	 
+	templates = {}
+	templatetypes = []
+	
+	templatetypefiles = res.glob('*.tsv')
+	for filename in templatetypefiles:
+		templatetype = os.path.splitext(os.path.basename(filename))[0]
+		templatetypes.append(templatetype)
+		templates[templatetype] = []
+		with open(filename) as templatefile:
+			head = templatefile.readline().rstrip()
+			for line in templatefile:
+				splitline = (line.rstrip()).split("\t")
+				templates[head].append(splitline)
+	
+	return templates
 	
 def get_wp_pages():
 	#Returns a list of Wikipedia page titles, to be used as concepts
@@ -83,6 +101,9 @@ def make_place():
 	makeplace = True
 	
 	words = get_words()
+	
+	'''These conversions really shouldn't be necessary.'''
+	
 	places = words['places']
 	materials = words['materials']
 	descriptors = words['descriptors']
@@ -97,6 +118,9 @@ def make_place():
 	names = words['names']
 	residents = words['residents']
 	magic_types = words['magic_types']
+	light_mods = words['light_mods']
+	
+	templates = get_templates()
 	
 	while makeplace == True:
 		linechoice = random.randint(0,3)
@@ -205,28 +229,15 @@ def make_place():
 		#Colors and highlights
 		if random.randint(0,2) == 0:
 			modcount = modcount +1
-			color1 = random.choice(colors)
-			modchoice = random.randint(0,5)
-			if color1[0].lower() in ["a","e","i","o","u","y"]:
-				part1 = "an"
-			else:
-				part1 = "a"	
-			if modchoice == 0:
-				mod3 = "It has %s %s glow." % (part1, color1)
-			elif modchoice == 1:
-				mod3 = "It's very %s." % color1
-			elif modchoice == 2:
-				mod3 = "It has hints of %s." % color1
-			elif modchoice == 3:
-				mod3 = "It's a bit %s." % color1
-			elif modchoice == 4:
-				mod3 = "It's mostly %s in color." % color1
-			elif modchoice == 5:
-				part2 = random.choice(["distant","glaring","faint",
-										"blinking","flickering",
-										"dimming"])
-				mod3 = "There's a %s %s light." % (part2, color1)
-			all_mods.append(mod3)
+			modchoice = random.choice(templates["color_mod_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				new_words[word_type] = random.choice(words[word_type])
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 		
 		#Location and situation
 		if random.randint(0,2) == 0:
@@ -661,6 +672,12 @@ def make_place():
 				all_mods[0] = all_mods[0][1:]
 				
 		modstring = " ".join(all_mods)
+		
+		#Need to do grammar checks here, like for a/an
+		#
+		#
+		#
+		
 		lineout = "%s %s" % (lineout, modstring)
 		
 		if len(lineout) <= 140:

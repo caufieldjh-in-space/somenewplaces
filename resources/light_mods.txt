@@ -1,0 +1,17 @@
+light_mods
+distant
+glaring
+faint
+blinking
+flickering
+dimming
+fading
+bright
+refracted
+glittering
+blinding
+pulsing
+brilliant
+auroral
+vivid
+subtle
