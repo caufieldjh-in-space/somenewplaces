@@ -164,3 +164,5 @@ safe
 gentle
 exhausted
 disgusting
+attractive
+interesting

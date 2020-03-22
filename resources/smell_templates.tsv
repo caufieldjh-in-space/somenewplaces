@@ -1,0 +1,5 @@
+smell_templates
+It smells {smells[0]}.	smells
+It smells a bit {smells[0]}.	smells
+The air smells {smells[0]}.	smells
+The {weather[0]} weather smells {smells[0]}.	weather	smells

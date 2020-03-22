@@ -15,6 +15,9 @@ There's a {places[0]} nearby.	places
 There's a {places[0]} in the area.	places
 It resembles a {places[0]}.	places
 It's like a {places[0]} and a {places[1]}.	places	places
+It's like a {places[0]} mixed with a {places[1]}.	places	places
+It's like a combination of a {places[0]} and a {places[1]}.	places	places
+It has elements of a {places[0]} and a {places[1]}.	places	places
 It's hidden near a {places[0]}.	places
 It's hidden near a {places[0]} and a {places[1]}.	places	places
 It's being remodeled into a {places[0]}.	places

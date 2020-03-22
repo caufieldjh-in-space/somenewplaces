@@ -1,0 +1,13 @@
+exchange_places
+bazaar
+market
+marketplace
+hospital
+factory
+center of government
+performance space
+art gallery
+black market
+meeting place
+lunchroom
+clearinghouse

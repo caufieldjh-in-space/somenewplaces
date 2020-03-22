@@ -1,0 +1,54 @@
+plot_templates
+It's {adverbs[0]} ruled by {concepts[0]}.	adverbs	concepts
+It {illustrates_syms[0]} the danger of {concepts[0]}.	illustrates_syms	concepts
+It {illustrates_syms[0]} the promise of {concepts[0]}.	illustrates_syms	concepts
+It {illustrates_syms[0]} the peril of {concepts[0]}.	illustrates_syms	concepts
+It {illustrates_syms[0]} the virtues of {concepts[0]}.	illustrates_syms	concepts
+It {illustrates_syms[0]} the great potential of {concepts[0]}.	illustrates_syms	concepts
+It {illustrates_syms[0]} the challenges of {concepts[0]}.	illustrates_syms	concepts
+It's in a state of anarchy.
+It's disorganized.
+It's orderly.
+It's a result of {concepts[0]} and {concepts[1]}.	concepts	concepts
+It serves as a {exchange_places[0]}.	exchange_places
+It's our last hope.
+It's a safe place.
+It's a source of faith.
+It's a center of knowledge.
+It's hiding some information.
+It will be rebuilt soon.
+It cannot be escaped.
+It's metaphorically empty.
+Someone was just murdered here.	
+It's a battleground.
+There's a war going on over {concepts[0]} here.	concepts
+It's a peaceful place.
+It's a sanctuary.
+It's a shrine to {concepts[0]}.	concepts
+It's a holy place.
+It's an unholy place.
+Pilgrims journey here.
+There are often {groups[0]} here.	groups
+You'll likely see the {groups[0} here.	groups
+An {events[0]} will begin here soon.	events
+An {events[0]} just ended here.	events
+An {events[0]} is happening.	events
+An {events[0]} often happens here.	events
+An {events[0]} about {concepts[0]} will begin here soon.	events	concepts
+An {events[0]} about {concepts[0]} just ended here.	events	concepts
+An {events[0]} about {concepts[0]} is happening.	events	concepts
+An {events[0]} about {concepts[0]} often happens here.	events	concepts
+It hides the answer to a riddle.
+It's a source of temptation.
+It was recently discovered.
+It provides a rite of passage.
+Someone is searching for help here.
+It exists only for you.
+You will live and die here.
+Great treasure is hidden here.
+Everyone knows it's a dangerous place.
+It's disputed territory.
+You'll only find it when you need to.
+You can only see it when the weather is {weather[0]}.	weather
+It will soon see the return of {magic_types[0}.	magic_types
+Its {concepts[0]} is indistinguishable from {magic_types[0}.	concepts	magic_types

@@ -1,0 +1,15 @@
+groups
+gangs
+police
+corporate agents
+landed gentry
+nobles
+tourists
+spies
+spirits
+ghosts
+sailors
+soldiers
+directors
+mobs
+actors

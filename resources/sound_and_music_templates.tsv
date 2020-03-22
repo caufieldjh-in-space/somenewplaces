@@ -1,0 +1,18 @@
+sound_and_music_templates
+It sounds noisy.
+It sounds boisterous.
+It sounds noisy.
+It sounds quiet.
+It sounds calm.
+It's noiseless.
+It's in a soundless vacuum.
+There's the sound of {sounds[0]}.	sounds
+There's the sound of {sounds[0]} in the distance.	sounds
+There's are echoes of {sounds[0]}.	sounds
+The faint sound of {sounds[0]} can be heard.	sounds
+There's the sound of {music[0]}.	music
+There's the sound of {music[0]} in the distance.	music
+There's are echoes of {music[0]}.	music
+The faint sound of {music[0]} can be heard.	music
+Someone is playing {music[0]}.	music
+Loud {music[0]} and {sounds[0]} are heard here.	music	sounds

@@ -1,5 +1,4 @@
 state_templates
-
 It's {adverbs[0]} {realities[0]}.	adverbs	realities
 It's {realities[0]}.	realities
 It's in a {realities[0]} world.	realities
@@ -37,12 +36,12 @@ The weather is usually {weather[0]}.	weather
 The weather is unusually {weather[0]}.	weather
 The weather is becoming {weather[0]}.	weather
 The {weather[0]} weather will make you feel {emotions[0]}.	weather	emotions
-The {animals[0]} will learn about {concept[0]} here.	animal	concept
-It provides a moral lesson about {concept[0]}.	concept
-It's built around {concept[0]}.	concept
-It's built upon {concept[0]}.	concept
-It provides examples of {concept[0]}.	concept
-It demonstrates the power of {concept[0]}.	concept
-It couldn't exist without {concept[0]}.	concept
-It shows how {realities[0]} {concept[0]} can be.	realities	concept
-It {adverbs[0]} involves {concept[0}.	adverbs	concept
+The {animals[0]} will learn about {concepts[0]} here.	animals	concepts
+It provides a moral lesson about {concepts[0]}.	concepts
+It's built around {concepts[0]}.	concepts
+It's built upon {concepts[0]}.	concepts
+It provides examples of {concepts[0]}.	concepts
+It demonstrates the power of {concepts[0]}.	concepts
+It couldn't exist without {concepts[0]}.	concepts
+It shows how {realities[0]} {concepts[0]} can be.	realities	concepts
+It {adverbs[0]} involves {concepts[0}.	adverbs	concepts

@@ -1,0 +1,62 @@
+events
+party
+celebration
+wedding
+meeting
+unification
+conference
+seminar
+dinner
+journey
+birthday party
+retreat
+showdown
+sporting event
+graduation
+performance
+discussion
+debate
+colloquium
+congress
+fair
+gala
+workshop
+crime
+scandal
+caper
+rumor
+outbreak
+quest
+convention
+disaster
+tornado
+hurricaine
+earthquake
+schism
+picnic
+argument
+wine tasting
+dinner party
+election
+tea party
+toga party
+birth
+death
+dance party
+pizza party
+sleepover
+tryst
+assault
+kidnapping
+theft
+arson
+burglary
+hijacking
+extortion
+fraud
+act of violence
+brainstorm
+act of creation
+lecture
+story
+tale

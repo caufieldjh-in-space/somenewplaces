@@ -237,7 +237,7 @@ def make_place():
 			all_mods.append(mod)
 			
 		#State of the setting
-		if random.randint(0,0) == 0:
+		if random.randint(0,4) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["state_templates"])
 			modtext = modchoice[0]
@@ -255,99 +255,18 @@ def make_place():
 		#What happens or will happen in the setting
 		if random.randint(0,2) == 0:
 			modcount = modcount +1
-			concept1 = random.choice(concepts)
-			concept2 = random.choice(concepts)
-			modchoice = random.randint(0,22)
-			
-			if modchoice == 0:
-				if random.randint(0,1) == 0:
-					part2 = random.choice(["truly","mostly","partly","entirely"])
-					mod6 = "It's %s ruled by %s." % (part2, concept1)
+			modchoice = random.choice(templates["plot_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
 				else:
-					part2 = random.choice(["illustrates","exposes","depicts",
-											"allegorizes","reveals","exhibits"])
-					part3 = random.choice(["danger","promise","peril","virtues"])
-					mod6 = "It %s the %s of %s." % (part2, part3, concept1)
-			elif modchoice == 1:
-				part2 = random.choice(["built","constructed","engineered",
-										"constructed","assembled"])
-				mod6 = "It's %s around %s." % (part2, concept1)
-			elif modchoice == 2:
-				mod6 = "It's in a state of anarchy."
-			elif modchoice == 3:
-				part2 = random.choice(["built","created","constructed"])
-				if random.randint(0,1) == 0:
-					concept2 = random.choice(concepts)
-					mod6 = "It's %s upon %s and %s." % (part2, concept1, concept2)
-				else:
-					emotion2 = random.choice(emotions).lower()
-					mod6 = "It's %s upon %s %s." % (part2, emotion2, concept1)
-			elif modchoice == 4:
-				if random.randint(0,1) == 0:
-					mod6 = "It's a result of %s and %s." % (concept1, concept2)
-				else:
-					mod6 = "It depends on %s to exist." % concept1
-			elif modchoice == 5:
-				active_place = random.choice(["bazaar","market",
-						"hospital","factory","center of government"])
-				mod6 = "It serves as a %s." % active_place
-			elif modchoice == 6:
-				if random.randint(0,1) == 0:
-					mod6 = "It's our last hope."
-				else:
-					mod6 = "It's a source of faith."
-			elif modchoice == 7:
-				if random.randint(0,1) == 0:
-					mod6 = "It's a center of knowledge."
-				else:
-					mod6 = "It's hiding some information."
-			elif modchoice == 8:
-				mod6 = "It will be rebuilt soon."
-			elif modchoice == 9:
-				mod6 = "It cannot be escaped."
-			elif modchoice == 10:
-				mod6 = "It's metaphorically empty."
-			elif modchoice == 11:
-				mod6 = "Someone was just murdered here."	
-			elif modchoice == 12:
-				if random.randint(0,1) == 0:
-					mod6 = "It's a battleground."
-				else:
-					mod6 = "It's a peaceful place."
-			elif modchoice == 13:
-				if random.randint(0,1) == 0:
-					mod6 = "It's a holy place."
-				else:
-					mod6 = "It's an unholy place."
-			elif modchoice == 14:
-				group = random.choice(["gang","police","corporate",
-				"scholarly","paranormal","tourist"])
-				mod6 = "There's %s activity here." % group
-			elif modchoice == 15:
-				event = random.choice(["party","celebration","wedding",
-					"meeting","unification","conference","seminar",
-					"dinner","journey","birthday party","retreat",
-					"showdown","sporting event","graduation",
-					"performance","discussion","debate",
-					"colloquium","congress","fair","gala",
-					"workshop","crime","scandal","caper","rumor",
-					"disease outbreak","quest"])
-				mod6 = "A %s will begin here soon."	% event
-			elif modchoice == 16:
-				mod6 = "It hides the answer to a riddle."
-			elif modchoice == 17:
-				mod6 = "It's a source of temptation."
-			elif modchoice == 18:
-				mod6 = "It was recently discovered."
-			elif modchoice == 19:
-				mod6 = "It provides a rite of passage."
-			elif modchoice == 20:
-				mod6 = "Someone is searching for help here."
-			elif modchoice == 21:
-				mod6 = "It exists only for you."
-			elif modchoice == 22:
-				mod6 = "You will live and die here."	
-			all_mods.append(mod6)
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 			
 		#Residents	
 		if random.randint(0,2) == 0:
@@ -454,25 +373,34 @@ def make_place():
 		#Smell
 		if random.randint(0,7) == 0:
 			modcount = modcount +1
-			smell1 = random.choice(smells)
-			mod8 = "It smells %s." % smell1
-			all_mods.append(mod8)
+			modchoice = random.choice(templates["smell_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
+				else:
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 			
 		#Sounds
 		if random.randint(0,8) == 0:
 			modcount = modcount +1
-			modchoice = random.randint(0,2)
-			if modchoice == 0:
-				sound1 = random.choice(["noisy","boisterous","unruly",
-								"quiet","calm","serene"])
-				mod9 = "It sounds %s." % sound1
-			elif modchoice == 1:
-				sound1 = random.choice(sounds)
-				mod9 = "There are echoes of %s." % sound1
-			elif modchoice == 2:
-				sound1 = random.choice(sounds)
-				mod9 = "There's the sound of %s." % sound1
-			all_mods.append(mod9)
+			modchoice = random.choice(templates["sound_and_music_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
+				else:
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 			
 		#Personal connections or characters
 		if random.randint(0,7) == 0:
@@ -523,7 +451,7 @@ def make_place():
 			part2 = random.choice([" involves", " involves the story of",
 									" tells the history of", "'s all about",
 									" may remind you of", 
-									"'s local history concerns",
+									"s local history concerns",
 									" involves"])
 			mod11 = "It%s %s." % (part2, title1)
 			all_mods.append(mod11)
@@ -538,7 +466,7 @@ def make_place():
 			for mod in all_mods:
 				if i == 1:
 					if mod[0] == "*":
-							mod = mod[1:]
+						mod = mod[1:]
 					if modcount == 2:
 						new_mod = mod.replace(".","")
 					else:
