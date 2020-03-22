@@ -1,0 +1,49 @@
+person_templates
+{pronouns[0]} may have been here before.	pronouns
+{pronouns[0]} could have been here before.	pronouns
+{pronouns[0]} voyaged here before.	pronouns
+{pronouns[0]} explored here before.	pronouns
+{pronouns[0]} should have been here before.	pronouns
+{pronouns[0]} trained here before.	pronouns
+{pronouns[0]} got a ride here before.	pronouns
+{pronouns[0]} planned to be here before.	pronouns
+{pronouns[0]} played here before.	pronouns
+{pronouns[0]} played a role here before.	pronouns
+{pronouns[0]} wanted to go here before.	pronouns
+{pronouns[0]} emigrated here before.	pronouns
+{pronouns[0]} wished to go here before.	pronouns
+{pronouns[0]} lived here before.	pronouns
+{pronouns[0]} stayed here before.	pronouns
+{pronouns[0]} stopped here before.	pronouns
+{pronouns[0]} settled here before.	pronouns
+{pronouns[0]} traveled here before.	pronouns
+{pronouns[0]} journeyed here before.	pronouns
+{pronouns[0]} worked here before.	pronouns
+{pronouns[0]} remained here before.	pronouns
+{pronouns[0]} had fun here before.	pronouns
+{pronouns[0]} researched here before.	pronouns
+{pronouns[0]} researched {concepts[0]} here.	pronouns	concepts
+{names[0]} may have been here before.	names
+{names[0]} could have been here before.	names
+{names[0]} voyaged here before.	names
+{names[0]} explored here before.	names
+{names[0]} should have been here before.	names
+{names[0]} trained here before.	names
+{names[0]} got a ride here before.	names
+{names[0]} planned to be here before.	names
+{names[0]} played here before.	names
+{names[0]} played a role here before.	names
+{names[0]} wanted to go here before.	names
+{names[0]} emigrated here before.	names
+{names[0]} wished to go here before.	names
+{names[0]} lived here before.	names
+{names[0]} stayed here before.	names
+{names[0]} stopped here before.	names
+{names[0]} settled here before.	names
+{names[0]} traveled here before.	names
+{names[0]} journeyed here before.	names
+{names[0]} worked here before.	names
+{names[0]} remained here before.	names
+{names[0]} had fun here before.	names
+{names[0]} researched here before.	names
+{names[0]} researched {concepts[0]} here.	names	concepts

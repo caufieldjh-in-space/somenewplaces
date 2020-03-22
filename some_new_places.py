@@ -317,44 +317,20 @@ def make_place():
 			all_mods.append(mod)
 			
 		#Personal connections or characters
-		if random.randint(0,7) == 0:
+		if random.randint(0,3) == 0:
 			modcount = modcount +1
-			modchoice = random.randint(0,0)
-			if random.randint(0,5) == 0:
-				indiv = random.choice(["You", "He", "She", "They", "We", "Ze", "It"])
-				proper_name = False
-			else:
-				# * is a special char indicating a proper name
-				indiv = "*%s" % random.choice(names)
-				proper_name = True
-			condition_list = ["may have been",
-								"could have been", "voyaged","explored",
-								"should have been","trained","got a ride",
-								"planned to be","played","played a role",
-								"wanted to go","emigrated","wished to go",
-								"lived", "stayed", "stopped", "settled",
-								"traveled","journeyed", "worked",
-								"remained", "had fun","researched"]
-			if indiv in ["He", "She", "Ze", "It"] or proper_name == True:
-				for phrase in ["was", "wasn't", "was forced to be"]:
-					condition_list.append(phrase)
-			else:
-				for phrase in ["were", "weren't", "were forced to be"]:
-					condition_list.append(phrase)
-			condition = random.choice(condition_list)
-			if modchoice == 0:
-				past = random.choice(["once before", "twice before",
-										"as a child", "in a dream",
-										"in a past life", "on vacation",
-										"for a job", "for no good reason",
-										"for good reasons", "with detailed plans",
-										"as a prisoner", "with your family",
-										"on business", "on assignment",
-										"as a spy", "for years",
-										"a long time ago", "during the war",
-										"last week", "with a friend"])
-				mod10 = "%s %s there %s." % (indiv, condition, past)
-			all_mods.append(mod10)
+			modchoice = random.choice(templates["person_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
+				else:
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 		
 		#Relate to Wikipedia concept
 		if random.randint(0,14) == 0:
