@@ -631,9 +631,13 @@ def make_place():
 		if random.randint(0,14) == 0:
 			wp_pages = get_wp_pages()
 			modcount = modcount +1
-			title1 = (random.choice(wp_pages)).encode('ascii', 'ignore')
+			#title1 = (random.choice(wp_pages)).encode('ascii', 'ignore')
+			title1 = random.choice(wp_pages)
 			part2 = random.choice([" involves", " involves the story of",
-									" tells the history of", "'s all about"])
+									" tells the history of", "'s all about",
+									" may remind you of", 
+									"'s local history concerns",
+									" involves"])
 			mod11 = "It%s %s." % (part2, title1)
 			all_mods.append(mod11)
 		
