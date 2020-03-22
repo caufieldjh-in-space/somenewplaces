@@ -1,0 +1,11 @@
+adverbs
+truly
+mostly
+partly
+entirely
+completely
+strangely
+oddly
+absolutely
+altogether
+quite

@@ -1,0 +1,48 @@
+state_templates
+
+It's {adverbs[0]} {realities[0]}.	adverbs	realities
+It's {realities[0]}.	realities
+It's in a {realities[0]} world.	realities
+It's in a {realities[0]} universe.	realities
+It's in a {realities[0]} realm.	realities
+It's full of {magic_types[0]}.	magic_types
+It's in a {realities[0]} world of {magic_types[0]}.	realities	magic_types
+It's in a {realities[0]} universe of {magic_types[0]}.	realities	magic_types
+It's in a {realities[0]} realm of {magic_types[0]}.	realities	magic_types
+It's part of the afterlife.
+You may see it when you die.
+It's where the spirits go.
+It's like heaven.
+It's like hell.
+It's a sort of purgatory.
+It hasn't existed for very long.
+It's still new.
+It's about to reach a violent end.
+It's about to be more {emotions[0]}.	emotions
+It existed long ago.
+It's historic.
+It can't escape its fate.
+It may escape its fate.
+It's where a series of battles will begin.
+A battle will end here.
+It's a giant {animals[0]}.	animals
+It's isolated.
+It's a crossroads.
+It's a source of wealth.
+It's the setting for a movie franchise.
+It's where a culture's myths take place.
+It's a dream made real.
+The weather is {weather[0]}.	weather
+The weather is usually {weather[0]}.	weather
+The weather is unusually {weather[0]}.	weather
+The weather is becoming {weather[0]}.	weather
+The {weather[0]} weather will make you feel {emotions[0]}.	weather	emotions
+The {animals[0]} will learn about {concept[0]} here.	animal	concept
+It provides a moral lesson about {concept[0]}.	concept
+It's built around {concept[0]}.	concept
+It's built upon {concept[0]}.	concept
+It provides examples of {concept[0]}.	concept
+It demonstrates the power of {concept[0]}.	concept
+It couldn't exist without {concept[0]}.	concept
+It shows how {realities[0]} {concept[0]} can be.	realities	concept
+It {adverbs[0]} involves {concept[0}.	adverbs	concept

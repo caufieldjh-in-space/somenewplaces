@@ -237,98 +237,20 @@ def make_place():
 			all_mods.append(mod)
 			
 		#State of the setting
-		if random.randint(0,5) == 0:
+		if random.randint(0,0) == 0:
 			modcount = modcount +1
-			modchoice = random.randint(0,20)
-			if modchoice == 0:
-				part2 = random.choice(["truly","mostly","partly",
-								"entirely","completely","strangely",
-								"oddly","absolutely","altogether",
-								"quite"])
-				real = random.choice(["unbelievable","realistic",
-								"astonishing","implausible","incredible",
-								"outlandish","flimsy","credible",
-								"reasonable","believable","authentic",
-								"plausible","tenable","acceptable"])
-				if random.randint(0,1) == 0:
-					mod5 = "It's %s %s." % (part2, real)
+			modchoice = random.choice(templates["state_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
 				else:
-					mod5 = "It's %s." % (real)		
-			elif modchoice == 1:
-				worldtype = random.choice(["virtual", "fantasy", "mystical",
-								"realistic","surreal","fictional"])
-				mod5 = "It's in a %s world." % worldtype
-			elif modchoice == 2:
-				mod5 = "It's full of %s." % random.choice(magic_types)
-			elif modchoice == 3:
-				if random.randint(0,1) == 0:
-					mod5 = "It's part of the afterlife."
-				else:
-					mod5 = "You may see it when you die."
-			elif modchoice == 4:
-				if random.randint(0,1) == 0:
-					mod5 = "It hasn't existed for very long."
-				else:
-					mod5 = "It's still new."
-			elif modchoice == 5:
-				if random.randint(0,1) == 0:
-					mod5 = "It's about to reach a violent end."
-				else:
-					emotion2 = random.choice(emotions).lower()
-					mod5 = "It's about to seem more %s." % emotion2
-			elif modchoice == 6:
-				if random.randint(0,1) == 0:
-					mod5 = "It existed long ago."
-				else:
-					mod5 = "It's historic."
-			elif modchoice == 7:
-				if random.randint(0,1) == 0:
-					mod5 = "It can't escape its fate."
-				else:
-					mod5 = "It may escape its fate."
-			elif modchoice == 8:
-				if random.randint(0,1) == 0:
-					mod5 = "It's where a series of battles will begin."
-				else:
-					mod5 = "A battle will end here."
-			elif modchoice == 9:
-				animal = random.choice(animals)
-				mod5 = "It's a giant %s." % animal
-			elif modchoice == 10:
-				weather = random.choice(["bright","sunny","clear",
-										"pleasant","rainy","stormy",
-										"foggy","snowy","wintry",
-										"icy","unpleasant","hazy",
-										"dangerous","windy","hot"])
-				mod5 = "The weather is %s." % weather
-			elif modchoice == 11:
-				if random.randint(0,1) == 0:
-					mod5 = "It's isolated."
-				else:
-					mod5 = "It's a crossroads."
-			elif modchoice == 12:
-				mod5 = "It's a source of wealth."
-			elif modchoice == 13:
-				mod5 = "It's the setting for a movie franchise."
-			elif modchoice == 14:
-				mod5 = "It's where a culture's myths take place."
-			elif modchoice == 15:
-				animal = random.choice(animals)
-				concept = random.choice(concepts)
-				mod5 = "The %s will learn about %s here." % (animal, concept)
-			elif modchoice == 16:
-				animal = random.choice(animals).capitalize()
-				mod5 = "It involves the story of %s." % (animal)
-			elif modchoice == 17:
-				mod5 = "This place is hell for some."
-			elif modchoice == 18:
-				mod5 = "It's a sort of purgatory."
-			elif modchoice == 19:
-				mod5 = "It's a dream made real."
-			elif modchoice == 20:
-				concept = random.choice(concepts)
-				mod5 = "It provides a moral lesson about %s." % (concept)
-			all_mods.append(mod5)
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 				
 		#What happens or will happen in the setting
 		if random.randint(0,2) == 0:
