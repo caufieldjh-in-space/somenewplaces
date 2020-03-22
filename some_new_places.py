@@ -206,35 +206,33 @@ def make_place():
 			all_mods.append(mod1)
 		
 		#Decoration and composition
-		if random.randint(0,3) == 0:
+		if random.randint(0,5) == 0:
 			modcount = modcount +1
-			mat1 = random.choice(materials)
-			modchoice = random.randint(0,5)
-			if modchoice == 0:
-				mod2 = "It's decorated with %s." % mat1
-			elif modchoice == 1:
-				mod2 = "It's made of %s." % mat1
-			elif modchoice == 2:
-				mod2 = "Bits of %s are strewn about." % mat1
-			elif modchoice == 3:
-				mod2 = "It's littered with %s." % mat1
-			elif modchoice == 4:
-				mat2 = random.choice(materials)
-				mod2 = "It's ornately decorated with %s and %s." % (mat1, mat2)
-			elif modchoice == 5:
-				mat2 = random.choice(materials)
-				mod2 = "It's built out of %s and %s." % (mat1, mat2)
-			all_mods.append(mod2)
+			modchoice = random.choice(templates["materials_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
+				else:
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 		
 		#Colors and highlights
-		if random.randint(0,2) == 0:
+		if random.randint(0,5) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["color_mod_templates"])
 			modtext = modchoice[0]
 			new_word_types = modchoice[1:]
 			new_words = {}
 			for word_type in new_word_types:
-				new_words[word_type] = random.choice(words[word_type])
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
+				else:
+					new_words[word_type] = [random.choice(words[word_type])]
 			mod = modtext.format(**new_words)
 				
 			all_mods.append(mod)

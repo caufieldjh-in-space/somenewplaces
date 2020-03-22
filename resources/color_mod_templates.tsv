@@ -1,12 +1,13 @@
 color_mod_templates		
-It has a {colors} glow.	colors
-It's very {colors}.	colors
-It has hints of {colors}.	colors
-It's a bit {colors}.	colors
-It's mostly {colors} in color.	colors
-There's a {light_mods} {colors} light.	light_mods	colors
-A {light_mods} {colors} light is visible.
-Everything is immersed in {colors} light.	colors
-The dominant color is {colors}.	colors
-There are stripes of {colors}.	colors
-There are spots of {colors} paint.	colors
+It has a {colors[0]} glow.	colors
+It's very {colors[0]}.	colors
+It has hints of {colors[0]}.	colors
+It's a bit {colors[0]}.	colors
+It's mostly {colors[0]} in color.	colors
+There's a {light_mods[0]} {colors[0]} light.	light_mods	colors
+A {light_mods} {colors[0]} light is visible.	light_mods	colors
+Everything is immersed in {colors[0]} light.	colors
+The dominant color is {colors[0]}.	colors
+There are stripes of {colors[0]}.	colors
+There are spots of {colors[0]} paint.	colors
+It's painted in {colors[0]} and {colors[1]}.	colors	colors

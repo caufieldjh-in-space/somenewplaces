@@ -15,3 +15,5 @@ brilliant
 auroral
 vivid
 subtle
+hazy
+scattered

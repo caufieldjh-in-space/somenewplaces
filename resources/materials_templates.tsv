@@ -1,0 +1,7 @@
+materials_templates		
+It's decorated with {materials[0]}.	materials
+It's made of {materials[0]}.	materials
+Bits of {materials[0]} are strewn about.	materials
+It's littered with {materials[0]}.	materials
+It's ornately decorated with {materials[0]} and {materials[1]}.	materials	materials
+It's built out of {materials[0]} and {materials[1]}.	materials	materials
