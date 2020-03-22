@@ -168,7 +168,6 @@ def make_place():
 										"loose interpretation of"])
 			lineout = "%s %s %s %s." % (part1, adj1, situation, geo)
 		
-		#None of the following modifiers have final probs yet
 		#Modifers
 		modcount = 0
 		all_mods = []
@@ -224,34 +223,18 @@ def make_place():
 		#Location and situation
 		if random.randint(0,2) == 0:
 			modcount = modcount +1
-			place2 = random.choice(places)
-			while check_strings(place1, place2):
-				place2 = random.choice(places)
-			modchoice = random.randint(0,5)
-			if place2[0].lower() in ["a","e","i","o","u","y"]:
-				part1 = "an"
-			else:
-				part1 = "a"	
-			if modchoice == 0:
-				mod4 = "It's actually %s %s." % (part1, place2)
-			elif modchoice == 1:
-				part2 = random.choice(["may","will","can","might","could"])
-				if random.randint(0,1) == 0:
-					mod4 = "It %s be %s %s." % (part2, part1, place2)
+			modchoice = random.choice(templates["situation_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
 				else:
-					timestr = random.choice(["now", "sometimes", "soon"])
-					mod4 = "It %s be %s %s %s." % (part2, part1, place2, timestr)
-			elif modchoice == 2:
-				mod4 = "It looks like %s %s." % (part1, place2)
-			elif modchoice == 3:
-				mod4 = "It's inside %s %s." % (part1, place2)
-			elif modchoice == 4:
-				part2 = random.choice(["around","near","beside"])
-				mod4 = "It's built %s %s %s." % (part2, part1, place2)
-			elif modchoice == 5:
-				part2 = random.choice(["nearby","in the area","being built"])
-				mod4 = "There is also %s %s %s." % (part1, place2, part2)
-			all_mods.append(mod4)
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 			
 		#State of the setting
 		if random.randint(0,5) == 0:

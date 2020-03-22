@@ -1,0 +1,23 @@
+situation_templates
+It's actually a {places[0]}.	places
+It may be a {places[0]}.	places
+It will be a {places[0]}.	places
+It can be a {places[0]}.	places
+It might be a {places[0]}.	places
+It could be a {places[0]}.	places
+It's becoming a {places[0]}.	places
+It will be a {places[0]} soon.	places
+It's sometimes a {places[0]}.	places
+It looks like a {places[0]}.	places
+It's inside a {places[0]}.	places
+It's build near a {places[0]}.	places
+There's a {places[0]} nearby.	places
+There's a {places[0]} in the area.	places
+It resembles a {places[0]}.	places
+It's like a {places[0]} and a {places[1]}.	places	places
+It's hidden near a {places[0]}.	places
+It's hidden near a {places[0]} and a {places[1]}.	places	places
+It's being remodeled into a {places[0]}.	places
+It houses a {places[0]}.	places
+It houses both a {places[0]} and a {places[1]}.	places	places
+There's a very small {places[0]} inside.	places
