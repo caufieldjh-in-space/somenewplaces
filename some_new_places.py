@@ -270,105 +270,19 @@ def make_place():
 			
 		#Residents	
 		if random.randint(0,2) == 0:
-			part2 = random.choice(["Its","The","Some of its"])
-			peopleword = random.choice(residents)
 			modcount = modcount +1
-			modchoice = random.randint(0,24)
-			
-			if modchoice == 0:
-				emotion2 = random.choice(emotions).lower()
-				choice = random.randint(0,2)
-				if choice == 0:
-					mod7 = "%s %s are perpetually %s." % (part2, peopleword, emotion2)
-				elif choice == 1:
-					emotion3 = random.choice(emotions).lower()
-					mod7 = "%s %s are usually %s" \
-							" but have been %s lately." % (part2, peopleword, emotion2, emotion3)
-				elif choice == 2:
-					emotion3 = random.choice(emotions).lower()
-					mod7 = "%s %s are %s" \
-							" and %s." % (part2, peopleword, emotion2, emotion3)
-			elif modchoice == 1:
-				choice = random.randint(0,2)
-				if choice == 0:
-					mod7 = "%s %s cannot lie." % (part2, peopleword)
-				elif choice == 1:
-					mod7 = "%s %s cannot tell the truth." % (part2, peopleword)
-				elif choice == 2:
-					mod7 = "%s %s mix truth with lies." % (part2, peopleword)
-			elif modchoice == 2:
-				mod7 = "%s %s are immortal." % (part2, peopleword)
-			elif modchoice == 3:
-				mat2 = random.choice(materials)
-				cloth_sing = random.choice(clothes)
-				if cloth_sing[-1:] != "s":
-					cloth1 = cloth_sing + "s"
+			modchoice = random.choice(templates["resident_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
 				else:
-					cloth1 = cloth_sing
-				if random.randint(0,1) == 0:
-					mod7 = "%s %s wear %s made of %s." % (part2, peopleword, cloth1, mat2)
-				else:
-					mod7 = "%s %s wear %s of %s." % (part2, peopleword, cloth1, mat2)
-			elif modchoice == 4:
-				count1 = random.randint(3,7)
-				mod7 = "%s %s have %s genders." % (part2, peopleword, count1)
-			elif modchoice == 5:
-				mod7 = "%s %s are undead." % (part2, peopleword)
-			elif modchoice == 6:
-				concept1 = random.choice(concepts)
-				lostverb = random.choice(["abandoned","neglected","renounced"])
-				mod7 = "%s %s have %s %s." % (part2, peopleword, lostverb, concept1)
-			elif modchoice == 7:
-				mod7 = "%s %s are the last of their kind." % (part2, peopleword)
-			elif modchoice == 8:
-				mod7 = "%s %s are very young." % (part2, peopleword)
-			elif modchoice == 9:
-				mod7 = "%s %s are hidden." % (part2, peopleword)
-			elif modchoice == 10:
-				mod7 = "%s %s cannot forget." % (part2, peopleword)
-			elif modchoice == 11:
-				anim_sing = random.choice(animals)
-				if anim_sing[-1:] != "s":
-					anim1 = anim_sing + "s"
-				else:
-					anim1 = anim_sing
-				if random.randint(0,1) == 0:
-					mod7 = "%s %s are anthropomorphic %s." % (part2, peopleword, anim1)
-				else:
-					mod7 = "%s %s look like %s." % (part2, peopleword, anim1)
-			elif modchoice == 12:
-				anim1 = random.choice(animals)
-				mod7 = "%s %s worship the %s." % (part2, peopleword, anim1)
-			elif modchoice == 13:
-				mod7 = "%s %s created this place." % (part2, peopleword)
-			elif modchoice == 14:
-				mod7 = "%s %s like to show off." % (part2, peopleword)
-			elif modchoice == 15:
-				mod7 = "%s %s are ignoring something obvious." % (part2, peopleword)
-			elif modchoice == 16:
-				mod7 = "%s %s are devoutly religious." % (part2, peopleword)
-			elif modchoice == 17:
-				mod7 = "%s %s are giants." % (part2, peopleword)
-			elif modchoice == 18:
-				mod7 = "%s %s are dangerous." % (part2, peopleword)
-			elif modchoice == 19:
-				mod7 = "%s %s are fighting with each other." % (part2, peopleword)
-			elif modchoice == 20:
-				mod7 = "%s %s are powerless." % (part2, peopleword)
-			elif modchoice == 21:
-				people2 = random.choice(people)
-				mod7 = "%s %s are pursuing the %s." % (part2, peopleword, people2)
-			elif modchoice == 22:
-				people2 = random.choice(people)
-				mod7 = "%s %s are escaping the %s." % (part2, peopleword, people2)
-			elif modchoice == 23:
-				concept1 = random.choice(concepts)
-				emotion1 = random.choice(emotions).lower()
-				mod7 = "%s %s feel %s about %s." % (part2, peopleword, emotion1, concept1)
-			elif modchoice == 24:
-				peopleword2 = random.choice(people)
-				mod7 = "%s %s are really %s." % (part2, peopleword, peopleword2)
-			all_mods.append(mod7)
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)			
 			
 		#Smell
 		if random.randint(0,7) == 0:

@@ -68,3 +68,19 @@ neighbors
 colonists
 squatters
 looters
+mobsters
+acolytes
+knights
+virologists
+financiers
+taxpayers
+tax collectors
+carpenters
+coders
+miners
+helpers
+gnomes
+orcs
+machinists
+potters
+golems

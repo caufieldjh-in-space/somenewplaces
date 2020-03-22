@@ -1,11 +1,9 @@
 animals
-ape
 rabbit
 owl
 frog
 dragon
 camel
-virus
 octopus
 bird
 fox

@@ -1,0 +1,46 @@
+resident_templates
+There are many {residents[0]} here.	residents
+There are many {residents[0]} and {residents[0]} here.	residents	residents
+Its {residents[0]} are {adverbs[0]} {emotions[0]}.	residents	adverbs	emotions
+Its {residents[0]} cannot lie.	residents
+Its {residents[0]} cannot tell the truth.	residents
+Its {residents[0]} mix truth with lies.	residents
+Its {residents[0]} cannot be trusted.	residents
+Its {residents[0]} are up to something.	residents
+Its {residents[0]} are immortal.	residents
+Its {residents[0]} don't adhere to strict genders.	residents
+Each of the {residents[0]} wears {clothing[0]}.	residents	clothing
+Each of the {residents[0]} wears {colors[0]} {clothing[0]}.	residents	colors	clothing
+Each of the {residents[0]} wears a {clothing[0]} made of {materials[0]}.	residents	clothing	materials
+The {residents[0]} are undead.	residents
+The {residents[0]} have been reborn.	residents
+The {residents[0]} have abandoned {concepts[0]}.	residents	concepts
+The {residents[0]} have neglected {concepts[0]}.	residents	concepts
+The {residents[0]} have renounced {concepts[0]}.	residents	concepts
+The {residents[0]} have learned about {concepts[0]}.	residents	concepts
+The {residents[0]} worship {concepts[0]}.	residents	concepts
+The {residents[0]} believe in {concepts[0]}.	residents	concepts
+Its {residents[0]} are the last of their kind.	residents
+Its {residents[0]} are very young.	residents
+Its {residents[0]} are hidden.	residents
+Its {residents[0]} cannot forget.	residents
+Its {residents[0]} are {animals[0]}s.	residents	animals
+Its {residents[0]} look like {animals[0]}s.	residents	animals
+Its {residents[0]} worship the {animals[0]}.	residents	animals
+The {residents[0]} created this place.	residents
+The {residents[0]} like to show off.	residents
+The {residents[0]} are ignoring something.	residents
+The {residents[0]} are devout.	residents
+The {residents[0]} are giants.	residents
+The {residents[0]} are dangerous.	residents
+The {residents[0]} fighting amongst themselves.	residents
+The {residents[0]} are powerless.	residents
+The {residents[0]} are pursuing the {residents[0]}.	residents	residents
+The {residents[0]} are fighting the {residents[0]}.	residents	residents
+The {residents[0]} are meeting with the {residents[0]}.	residents	residents
+The {residents[0]} are trading with the {residents[0]}.	residents	residents
+The {residents[0]} are escaping the {residents[0]}.	residents	residents
+The {residents[0]} feel {emotions[0]} about {concepts[0]}.	residents	emotions	concepts
+The {residents[0]} believe in {magic_types[0]}.	residents	magic_types
+Its {residents[0]} are led by {names[0]}.	residents	names
+The {residents[0]} are building a {places[0]} here.	residents	places

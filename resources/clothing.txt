@@ -99,3 +99,4 @@ torc
 amulet
 ring
 mask
+pendant
