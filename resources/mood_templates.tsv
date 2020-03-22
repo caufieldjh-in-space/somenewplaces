@@ -1,0 +1,23 @@
+mood_templates
+It appears {emotions[0]}.	emotions
+It is {emotions[0]}.	emotions
+It seems {emotions[0]}.	emotions
+It looks {emotions[0]}.	emotions
+It has an {emotions[0]} air.	emotions
+It has an {emotions[0]} mood.	emotions
+It has an {emotions[0]} atmosphere.	emotions
+It has an {emotions[0]} disposition.	emotions
+It has an {emotions[0]} spirit.	emotions
+It has an {emotions[0]} feeling.	emotions
+It may make you feel {emotions[0]}.	emotions
+It will make you feel {emotions[0]}.	emotions
+It can make you feel {emotions[0]}.	emotions
+It might make you feel {emotions[0]}.	emotions
+It could make you feel {emotions[0]}.	emotions
+It has a {emotions[0]} history.	emotions
+It appears {emotions[0]} and {emotions[1]}.	emotions	emotions
+It is {emotions[0]} and {emotions[1]}.	emotions	emotions
+It seems {emotions[0]} and {emotions[1]}.	emotions	emotions
+It looks {emotions[0]} and {emotions[1]}.	emotions	emotions
+Being there would make you feel {emotions[0]}.	emotions
+Being there would make you feel {emotions[0]} and {emotions[1]}.	emotions	emotions

@@ -174,36 +174,20 @@ def make_place():
 		all_mods = []
 		
 		#General mood
-		if random.randint(0,4) == 0:
+		if random.randint(0,0) == 0:
 			modcount = modcount +1
-			emotion1 = random.choice(emotions).lower()
-			modchoice = random.randint(0,4)
-			if emotion1[0].lower() in ["a","e","i","o","u","y"]:
-				part1 = "an"
-			else:
-				part1 = "a"	
-			if modchoice == 0:
-				part2 = random.choice(["appears","is","seems","looks"])
-				mod1 = "It %s %s." % (part2, emotion1)
-			elif modchoice == 1:
-				part2 = random.choice(["air","mood","atmosphere","disposition",
-										"spirit","feeling"])
-				mod1 = "It has %s %s %s." % (part1, emotion1, part2)
-			elif modchoice == 2:
-				part2 = random.choice(["may","will","can","might","could"])
-				mod1 = "It %s make you feel %s." % (part2, emotion1)
-			elif modchoice == 3:
-				part2 = random.choice(["really","quite","entirely",
-										"utterly","generally","perfectly",
-										"totally","emotionally","terribly",
-										"suspiciously","dubiously",
-										"unbelievably","barely","genuinely",
-										"quite","truly","almost","hardly"])
-				mod1 = "It's %s %s." % (part2, emotion1)
-			elif modchoice == 4:
-				part2 = random.choice(["is","may be","recently became"])
-				mod1 = "Its history %s %s." % (part2, emotion1)
-			all_mods.append(mod1)
+			modchoice = random.choice(templates["mood_templates"])
+			modtext = modchoice[0]
+			new_word_types = modchoice[1:]
+			new_words = {}
+			for word_type in new_word_types:
+				if word_type in new_words.keys():
+					new_words[word_type].append(random.choice(words[word_type]))
+				else:
+					new_words[word_type] = [random.choice(words[word_type])]
+			mod = modtext.format(**new_words)
+				
+			all_mods.append(mod)
 		
 		#Decoration and composition
 		if random.randint(0,5) == 0:
