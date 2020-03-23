@@ -1,24 +1,20 @@
 #!/usr/bin/python
 #some_new_places.py
 '''
-Generates place and setting ideas.
+Generates places and settings.
 
 To be done:
-Poke into the WP page to see if it needs a "the" before naming it
-e.g. "Barack Obama" vs. "the President"
+* Grammar checks for all gen text (mostly a/an)
+	Using LanguageTool but just want to use some rules, not all
+* Fix unintentional name de-cap (previously just had a flag in the string)
+* Expand with fully gen text from GPT-2
 
-Fix English silliness (e.g. "an universe", "an utopia")
- also plurals like "foxs"
-Add a bit more variety to words and phrases.
-Vary sentence structure (sentences are a bit run-on with all those mods
-
-More than anything else, this needs to be cleaned up.
-But it may never happen.
-That's life I suppose.
 '''
 
 import os, random, re, string, sys, time, tweepy, wikipedia, webbrowser
 from pathlib import Path
+
+from pylanguagetool import api as ltapi
 
 #Contants and Setup
 tweeting = True
@@ -98,36 +94,51 @@ def check_strings(s1, s2):
 
 def make_place():
 	
+	def process_mod(template):
+		modtext = modchoice[0]
+		new_word_types = modchoice[1:]
+		new_words = {}
+		for word_type in new_word_types:
+			if word_type in new_words.keys():
+				new_words[word_type].append(random.choice(words[word_type]))
+			else:
+				new_words[word_type] = [random.choice(words[word_type])]
+		mod = modtext.format(**new_words)
+		print(mod)
+		return mod
+		
+	def grammar_check(text):
+		'''Uses pyLanguageTool to query LanguageTool API.
+		LT is too overzealous to use all its suggestions,
+		so we just use some rules.'''
+		
+		newtext = text
+		
+		checks = ltapi.check(input_text=text, 
+								api_url='https://languagetool.org/api/v2/',
+								lang='en-US',
+								enabled_rules="EN_A_VS_AN",
+								enabled_only=True)
+								
+		if len(checks["matches"]) == 0:
+			print("** LanguageTool found no grammar issues.")
+			
+		print(checks)
+		
+		return newtext
+	
 	makeplace = True
 	
 	words = get_words()
-	
-	'''These conversions really shouldn't be necessary.'''
-	
-	places = words['places']
-	materials = words['materials']
-	descriptors = words['descriptors']
-	emotions = words['emotions']
-	colors = words['colors']
-	smells = words['smells']
-	geoareas = words['geoareas']
-	sounds = words['sounds']
-	clothing = words['clothing']
-	concepts = words['concepts']
-	animals = words['animals']
-	names = words['names']
-	residents = words['residents']
-	magic_types = words['magic_types']
-	light_mods = words['light_mods']
 	
 	templates = get_templates()
 	
 	while makeplace == True:
 		linechoice = random.randint(0,3)
 		
-		adj1 = random.choice(descriptors)
-		place1 = random.choice(places)
-		geo = random.choice(geoareas)
+		adj1 = random.choice(words["descriptors"])
+		place1 = random.choice(words["places"])
+		geo = random.choice(words["geoareas"])
 		
 		if adj1[0].lower() in ["a","e","i","o","u","y"]:
 			part1 = "An"
@@ -138,9 +149,9 @@ def make_place():
 			lineout = "%s %s %s." % (part1, adj1, place1)
 			
 		elif linechoice == 1:
-			adj2 = random.choice(descriptors)
+			adj2 = random.choice(words["descriptors"])
 			while check_strings(adj1, adj2):
-				adj2 = random.choice(descriptors)
+				adj2 = random.choice(words["descriptors"])
 			
 			if random.randint(0,1) == 0:
 				lineout = "%s %s %s %s." % (part1, adj1, adj2, place1)
@@ -168,169 +179,71 @@ def make_place():
 										"loose interpretation of"])
 			lineout = "%s %s %s %s." % (part1, adj1, situation, geo)
 		
+		print(lineout)
+		
 		#Modifers
 		modcount = 0
 		all_mods = []
 		
 		#General mood
-		if random.randint(0,0) == 0:
+		if random.randint(0,3) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["mood_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 		
 		#Decoration and composition
 		if random.randint(0,5) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["materials_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 		
 		#Colors and highlights
 		if random.randint(0,5) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["color_mod_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 		
 		#Location and situation
 		if random.randint(0,2) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["situation_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 			
 		#State of the setting
 		if random.randint(0,4) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["state_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 				
 		#What happens or will happen in the setting
 		if random.randint(0,2) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["plot_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 			
 		#Residents	
 		if random.randint(0,2) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["resident_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)			
+			all_mods.append(process_mod(modchoice))		
 			
 		#Smell
 		if random.randint(0,7) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["smell_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 			
 		#Sounds
 		if random.randint(0,8) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["sound_and_music_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 			
 		#Personal connections or characters
 		if random.randint(0,3) == 0:
 			modcount = modcount +1
 			modchoice = random.choice(templates["person_templates"])
-			modtext = modchoice[0]
-			new_word_types = modchoice[1:]
-			new_words = {}
-			for word_type in new_word_types:
-				if word_type in new_words.keys():
-					new_words[word_type].append(random.choice(words[word_type]))
-				else:
-					new_words[word_type] = [random.choice(words[word_type])]
-			mod = modtext.format(**new_words)
-				
-			all_mods.append(mod)
+			all_mods.append(process_mod(modchoice))
 		
 		#Relate to Wikipedia concept
 		if random.randint(0,14) == 0:
@@ -382,16 +295,13 @@ def make_place():
 				
 		modstring = " ".join(all_mods)
 		
-		#Need to do grammar checks here, like for a/an
-		#
-		#
-		#
-		
 		lineout = "%s %s" % (lineout, modstring)
 		
 		if len(lineout) <= 140:
 			makeplace = False
-		
+	
+	lineout = grammar_check(lineout)
+	
 	print(lineout)
 	
 	return lineout
