@@ -3,6 +3,7 @@ acrid
 damp
 delicious
 earthy
+floral
 flowery
 fresh
 like a can of tennis balls
@@ -39,3 +40,25 @@ sweaty
 tangy
 woodsy
 yeasty
+like oranges
+like citrus
+dusty
+like warm brick
+like pie
+like decay
+like bananas
+resinous
+toasty
+nutty
+like popcorn
+pungent
+like cheese
+like cigars
+like sour milk
+sulfurous
+fishy
+like coffee
+like durian
+like kimchi
+vomitous
+sweaty

@@ -4,9 +4,8 @@ owl
 frog
 dragon
 camel
-octopus
+squid
 bird
-fox
 bear
 otter
 whale
@@ -79,3 +78,7 @@ lindworm
 Afanc
 dahu
 la-bhallan
+penguin
+tortoise
+wyvern
+tiger

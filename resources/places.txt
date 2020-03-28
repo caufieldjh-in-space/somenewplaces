@@ -319,3 +319,30 @@ record store
 flea market
 headquarters
 den of iniquity
+potato farm
+sneaker store
+country club
+sushi bar
+burger bar
+barre studio
+ballet studio
+metro station
+memorial park
+reflecting pool
+oil refinery
+charging station
+airship station
+food pantry
+dojo
+bank vault
+optician
+cybernetics workshop
+wine bar
+alchemist's workshop
+perfume store
+secret room
+saferoom
+farmhouse
+granary
+recycling center
+boxing ring
