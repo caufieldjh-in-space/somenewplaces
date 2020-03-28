@@ -4,17 +4,16 @@
 Generates places and settings.
 
 To be done:
-* Grammar checks for all gen text (mostly a/an)
-	Using LanguageTool but just want to use some rules, not all
 * Fix unintentional name de-cap (previously just had a flag in the string)
 * Expand with fully gen text from GPT-2
 
 '''
 
-import os, random, re, string, sys, time, tweepy, wikipedia, webbrowser
+import argparse, os, random, re, string, sys, time, tweepy, wikipedia, webbrowser
 from pathlib import Path
 
-from pylanguagetool import api as ltapi
+import itertools
+import nltk
 
 #Contants and Setup
 tweeting = True
@@ -92,6 +91,81 @@ def check_strings(s1, s2):
 	
 	return a_match
 
+def grammar_check(text):
+	'''Originally tried using pyLanguageTool to query LanguageTool API, 
+	but we don't really need that many rules. Most issues here are just 
+	a/an agreement.
+	So I've borrowed a strategy from this SO answer:
+	https://stackoverflow.com/questions/20336524/verify-correct-use-of-a-and-an-in-english-texts-python
+	It doesn't feel really pythonic but hey, it works.
+	Case-sensitive replacement function adapted from 
+	https://stackoverflow.com/questions/3008992/case-sensitive-string-replacement-in-python
+	'''
+
+	def replace_with_case(text, old, new):
+		def repl(match):
+			current = match.group()
+			result = ''
+			all_upper=True
+			for i,c in enumerate(current):
+				if i >= len(new):
+					break
+				if c.isupper():
+					result += new[i].upper()
+				else:
+					result += new[i].lower()
+					all_upper=False
+			#append any remaining characters from new
+			if all_upper:
+				result += new[i+1:].upper()
+			else:
+				result += new[i+1:].lower()
+			return result
+
+		regex = re.compile(re.escape(old), re.I)
+		return regex.sub(repl, text)
+
+	from operator import methodcaller
+	
+	import nltk
+	try:
+		nltk.data.find('corpora/cmudict')
+	except LookupError:
+		nltk.download('cmudict')
+	from nltk.corpus import cmudict
+	
+	def starts_with_vowel_sound(word, pronunciations = cmudict.dict()):
+		for syllables in pronunciations.get(word, []):
+			return syllables[0][-1].isdigit()
+	
+	def check_a_an_usage(words):
+		a, b = itertools.tee(map(methodcaller('lower'), words)) 
+		next(b, None)
+		for a, w in zip(a, b):
+			if (a == 'a' or a == 'an') and re.match('\w+$', w): 
+				valid = (a == 'an') if starts_with_vowel_sound(w) else (a == 'a')
+				yield valid, a, w
+	
+	pairs = ((a, w)
+			for valid, a, w in check_a_an_usage(nltk.wordpunct_tokenize(text))
+			if not valid)
+	a_an_errors = list(map(" ".join, pairs))
+	
+	newtext = text
+	
+	print("** Grammar checker says:")
+	if len(a_an_errors) == 0:
+		print("** No errors found.")
+	else:
+		for error in a_an_errors:
+			print("** a/an error: %s" % error)
+			if error[:2] == "a ":
+				newtext = replace_with_case(newtext, error, "an " + error[2:])
+			elif error[:2] == "an":
+				newtext = replace_with_case(newtext, error, "a" + error[2:])
+			
+	return newtext
+
 def make_place():
 	
 	def process_mod(template):
@@ -107,26 +181,6 @@ def make_place():
 		print(mod)
 		return mod
 		
-	def grammar_check(text):
-		'''Uses pyLanguageTool to query LanguageTool API.
-		LT is too overzealous to use all its suggestions,
-		so we just use some rules.'''
-		
-		newtext = text
-		
-		checks = ltapi.check(input_text=text, 
-								api_url='https://languagetool.org/api/v2/',
-								lang='en-US',
-								enabled_rules="EN_A_VS_AN",
-								enabled_only=True)
-								
-		if len(checks["matches"]) == 0:
-			print("** LanguageTool found no grammar issues.")
-			
-		print(checks)
-		
-		return newtext
-	
 	makeplace = True
 	
 	words = get_words()
@@ -309,8 +363,17 @@ def make_place():
 #Main
 def main():
 	
-	mode = input('Operating mode:\n 1 for testing\n 3 for posting.\n')
-	mode = int(mode)
+	parser = argparse.ArgumentParser()
+	parser.add_argument('--mode',
+                    help='Operating mode is t for testing or p for posting.')
+
+	args = parser.parse_args()
+
+	if args.mode not in ["t","p"]:
+		sys.exit("Mode argument not understood or not provided. Exiting...")
+	else:
+		mode = args.mode
+	
 	generating = True
 	
 	# For twitter OAuth
@@ -349,14 +412,14 @@ def main():
 			
 	api = tweepy.API(auth)
 
-	if mode == 1: 	#So we're in testing mode.
+	if mode == "t": 	#So we're in testing mode.
 		print("Testing mode. Won't post.")
 	
 	while generating:
 		
 		lineout = make_place()
 		
-		if mode == 3:
+		if mode == "p":
 			try:
 				api.update_status(status=lineout)
 				print("Posted.")
@@ -367,13 +430,13 @@ def main():
 		else:
 			print("This one wasn't posted.")
 			
-		if mode == 1:
+		if mode == "t":
 			wait_time = random.randint(60,3600)	#Wait up to 20 minutes
 			minutes, seconds = divmod(wait_time, 60)
 			hours, minutes = divmod(minutes, 60)
 			print("Would have posted again in %02d minutes, %02d seconds." % (minutes, seconds))
 			sys.exit("Exiting...")
-		if mode == 3:
+		if mode == "p":
 			wait_time = random.randint(60,3600)	#Wait up to 20 minutes
 			minutes, seconds = divmod(wait_time, 60)
 			hours, minutes = divmod(minutes, 60)
