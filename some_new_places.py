@@ -4,7 +4,6 @@
 Generates places and settings.
 
 To be done:
-* Fix unintentional name de-cap (previously just had a flag in the string)
 * Expand with fully gen text from GPT-2
 
 '''
@@ -100,6 +99,8 @@ def grammar_check(text):
 	It doesn't feel really pythonic but hey, it works.
 	Case-sensitive replacement function adapted from 
 	https://stackoverflow.com/questions/3008992/case-sensitive-string-replacement-in-python
+	
+	Also removes excess punctuation.
 	'''
 
 	def replace_with_case(text, old, new):
@@ -163,6 +164,8 @@ def grammar_check(text):
 				newtext = replace_with_case(newtext, error, "an " + error[2:])
 			elif error[:2] == "an":
 				newtext = replace_with_case(newtext, error, "a" + error[2:])
+	
+	newtext = newtext.replace("^","")
 			
 	return newtext
 
@@ -313,7 +316,8 @@ def make_place():
 			mod11 = "It%s %s." % (part2, title1)
 			all_mods.append(mod11)
 		
-		#Shuffle the mods, combine some, and add to the first string
+		'''Shuffle the mods, combine some, and add to the first string.
+		Names and pronouns need to keep their capitalization.'''
 		random.shuffle(all_mods)
 		
 		if modcount > 1:
@@ -322,19 +326,19 @@ def make_place():
 			
 			for mod in all_mods:
 				if i == 1:
-					if mod[0] == "*":
+					if mod[0] == "^":
 						mod = mod[1:]
 					if modcount == 2:
 						new_mod = mod.replace(".","")
 					else:
 						new_mod = mod.replace(".",",")
 				elif i == modcount:
-					if mod[0] != "*":
+					if mod[0] != "^":
 						new_mod = "and " + mod[0].lower() + mod[1:]
 					else:
 						new_mod = "and " + mod[1:]
 				else:
-					if mod[0] != "*":
+					if mod[0] != "^":
 						new_mod = (mod[0].lower() + mod[1:]).replace(".",",")
 					else:
 						new_mod = (mod[1:]).replace(".",",")
