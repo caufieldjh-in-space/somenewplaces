@@ -418,6 +418,7 @@ def make_place():
 	
 	lineout = lineout.replace("Â", "")
 	lineout = lineout.replace("\"", "")
+	lineout = lineout.replace ("Advertisement", "")
 	lineout = re.sub(" {2,}", " ", lineout)
 	
 	print(lineout)
