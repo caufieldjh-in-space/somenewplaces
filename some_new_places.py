@@ -169,7 +169,11 @@ def grammar_check(text):
 	split_text = newtext.split('. ')
 	temptext = ""
 	for sentence in split_text:
-		temptext += sentence[0].upper() + sentence[1:] + '. '
+		print(sentence)
+		if sentence != "":
+			temptext += sentence[0].upper() + sentence[1:] + '. '
+		else:
+			temptext = temptext + "."
 	newtext = temptext
 	
 	newtext = newtext.replace("^","")
