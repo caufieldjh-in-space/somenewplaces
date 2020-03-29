@@ -169,7 +169,6 @@ def grammar_check(text):
 	split_text = newtext.split('. ')
 	temptext = ""
 	for sentence in split_text:
-		print(sentence)
 		if sentence != "":
 			temptext += sentence[0].upper() + sentence[1:] + '. '
 		else:
@@ -178,6 +177,7 @@ def grammar_check(text):
 	
 	newtext = newtext.replace("^","")
 	newtext = newtext.replace("..",".")
+	newtext = newtext.replace(". .",".")
 		
 	return newtext
 
