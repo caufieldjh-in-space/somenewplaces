@@ -5,7 +5,7 @@ Generates places and settings.
 
 To do:
 * Clean up the generated output (remove extra chars, mostly)
-
+* Clothing templates still weird
 '''
 
 import argparse, os, random, re, requests, string, sys, time, tweepy
@@ -202,13 +202,15 @@ def get_gen_text(text):
 						data={"text":text},
 						headers={"api-key":dai_api_keys[0]})
 	result = req.json()
-	gen_text = result["output"][len(text):]
 	
-	gen_sents = sent_tokenize(gen_text)
+	try:
+		gen_text = result["output"][len(text):]
+		gen_sents = sent_tokenize(gen_text)
+	except KeyError as e:
+		print(e)
+		gen_sents = [""]
 	
 	new_sent = gen_sents[0]
-	
-	'''Just need to clean up the output a bit.'''
 	
 	return new_sent
 	
@@ -408,7 +410,15 @@ def make_place():
 	
 	extratext = get_gen_text(lineout)
 	
-	lineout = lineout + " " + extratext
+	#Sometimes we don't get a usable result, and that's OK
+	if len(extratext) > 10 and len(extratext) < (280 - len(lineout)): 
+		lineout = lineout + extratext
+	
+	'''A last bit of cleanup.'''
+	
+	lineout = lineout.replace("Â", "")
+	lineout = lineout.replace("\"", "")
+	lineout = re.sub(" {2,}", " ", lineout)
 	
 	print(lineout)
 	
