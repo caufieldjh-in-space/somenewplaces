@@ -1,14 +1,14 @@
 clothing
 keys
 bike helmet
-bracelet
+a bracelet
 earrings
-necklace
-wedding band
-bracelet
-necklace
+a necklace
+a wedding band
+a bracelet
+a necklace
 earrings
-camp shirt
+a camp shirt
 jeans
 bell-bottoms
 suit pants
@@ -27,28 +27,28 @@ shorts
 swim trunks
 sweatpants
 yoga pants
-skirt
-pencil skirt
-sarong
+a skirt
+a pencil skirt
+a sarong
 stockings
-baseball cap
-bucket hat
-hard hat
-Stetson
-jacket
-dinner jacket
-suit jacket
-raincoat
-windbreaker
-poncho
-jean jacket
-Pea coat
-cape
-flight jacket
-trench coat
-overcoat
-parka
-winter coat
+a baseball cap
+a bucket hat
+a hard hat
+a Stetson
+a jacket
+a dinner jacket
+a suit jacket
+a raincoat
+a windbreaker
+a poncho
+a jean jacket
+a pea coat
+a cape
+a flight jacket
+a trench coat
+an overcoat
+a parka
+a winter coat
 sneakers
 dress shoes
 bowling shoes
@@ -65,38 +65,40 @@ cowboy boots
 fur-lined boots
 Crocs
 rain boots
-dress shirt
-t-shirt
-ringer t-shirt
-sleeveless shirt
-A-shirt
-camisole
-polo shirt
-Henley shirt
-baseball jersey
-basketball jersey
-sweatshirt
-hooded sweatshirt
-tunic
-halter top
-sweater
-heavy sweater
-tube top
-blouse
-cardigan
-jean shirt
-turtleneck
-sweater vest
-space suit
-armored suit
-suit
-bandolier
-belt
-chain
-collar
-crown
-torc
-amulet
-ring
-mask
-pendant
+a dress shirt
+a t-shirt
+a sleeveless shirt
+an A-shirt
+a camisole
+a polo shirt
+a Henley shirt
+a baseball jersey
+a basketball jersey
+a sweatshirt
+a hooded sweatshirt
+a tunic
+a halter top
+a sweater
+a heavy sweater
+a tube top
+a blouse
+a cardigan
+a jean shirt
+a turtleneck
+a sweater vest
+a space suit
+an armored suit
+a suit
+a bandolier
+a belt
+a chain
+a collar
+a crown
+a torc
+an amulet
+a ring
+a mask
+a pendant
+an orb
+decorations
+cuffs

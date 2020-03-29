@@ -11,7 +11,7 @@ Its {residents[0]} are immortal.	residents
 Its {residents[0]} don't adhere to strict genders.	residents
 Each of the {residents[0]} wears {clothing[0]}.	residents	clothing
 Each of the {residents[0]} wears {colors[0]} {clothing[0]}.	residents	colors	clothing
-Each of the {residents[0]} wears a {clothing[0]} made of {materials[0]}.	residents	clothing	materials
+Each of the {residents[0]} wears {clothing[0]} made of {materials[0]}.	residents	clothing	materials
 The {residents[0]} are undead.	residents
 The {residents[0]} have been reborn.	residents
 The {residents[0]} have abandoned {concepts[0]}.	residents	concepts
