@@ -50,5 +50,5 @@ Everyone knows it's a dangerous place.
 It's disputed territory.
 You'll only find it when you need to.
 You can only see it when the weather is {weather[0]}.	weather
-It will soon see the return of {magic_types[0}.	magic_types
+It will soon see the return of {magic_types[0]}.	magic_types
 Its {concepts[0]} is indistinguishable from {magic_types[0}.	concepts	magic_types
