@@ -100,7 +100,7 @@ def grammar_check(text):
 	Case-sensitive replacement function adapted from 
 	https://stackoverflow.com/questions/3008992/case-sensitive-string-replacement-in-python
 	
-	Also removes excess punctuation.
+	Also removes excess punctuation and checks capitalization.
 	'''
 
 	def replace_with_case(text, old, new):
@@ -165,8 +165,16 @@ def grammar_check(text):
 			elif error[:2] == "an":
 				newtext = replace_with_case(newtext, error, "a" + error[2:])
 	
+	
+	split_text = newtext.split('. ')
+	temptext = ""
+	for sentence in split_text:
+		temptext += sentence[0].upper() + sentence[1:] + '. '
+	newtext = temptext
+	
 	newtext = newtext.replace("^","")
-			
+	newtext = newtext.replace("..",".")
+		
 	return newtext
 
 def make_place():
@@ -180,6 +188,7 @@ def make_place():
 				new_words[word_type].append(random.choice(words[word_type]))
 			else:
 				new_words[word_type] = [random.choice(words[word_type])]
+		print(modtext)
 		mod = modtext.format(**new_words)
 		print(mod)
 		return mod
