@@ -48,3 +48,8 @@ engineered
 manufactured
 carefully controlled
 chaotic
+fine
+cold
+freezing
+temperate
+murky
