@@ -166,3 +166,6 @@ exhausted
 disgusting
 attractive
 interesting
+friendly
+aggressive
+ostentatious

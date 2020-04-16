@@ -1,6 +1,6 @@
 clothing
 keys
-bike helmet
+a bike helmet
 a bracelet
 earrings
 a necklace
@@ -102,3 +102,19 @@ a pendant
 an orb
 decorations
 cuffs
+a purse
+pumps
+a midi skirt
+a blazer
+a cross-body bag
+a bandolier
+loafers
+wedge sandals
+a corset
+a cummerbund
+a kilt
+a cravat
+makeshift garments
+a patchwork covering
+a cassock
+a protective suit

@@ -163,3 +163,38 @@ dust
 metal springs
 eggshell
 lard
+ramie
+paperboard
+cinderblock
+optical fiber
+trash
+garbage
+rubbish
+discarded materials
+repurposed materials
+topaz
+cerium
+beef
+dried fruit
+mudbrick
+cladding
+glulam
+parallel-strand lumber
+manganese steel
+tungsten carbide
+sintered aluminum oxide
+porcelain
+silicon nitride
+stuff
+mysterious stuff
+goo
+muck
+gunk
+matter
+crud
+sludge
+secretions
+carapace
+alluvium
+fungus
+silt

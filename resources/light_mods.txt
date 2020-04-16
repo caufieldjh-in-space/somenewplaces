@@ -17,3 +17,11 @@ vivid
 subtle
 hazy
 scattered
+strobing
+flashing
+glimmering
+pale
+shimmering
+coruscating
+iridescent
+twinkling
